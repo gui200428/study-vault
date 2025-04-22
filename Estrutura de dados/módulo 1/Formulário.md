@@ -1,22 +1,26 @@
 #faculdade #estrutura_de_dados #resumos #formulario 
 
 
+## Conteúdos:
+→ Ponteiros
+→ Structs
+→ Listas encadeadas
 
-#### Referencias:
+## Referencias:
 
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/1.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/2.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/3.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/4.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/5.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/6.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/7.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P1/8.jpg]]
+![[P1_1.jpg]]
+![[P1_2.jpg]]
+![[P1_3.jpg]]
+![[P1_4.jpg]]
+![[P1_5.jpg]]
+![[P1_6.jpg]]
+![[P1_7.jpg]]
+![[P1_8.jpg]]
 
 
 
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P2/1.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P2/2.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P2/3.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P2/4.jpg]]
-![[Notes/Faculdade/Disciplinas/Estrutura de dados/módulo 1/Imgs/P2/5.jpg]]
+![[P2_1.jpg]]
+![[P2_2.jpg]]
+![[P2_3.jpg]]
+![[P2_4.jpg]]
+![[P2_5.jpg]]
