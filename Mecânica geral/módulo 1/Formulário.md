@@ -1,0 +1,1 @@
+#faculdade #mecanica #resumos
