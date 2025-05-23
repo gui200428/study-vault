@@ -1,4 +1,4 @@
-
+#faculdade #fisica #resumos
 ## Definição:
 
 Se trata de um movimento periódico (se repete em intervalos de tempo iguais.) em que a trajetória é uma circunferência de raio **R** constante. 
@@ -126,3 +126,7 @@ $1 Hz \text{ --- } 60 \text{ RPM (Rotações por minuto)}$
 * **u(f)**: Unidade de frequência
 * **Hz**: Hertz (unidade de frequência no Sistema Internacional, equivalente a $s^{-1}$)
 * **RPM**: Rotações Por Minuto
+
+
+**Próximo assunto:**
+[[002 - Movimento harmônico simples (M.H.S)]]
