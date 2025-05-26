@@ -73,8 +73,8 @@ $$\phi(t) = \phi_0 + W \cdot (t - t_0)$$
 $$V=W\cdot R$$
 
 **Sendo:**
-$\vec{V}$: Grandeza vetorial (Linear)
-$\vec{W}$: Grandeza escalar(Angular)
+$\vec{V}$: Velocidade Linear
+$\vec{W}$: Velocidade Angular
 V = | $\vec{V}$ | pode variar
 
 
@@ -103,6 +103,9 @@ a = 0.
 - $\Delta{s}$ = Comprimento total
 - V = Velocidade
 
+### $$W=\frac{2 \pi}{T}$$
+### $$T=\frac{2 \pi}{W}$$
+- W: Velocidade angular
 
 ## Frequência:
 
