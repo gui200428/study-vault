@@ -28,7 +28,7 @@ Este experimento permite determinar uma propriedade importante dos materiais, o 
 - Garantir o **equilíbrio térmico** (haste atinge a temperatura do vapor uniformemente) é essencial para uma medição correta de Tf​.
 - **Segurança:** A haste aquecida estará a alta temperatura (cerca de 100°C com vapor).
 
-### ### Como as Grandezas são Medidas no Experimento
+### Como as Grandezas são Medidas no Experimento
 
 - **L0​ (Comprimento Inicial):** Medido com uma régua ou trena, correspondendo à parte da haste que efetivamente se dilata entre o ponto fixo e o relógio comparador.
 - **T0​ (Temperatura Inicial):** Medida com um termômetro, geralmente é a temperatura ambiente.
