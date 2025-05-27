@@ -25,14 +25,10 @@ Pela relação:
 
 ### $$Q_{cedido}=Q_{recebido}+Q_{recebido}$$
 
-### $$
-ma \cdot c_{água} \cdot (T_{ia} - T_f) = m_{aq} \cdot c_{água} \cdot (T_f - T_{iag}) + k \cdot (T_f - T_{iag})
-$$
+### $$ ma \cdot c_{água} \cdot (T_{ia} - T_f) = m_{aq} \cdot c_{água} \cdot (T_f - T_{iag}) + k \cdot (T_f - T_{iag})$$
 **Isolando K:**
 
-$$
-k = \frac{m_a \cdot c_{água} \cdot (T_{ia} - T_f) - m_{ag} \cdot c_{água} \cdot (T_f - T_{iag})}{T_f - T_{iag}}
-$$
+$$k = \frac{m_a \cdot c_{água} \cdot (T_{ia} - T_f) - m_{ag} \cdot c_{água} \cdot (T_f - T_{iag})}{T_f - T_{iag}}$$
 **Depois de achar o K:** Foi feito a média entre eles e achado o $K_{médio}$ do calorímetro.
 
 ---
