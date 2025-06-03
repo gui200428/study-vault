@@ -95,6 +95,29 @@ Os 12 anagramas são:
 
 $$P(7;2)=\frac{7!}{2!}=2520$$
 
+
+## Permutação circular:
+
+**Permutação Circular 1:**
+**(a, b, c)**
+
+   a
+ /   \
+c---b
+
+**Permutação Circular 2:**
+**(a, c, b)**
+
+   a
+ /   \
+b---c
+
+**Permutação circulares só giram em círculos**
+
+**Formula:**
+
+### $$P(n)=(n-1)!$$
+
 ---
 
 

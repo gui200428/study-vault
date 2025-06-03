@@ -18,7 +18,7 @@ Os circuitos abordados nessa parte da matéria, normalmente envolvem o indutor o
 
 ### Relembrando o comportamento de indutores:
 
-![[Notes/Faculdade/Disciplinas/Circuitos elétricos/módulo 3/Imgs/Pasted image 20250326205503.png]]
+![[Notes/Faculdade/Disciplinas/Circuitos elétricos/módulo 3/Imgs/Pasted image 20250326205503.png]] 2020250326205503
 
 
 ---
@@ -95,7 +95,7 @@ No instante que a chave fecha, temos a seguinte situação:
 
 ![[Pasted image 20250531202732.png]]
 
-![[Pasted image 20250531202754.png]]
+![[Pasted image 20250602160743.png]]
 
 ![[Pasted image 20250531202822.png]]
 
