@@ -2,7 +2,7 @@
 
 1- Calcular a derivada segunda da função inicial
 
-2- Substituir na derivada segunda os intervalor da integral
+2- Substituir na derivada segunda os intervalos da integral
 
 3- Pegar o maior valor
 

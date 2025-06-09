@@ -135,7 +135,7 @@ No instante que a chave fecha, temos a seguinte situação:
 ## Análise do termo $e^{-at}$
 
 - Varia entre 1 (inicialmente carregado) quando $e^0=1$ até 0 (regime estacionário)
-- Pode ser viso na forma de % quando comparado ao valor final.
+- Pode ser visto na forma de % quando comparado ao valor final.
 - Apresenta uma constante de tempo **τ** que define a rapidez com que a resposta transitória ocorre.
 **Regime estacionário:** o circuito atinge o regime estacionário após aproximadamente 4τ a 5τ.
 
