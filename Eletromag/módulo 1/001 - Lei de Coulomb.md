@@ -50,7 +50,7 @@ Formula escalar:
 ![[Pasted image 20250910151849.png]]
 
 **Unidade:**
-N/C
+N
 
 **Sendo K:**
 
