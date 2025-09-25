@@ -70,7 +70,7 @@ sad: c e f
 → Armazena um caractere
 → Cada nó da árvore armazena 3 informações:
 1. Info da árvore
-2. Porteiro para sub-arvore esquerda (sae)
+2. Ponteiro para sub-arvore esquerda (sae)
 3. Ponteiro para sub-arvore direita (sad)
 
 ```C

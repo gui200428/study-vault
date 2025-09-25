@@ -83,7 +83,7 @@ Obs:
 
 #### Camada de depleção:
 → Com a junção dos substratos P/N, os elétrons do substrato N (Negativo) se equilibram com as lacunas presentes no substrato P (Positivo) em uma pequena região chamada **camada de depleção.**
-→ A camada de depleção produz um campo eletrônico diretamente relacionado ao material usado na fabricação do diodo.
+→ A camada de depleção produz um campo elétrico diretamente relacionado ao material usado na fabricação do diodo.
 → O campo elétrico gera uma **tensão** característica do semicondutor, ela recebe o nome de **tensão de polarização direta ($V_d$)**
 → Os diodos retificadores tradicionais tem uma tensão de polarização de $V_d \approx 0.7V$ 
 
