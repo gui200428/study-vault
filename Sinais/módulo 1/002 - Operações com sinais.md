@@ -16,7 +16,15 @@ Atraso do sinal:
 
 → Dado o sinal x(t), se multiplicar por uma constante, o sinal vai mudar.
 
-### Compressão no tempo (`x(at)`, com `a > 1`)
+### Escalonamento de Amplitude
+**Fórmula:** a⋅x(t)
+"Pegue o valor de x(t) em cada instante de tempo e multiplique esse valor por a".
+**Efeito:** Altera a **amplitude** (o eixo vertical). O sinal fica a vezes "mais alto" ou "mais baixo".
+**Efeito no tempo:** **NENHUM**. O eixo do tempo t, o período T, e os limites de integração no eixo horizontal **permanecem exatamente os mesmos**.
+### Compressão no tempo (`x(at)`, com `a > 1`) / Escalonamento temporal
+**Fórmula:** x(a⋅t)
+**O que significa:** "O sinal agora acontece a vezes mais rápido".
+**Efeito:** Altera o **tempo** (o eixo horizontal). O sinal é **comprimido** (se a>1) ou **esticado** (se 0<a<1).
 
 → Se a > 1 então irá comprimir a função x(t)
 → Se a < 1 então irá descomprimir a função
@@ -39,6 +47,7 @@ Atraso do sinal:
 
 **Quando temos um sinal dividido por uma constante**
 → O sinal fica mais lento, multiplicar os pontos pela constante
+→ Exemplo: x(t/2)
 
 ![[Pasted image 20250924233026.png]]
 
@@ -76,4 +85,16 @@ Atraso do sinal:
 2- Fazer o escalonamento, como a constante é ≥ 1 ocorre o encurtamento da função
 
 ![[Pasted image 20250924232057.png]]
+
+
+
+## Inversão de amplitude
+
+→ Quando temos um sinal x(t) e queremos -x(t), o negativo indica uma inversão de amplitude
+
+![[Pasted image 20250927143646.png]]
+
+**-x(t):**
+
+![[Pasted image 20250927143709.png]]
 

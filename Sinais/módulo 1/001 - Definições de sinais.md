@@ -29,6 +29,15 @@
 → Usado para medir sinais periodicos
 
 ![[Pasted image 20250924165831.png]]
+Para calcular o periodico T de um sinal, basta pegar o intervalo completo do sinal e fazer o ponto final - o ponto inicial.
+
+T = final - inicial.
+
+**Exemplo:**
+![[Pasted image 20250927152256.png]]
+
+Ao pegar os pontos 3 e 1, temos um periodo. Para achar o T, basta fazer 3 - 1 = 2, T= 2.
+
 
 ![[Pasted image 20250924165908.png]]
 
