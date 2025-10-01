@@ -27,7 +27,6 @@ Atraso do sinal:
 **Efeito:** Altera o **tempo** (o eixo horizontal). O sinal é **comprimido** (se a>1) ou **esticado** (se 0<a<1).
 
 → Se a > 1 então irá comprimir a função x(t)
-→ Se a < 1 então irá descomprimir a função
 → Se a = 1 então o gráfico vai se manter igual
 
 ![[Pasted image 20250924231502.png]]
