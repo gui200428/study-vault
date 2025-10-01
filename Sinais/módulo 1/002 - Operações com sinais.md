@@ -6,10 +6,11 @@
 
 ![[Pasted image 20250924231151.png]]
 
-![[Pasted image 20250924231222.png]]
+![[Pasted image 20251001103917.png]]
 
 Atraso do sinal:
-![[Pasted image 20250924231302.png]]
+![[Pasted image 20251001104318.png]]
+
 
 
 ## Escalonamento do sinal:
@@ -85,17 +86,17 @@ Atraso do sinal:
 
 ## Combinação de operações:
 
-![[Pasted image 20250924231901.png]]
 
+![[Pasted image 20251001104549.png]]
 **Dividir em etapas para resolver!**
 
-1- Desenhar o y(t) = x(t - 1)
+1- Desenhar o y(t) = x(t + 1)
 
-![[Pasted image 20250924231941.png]]
+![[Pasted image 20251001104614.png]]
 
-2- Fazer o escalonamento, como a constante é ≥ 1 ocorre o encurtamento da função
+2- Fazer a compressão no tempo, como a constante é ≥ 1 ocorre o encurtamento da função
 
-![[Pasted image 20250924232057.png]]
+![[Pasted image 20251001104710.png]]
 
 
 
