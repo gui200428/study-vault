@@ -95,3 +95,4 @@ correntes que entram em um nó são consideradas positivas e as que saem, são n
 ![[Pasted image 20251104145814.png]]
 
 
+---
