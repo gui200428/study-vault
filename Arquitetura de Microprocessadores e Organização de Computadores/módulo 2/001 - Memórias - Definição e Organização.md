@@ -190,7 +190,7 @@ $$\frac{8 \ bytes}{(100*10^{-9})} = 80 \ MBps$$
 **Características:**
 → Volátil
 → Maior capacidade que a cache, (mais lenta)
-→ Tipos: **DRAM (mais usada - mais barata - mais lenta) e SRAM (menos usada - mais cara - mais rápida)**
+→ Tipos: **DRAM (mais usada - mais barata - mais lenta (armazena o bit em um capacitor e precisa ser constantemente carregada (refresh))) e SRAM (menos usada - mais cara - mais rápida (armazena cada bit em um flip-flop e não precisa de refresh))**
 → Organizada em células com endereções únicos
 → Trabalha com barramentos de dados, endereços e controle
 
