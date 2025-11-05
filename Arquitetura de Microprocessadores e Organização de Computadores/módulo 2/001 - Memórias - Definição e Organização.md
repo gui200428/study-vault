@@ -214,7 +214,7 @@ $$\frac{8 \ bytes}{(100*10^{-9})} = 80 \ MBps$$
 
 ![[Pasted image 20251101120326.png]]
 
-**Exercicios:**
+**Exercícios:**
 Ex 1:
 a) ram - acesso aleatório
 b) fira magnética - acesso sequencial
@@ -227,7 +227,7 @@ Ex 2:
 **Uma memória transfere 128 bits a cada 200 nanosegundos. Qual é a taxa de**
 **transferência em megabytes por segundo (MBps)?**
 
-$$\frac{128}{200*10$$
+$$\frac{128}{200*10}$$
 
 
 8 bit = 1 bytes
