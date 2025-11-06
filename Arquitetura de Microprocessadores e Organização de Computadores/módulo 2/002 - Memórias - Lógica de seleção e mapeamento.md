@@ -85,7 +85,7 @@ cache, somente alguns blocos da memória principal estão presentes na cache em 
 
 ### Mapeamento direto:
 
-→ Cada bloco da memória principal tem **uma única linha da cache** onde ele pode ser armazenado. A linha é terminada pela operação de **módulo**
+→ Cada bloco da memória principal tem **uma única linha da cache** onde ele pode ser armazenado. A linha é determinada pela operação de **módulo**
 
 **Dado pela fórmula:**
 
