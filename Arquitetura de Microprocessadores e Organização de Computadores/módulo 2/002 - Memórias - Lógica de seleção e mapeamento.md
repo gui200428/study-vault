@@ -109,6 +109,7 @@ bloco da memória principal j = 27
 #### Papel da tag na cache:
 
 → Vários blocos da memória principal podem ser mapeados para a mesma linha da cache.
+→ Mas eles não podem estar na mesma linha ao mesmo tempo, um substitui o outro.
 
 **Exemplo:**
 → Memória principal = 64 blocos (0 - 63)
@@ -117,6 +118,8 @@ bloco da memória principal j = 27
 ![[Pasted image 20251102183503.png]]
 
 → **Importante:** a cache precisa saber **qual bloco está armazenado** em cada linha. Cada linha da cache possui uma **TAG** que guarda o número do bloco da memória principal.
+
+**MUITO IMPORTANTE:** DOIS BLOCOS nunca podem ocupar a mesma linha da cache, a tabela é só uma representação do calculo do bloco para a memória.
 
 Ex: o bloco 35 está na linha 3 da cache e a TAG da linha 3 será 35.
 
@@ -138,6 +141,10 @@ Ex: o bloco 35 está na linha 3 da cache e a TAG da linha 3 será 35.
 - Conflitos: dois blocos diferentes podem competir pela mesma linha.
 - Pode causar **MISS** mesmo com dados frequentemente acessados
 
+#### Teoria do conflito da cache:
+
+![[Pasted image 20251106153057.png]]
+**Para que serve a TAG então?** É o crachá do carro que está estacionado. Quando o processador olha para a Linha 0, ele lê a TAG para saber: _"Quem está parado aqui agora? É o 0, o 8 ou o 16?”
 
 ### Mapeamento associativo:
 
