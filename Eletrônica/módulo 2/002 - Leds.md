@@ -74,7 +74,9 @@ Obs: Quanto maior a corrente elétrica suportada pelo componente, maior a potên
 
 
 ### **Potência radiante do LED:**
-→ Definida em níveis de radiação, é calculada pela potencia elétrica do LED multiplicada por um certo rendimento de potencia (entre 30% e 50%).
+→ Definida em níveis de radiação, é calculada pela potencia elétrica do LED multiplicada por um certo rendimento de potencia (entre 30% e 50%). 
+→ É a quantidade de energia radiante que uma fonte emite.
+→ **unidade de medida:** $W$
 
 ### $$P_{rad} = n*P_{elet}$$
 
@@ -84,6 +86,6 @@ Obs: Quanto maior a corrente elétrica suportada pelo componente, maior a potên
 → Definida em níveis de luz, não é simples de ser calculada.
 → Deve-se ponderar a potência radiante em relação ã percepção visual do olho humano, fato que possui seu valor máximo sobre a cor verde (550 nm)
 
-Ex: Dois LEDs, (Verde e azul) de mesma potência radiante, o olho humano vai enxergar um LED ver com uma luz mais intensa que a dor azul.
+Ex: Dois LEDs, (Verde e azul) de mesma potência radiante, o olho humano vai enxergar um LED verde com uma luz mais intensa que a dor azul.
 
 

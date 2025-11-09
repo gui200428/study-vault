@@ -17,8 +17,10 @@
 **Comunicação:**
 → Periféricos se comunicam com o módulo E/S por meio de sinais de **controle / dados e estado.**
 
-**Sinais de controle:** definem ações como leitura, escrita ou comandos específicos (ex: movimentar a cabeça de um disco).
+**Sinais de controle:** sinais enviados pela CPU por meio do barramento de controle, definem ações como leitura, escrita ou comandos específicos (ex: movimentar a cabeça de um disco). 
+
 **Dados:** bits trocados entre o periférico e o módulo de E/S.
+
 **Sinais de estado:** indica a condição do dispositivo (Ex: ready / not ready para operar).
 
 **Importante:** cada dispositivo possui uma **lógica de controle** que responde aos comandos do módulo de E/S. Dois componentes são fundamentais para essa comunicação ocorrer:

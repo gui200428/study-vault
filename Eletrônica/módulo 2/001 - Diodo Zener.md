@@ -17,8 +17,7 @@
 
 **Polarização reversa:**
 
-![[Notes/Faculdade/Disciplinas/Eletrônica/módulo 2/Imgs/Untitled.jpg]]
-
+![[Pasted image 20251109181224.png]]
 **Comportamento:**
 
 → **Tensão de polarização reversa inferior à tensão do diodo Zener (Vz):** o diodo se comporta como um circuito aberto e a tensão de saída será igual a entrada.
