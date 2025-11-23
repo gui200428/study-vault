@@ -39,7 +39,7 @@ Aplicações:
 ### $$E = \frac{P_{rad}}{A}$$
 
 ### Função do fotodiodo
-→ Transdutor que transforma **potencia radiante**que atinge o sensor em uma corrente elétrica.
+→ Transdutor que transforma **potencia radiante** que atinge o sensor em uma corrente elétrica.
 
 ### Sensibilidade
 → É a sensibilidade que o sensor possui

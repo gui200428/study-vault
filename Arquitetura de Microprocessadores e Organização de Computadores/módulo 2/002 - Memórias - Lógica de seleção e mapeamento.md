@@ -170,7 +170,7 @@ Ex: o bloco 35 está na linha 3 da cache e a TAG da linha 3 será 35.
 **Exemplo com tabela:**
 ![[Pasted image 20251102191918.png]]
 
-→ Processador que acessar o bloco 12
+→ Processador quer acessar o bloco 12
 → Verifica todas as TAGs
 → Linha 1: tag encontrada → **HIT**
 

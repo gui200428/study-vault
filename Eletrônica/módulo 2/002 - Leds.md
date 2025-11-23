@@ -86,6 +86,6 @@ Obs: Quanto maior a corrente elétrica suportada pelo componente, maior a potên
 → Definida em níveis de luz, não é simples de ser calculada.
 → Deve-se ponderar a potência radiante em relação ã percepção visual do olho humano, fato que possui seu valor máximo sobre a cor verde (550 nm)
 
-Ex: Dois LEDs, (Verde e azul) de mesma potência radiante, o olho humano vai enxergar um LED verde com uma luz mais intensa que a dor azul.
+Ex: Dois LEDs, (Verde e azul) de mesma potência radiante, o olho humano vai enxergar um LED verde com uma luz mais intensa que a do azul.
 
 
