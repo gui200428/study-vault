@@ -66,4 +66,21 @@
 
 ## Contadores:
 
-→ 
+→ Valor é facilmente incrementado por 1 até atingir a capacidade maxima.
+→ Um registrador composto por n flip-flops pode contar atá $2^n -1$ 
+
+**Assíncronos**
+→ Mais lentos a saída de um flip-flop dispara uma mudança no estado do flip-flop seguinte.
+
+**Contador síncrono**
+→ Todos os flip-flops mudam de estado ao mesmo tempo.
+→ Usado nas CPUs
+
+### Contador de propagação
+→ Contador de propagação de 4 bits
+
+![[Pasted image 20251126003929.png]]
+### Contador síncrono
+→ Usado por CPUs
+→ Todos os flip-flops mudam ao mesmo tempo.
+
