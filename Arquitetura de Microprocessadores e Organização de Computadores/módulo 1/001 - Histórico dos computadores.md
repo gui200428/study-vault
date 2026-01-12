@@ -172,3 +172,8 @@ Calculator – Univ. da Pensilvânia)**
 → Aplicação envolvendo IA
 → Grande velocidade de processamento
 → Alto grau de interatividade
+
+
+
+
+
