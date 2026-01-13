@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica 
 ## Fontes de corrente alternada
 
 **Não tem polaridade, possuem um comportamento senoidal.**
@@ -136,3 +136,9 @@ Tensão de pico:
 
 
 → Terminal GND conectado no terminal central da fonte proveniente do transformador
+
+
+---
+### Próximo conteúdo:
+**Módulo 2:**
+[[001 - Diodo Zener]]

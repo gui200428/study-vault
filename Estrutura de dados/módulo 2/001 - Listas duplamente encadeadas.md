@@ -95,3 +95,8 @@ Lista* inserir(Lista* pL, int elemento) {
 
 ![[Pasted image 20250412150800.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Pilha]]

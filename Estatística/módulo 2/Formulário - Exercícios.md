@@ -29,3 +29,8 @@ $P(U_1 \cap Branca)$
 
 → Sabemos qual é a urna
 ### $$P(A/B)=\frac{P(A\cap B)}{P(B)}$$
+
+---
+### Próximo conteúdo:
+**Módulo 3:**
+[[001 - Distribuição binomial]]

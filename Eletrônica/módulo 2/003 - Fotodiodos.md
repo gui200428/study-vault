@@ -1,3 +1,4 @@
+#faculdade #resumos #eletronica 
 ## Definição:
 
 → Conversão de energia radiante em energia elétrica.
@@ -83,4 +84,8 @@ Microcontroladores leem tensão e não fotocorrente, para isso é usado um resis
 → Dependência de cor (λ): a sensibilidade (S) muda drasticamente dependendo do comprimento de onda (cor) da luz. Uma sensibilidade de 0,88 A/W para 480 nm(azul), não é a mesma para uma luz vermelha.
 
 → **Corrente de escuro:** Uma pequena corrente que aparece quando não se tem luz.
+
+
+---
+### Próximo conteúdo:
 

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #java 
 ## 1. Interfaces
 
 É um contrato que define um conjunto de métodos que uma classe deve implementar.

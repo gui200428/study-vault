@@ -1,3 +1,4 @@
+#faculdade #resumos #projetos_sistemas
 ## Elementos:
 
 ![[Pasted image 20250930225401.png]]
@@ -53,3 +54,8 @@ Ator secundário: reage as ações do ator primário (deve ir na direita do reta
 ### Fonte:
 
 https://www.youtube.com/watch?v=ab6eDdwS3rA
+
+
+### Próximo conteúdo:
+[[002 - Diagrama de classes]]
+

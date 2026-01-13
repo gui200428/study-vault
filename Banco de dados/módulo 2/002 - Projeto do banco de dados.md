@@ -27,3 +27,8 @@
 
 ### 4- Confecção da base de dados
 
+
+---
+### Próximo conteúdo:
+
+[[003 Sintaxe SQL das aulas de lab]]

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #fisica_experimental 
 ## Objetivos:
 
 - Verificar a presença do empuxo sobre um corpo submerso num fluido.
@@ -100,3 +100,7 @@ Observado: Ao soprar ar rapidamente pela extremidade do canudo horizontal sobre 
 
 
 
+---
+### Próximo conteúdo:
+
+[[003 - Dilatação de Sólidos]]

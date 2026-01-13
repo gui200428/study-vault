@@ -1,4 +1,4 @@
-
+#faculdade #resumos #sinais_sistemas 
 ## Definição:
 
 → Consiste de uma “caixa preta”, ao se aplicar certas quantidades de **entrada**, o sistema responde com certas **saídas**

@@ -1,4 +1,4 @@
-
+#faculdade #rm #resumos 
 ## Definição
 
 → Distribuição de forças por unidade de área. A unidade usada é o pascal (Pa). No sistema internacional de unidades, 1 pascal é equivalente a 1 $N/m^3$ . Quanto menor a área, maior será a tensão.

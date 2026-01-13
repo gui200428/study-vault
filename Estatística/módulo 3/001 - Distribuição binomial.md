@@ -1,4 +1,4 @@
-
+#faculdade #resumos #estatistica 
 ## Definição:
 
 Usado para modelar o número de sucessos em uma sequência de n tentativas independentes, onde cada tentativa tem apenas dois resultados possíveis (sucesso ou fracasso) e a probabilidade de sucesso (p) permanece constante em todas as tentativas.
@@ -34,3 +34,8 @@ A **distribuição binomial** ajuda a calcular a probabilidade de obter um núme
 
 
 ### $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+
+---
+### Próximo conteúdo:
+
+[[002 -  Distribuição de Poisson]]

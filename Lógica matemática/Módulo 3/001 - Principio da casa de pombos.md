@@ -1,3 +1,4 @@
+#faculdade #resumos #logica_matematica 
 ## Definição:
 
 Define de forma exemplificada que, se temos $n$ casas e mais de $n$ pombos, se distribuirmos eles entre as casas, então é possível afirmar que em alguma casa conterá pelo menos dois pombos.
@@ -41,3 +42,8 @@ $$N = nk + 1$$
 
 $$N = 4*2+1 = 9$$
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Permutação e Combinação]]

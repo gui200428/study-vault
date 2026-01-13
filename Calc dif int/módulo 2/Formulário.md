@@ -195,3 +195,6 @@ $$V = \pi\int_a^b [f(x)]^2 \, dx$$
 $$L = \int_a^b \sqrt{1 + [f'(x)]^2} \, dx$$
 
 ---
+### Próximo conteúdo:
+**Módulo 3:**
+[[001 Funções de várias variáveis]]

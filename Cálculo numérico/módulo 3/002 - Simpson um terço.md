@@ -1,4 +1,4 @@
-
+#faculdade #resumos #calc_numerico 
 ## Passos
 
 
@@ -26,3 +26,8 @@ $$h=\frac{b-a}{n}$$
 
 ![[Pasted image 20250602121510.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[003 - Simpson três oitavos]]

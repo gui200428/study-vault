@@ -1,4 +1,4 @@
-
+#faculdade #lista #estatistica 
 
 ## Distribuição binomial
 

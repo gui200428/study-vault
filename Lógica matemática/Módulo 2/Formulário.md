@@ -129,3 +129,7 @@ Como a e b tem a mesma paridade, então: a R c
 - **Simetria**: Se ae b têm a mesma paridade, b e a também têm. 
 - **Transitividade**: Se a e b têm a mesma paridade, e b e c têm a mesma paridade, então a e c têm a mesma paridade. 
 
+
+---
+### Próximo conteúdo:
+**Módulo 3:**

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica
 ## Definição:
 
 Semicondutores possuem a característica de serem bons condutores ou isolantes dependendo da situação. Com isso, é possível projetar componentes capazes de permitir ou bloquear as tensões e correntes de um circuito. Permitindo o controle total de como o circuito funciona.
@@ -88,3 +88,9 @@ Obs:
 → Os diodos retificadores tradicionais tem uma tensão de polarização de $V_d \approx 0.7V$ 
 
 ![[Pasted image 20250917165859.png]]
+
+---
+### Próximo conteúdo:
+
+[[002 - Polarização de diodos]]
+

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eda 
 ## Algoritmo de balanceamento AVL
 
 **Relembrando conceitos - árvores binárias:**
@@ -45,3 +45,6 @@ Para balancear, basta fixar o ponto que desbalanceou primeiro e girar para a esq
 ![[Pasted image 20251104031713.png]]
 
 
+
+---
+### Próximo conteúdo:

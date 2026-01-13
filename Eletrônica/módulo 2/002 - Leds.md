@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica 
 ## Introdução:
 
 → A luz visível faz parte do espectro das ondas eletromagnéticas (radiação).
@@ -89,3 +89,8 @@ Obs: Quanto maior a corrente elétrica suportada pelo componente, maior a potên
 Ex: Dois LEDs, (Verde e azul) de mesma potência radiante, o olho humano vai enxergar um LED verde com uma luz mais intensa que a do azul.
 
 
+
+---
+### Próximo conteúdo:
+
+[[003 - Fotodiodos]]

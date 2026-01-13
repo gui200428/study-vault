@@ -217,3 +217,8 @@ $$P(B/A)=\frac{P(B\ \cap\ A)}{P(A)}$$
 $$P(A/B)=\frac{\frac{9}{36}}{\frac{18}{36}}=\frac{1}{2}=0.5$$
 
 
+
+---
+### Próximo conteúdo:
+
+[[Formulário - Exercícios]]

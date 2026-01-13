@@ -1,3 +1,4 @@
+#faculdade #resumos #projetos_sistemas 
 
 ![[Pasted image 20250930232839.png]]
 

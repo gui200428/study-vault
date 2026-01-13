@@ -1,3 +1,4 @@
+#faculdade #resumos #eletromag 
 ## Definição:
 
 → Relaciona o número de linhas entrando / saindo de uma superfície
@@ -37,3 +38,8 @@
 
 ![[Pasted image 20251115114919.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[005 - Lei de Gauss]]

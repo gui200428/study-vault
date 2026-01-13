@@ -1,4 +1,4 @@
-
+#faculdade #resumos #java 
 # Tabela de Operadores em Java
 
 | Categoria       | Operador | Descrição                    | Exemplo de Uso          |
@@ -61,3 +61,9 @@ Esta tabela mostra como converter valores entre os tipos primitivos mais comuns 
 | `int` para `double`         | Implícita | Ocorre automaticamente, sem perda de dados.       | `int i = 10; double d = i;`      |
 | `double` para `int`         | Explícita | **Exige cast**. Há perda da parte decimal (truncamento). | `double d = 9.99; int i = (int) d;` // i valerá 9 |
 | `long` para `int`           | Explícita | **Exige cast**. Pode haver perda de dados se o valor for muito grande. | `long l = 120L; int i = (int) l;` |
+
+
+---
+### Próximo conteúdo:
+
+[[003 - Estruturas de decisão]]

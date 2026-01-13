@@ -1,3 +1,4 @@
+#faculdade #aom #resumos 
 ## Definição:
 
 → Circuitos combinacionais implementam as funções essenciais de um computador lógico.
@@ -84,3 +85,9 @@
 → Usado por CPUs
 → Todos os flip-flops mudam ao mesmo tempo.
 
+
+---
+### Próximo conteúdo:
+
+**Módulo 2:**
+[[001 - Memórias - Definição e Organização]]

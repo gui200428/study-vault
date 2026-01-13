@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eda
 ## Definição:
 
 → Estrutura de dados usada para representação hierárquica.
@@ -107,3 +107,8 @@ Arv* cria(char c, Arv* sae, Arv* sad){
 }
 ```
 
+
+---
+### Próximo conteúdo:
+**Módulo 2:**
+[[001 - Árvores binárias]]

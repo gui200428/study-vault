@@ -150,5 +150,8 @@ $$\frac{1}{Leq}=\frac{1}{L_1}+\frac{1}{L_2}+...\frac{1}{L_n}$$
 $$Leq=\frac{L_1L_2}{L_1+L_2}$$
 
 
-
+---
+### Próximo conteúdo:
+**Módulo 3:**
+[[001 - Circuitos de primeira e segunda ordem]]
 

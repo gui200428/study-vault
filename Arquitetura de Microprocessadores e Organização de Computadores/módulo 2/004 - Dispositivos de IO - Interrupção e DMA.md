@@ -1,4 +1,4 @@
-
+#faculdade #aom #resumos 
 ## E/S Programada vs E/S por interrupção
 
 ### E/S programada - Polling

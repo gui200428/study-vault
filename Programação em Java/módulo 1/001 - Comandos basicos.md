@@ -1,4 +1,4 @@
-
+#faculdade #resumos #java
 ## Tipos de variáveis
 
 - boolean
@@ -73,3 +73,8 @@ System.out.print("Hello, world!"); // usa só o espaço necessario da linha
 ```
 
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Operadores]]

@@ -305,3 +305,9 @@ $R_\text{eq} = \left( \frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n} \rig
 ![[p1-r1.jpg]]
 ![[p1-r2.jpg]]
 ![[p2-r1.jpg]]![[p2-r2.jpg]]
+
+
+---
+### Próximo conteúdo:
+**Módulo 2:**
+[[001 - Capacitores]]

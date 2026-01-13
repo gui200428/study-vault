@@ -81,3 +81,8 @@ Tratamos `x` como uma constante.
 
 ![[Pasted image 20250412130126.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[005 Vetor gradiente]]

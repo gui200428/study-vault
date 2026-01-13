@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica 
 ## Regulação de tensão
 
 **Revisando o divisor de tensão:**
@@ -54,3 +54,9 @@
 
 
 ![[Pasted image 20251016100329.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[002 - Leds]]

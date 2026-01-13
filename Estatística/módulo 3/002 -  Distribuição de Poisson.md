@@ -1,4 +1,4 @@
-
+#faculdade  #resumos #estatistica 
 
 ## Definição:
 
@@ -31,3 +31,9 @@ A Distribuição de Poisson é frequentemente usada para eventos considerados "r
 **Sendo:**
 - k: número de ocorrências do evento cujo cálculo de probabilidade se deseja (um inteiro não negativo: 0, 1, 2, ...).
 - λ (lambda): é a taxa média de ocorrência de eventos no intervalo especificado. É importante que a unidade de λ seja consistente com o intervalo do problema.
+
+
+---
+### Próximo conteúdo:
+
+[[003 - Distribuição Normal]]

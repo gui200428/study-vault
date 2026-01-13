@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletromag 
 ## Densidade de cargas
 
 → Quando se tem um número infinito de cargas. 
@@ -17,3 +17,8 @@
 
 ![[Pasted image 20251115105744.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[003 - Linhas de campo elétrico]]

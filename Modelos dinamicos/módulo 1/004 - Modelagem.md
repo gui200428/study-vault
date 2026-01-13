@@ -1,4 +1,4 @@
-
+#faculdade #resumos #modelos_dinamicos 
 ## Sistemas a serem modelados:
 
 1. Mola elástica
@@ -62,3 +62,8 @@
 
 ![[Pasted image 20250921002427.png]]
 
+
+---
+### Próximo conteúdo:
+**Módulo 2:**
+[[001 - Modelagem com circuitos]]

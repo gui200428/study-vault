@@ -36,3 +36,8 @@ P_1(x) = y_0 +(y_1-y_0).\frac{x-x_0}{x_1-x_0}
 $$
 
 
+
+---
+### Próximo conteúdo:
+
+[[005 Interpolação inversa]]

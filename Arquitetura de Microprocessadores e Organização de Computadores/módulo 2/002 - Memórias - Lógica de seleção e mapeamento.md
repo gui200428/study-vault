@@ -1,4 +1,4 @@
-
+#faculdade #aom #resumos 
 ## Memória cache - parte 2
 
 → Memória pequena, rápida e volátil, localizada próximo ao processador, usada para armazenar temporariamente dados e instruções frequentemente acessados. **Objetivo:** reduzir o tempo de acesso à memória principal (RAM).
@@ -307,6 +307,11 @@ situação em que o mapeamento associativo seria preferível.**
 
 ![[Pasted image 20251102195507.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[003 - Dispositivos IO - Conceitos e polling]]
 
 
 

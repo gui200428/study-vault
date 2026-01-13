@@ -1,4 +1,4 @@
-
+#faculdade #resumos #modelos_dinamicos 
 ## Definição:
 
 → Conexão entre blocos que representam os operadores matemáticos envolvidos na modelagem. Representa as  equações que modelam o sistema.
@@ -24,3 +24,8 @@
 ![[Pasted image 20250920234206.png]]
 
 
+
+---
+### Próximo conteúdo:
+
+[[004 - Modelagem]]

@@ -96,3 +96,9 @@ P_n(x)
 $$
 
 Este polinômio interpola os pontos $\{(x_0, y_0), (x_1, y_1), \dots, (x_n, y_n)\}$, de modo que $P_n(x_i) = y_i$ para todo $i$.
+
+
+---
+### Próximo conteúdo:
+
+[[003 Polinômio Interpolador de Newton]]

@@ -60,3 +60,11 @@ $$P(x) = A_0 + A_1x + A_2x^2$$
 **Após isso, basta substituir pelo ponto a ser encontrado:**
 
 ![[6.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[002 Fórmula interpolatória de Lagrange]]
+
+

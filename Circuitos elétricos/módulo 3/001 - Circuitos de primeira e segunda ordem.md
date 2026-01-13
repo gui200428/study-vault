@@ -1,3 +1,4 @@
+#faculdade #resumos #circuitos 
 ## Objetivo:
 
 Até agora estudamos o comportamento de capacitores e indutores e como eles fazem com que uma das saídas (tensão ou corrente) variem com relação ao tempo.
@@ -174,3 +175,10 @@ Usando LKT:
 
 ![[Pasted image 20250531221947.png]]
 
+
+---
+### Próximo conteúdo:
+
+**Eletrônica 1:**
+
+[[001 - Semicondutores]]

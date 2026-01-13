@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletromag
 ## Propriedades da matéria:
 
 #### Carga elétrica (q):
@@ -61,3 +61,9 @@ N
 - Força total que uma partícula esta submetida quando temos outras cargas próximas a ela.
 
 ![[Pasted image 20250910103715.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[002 - Campo Elétrico (E)]]

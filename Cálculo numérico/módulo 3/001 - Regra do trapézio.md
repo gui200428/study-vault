@@ -1,4 +1,4 @@
-
+#faculdade #resumos #calc_numerico 
 ## Fórmula geral:
 
 ![[Pasted image 20250602115514.png]]
@@ -24,3 +24,8 @@ $$h=\frac{b-a}{n}$$
 
 ![[Pasted image 20250602115834.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Simpson um terço]]

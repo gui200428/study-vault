@@ -59,3 +59,9 @@
 
 ![[Pasted image 20250409113042.png]]
 ![[Pasted image 20250409113054.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[Notes/Faculdade/Disciplinas/Estatística/módulo 2/Formulário|Formulário]]

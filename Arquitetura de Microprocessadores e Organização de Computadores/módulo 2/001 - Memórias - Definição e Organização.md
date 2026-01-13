@@ -1,3 +1,4 @@
+#faculdade #aom #resumos 
 ## Componentes do computador
 
 ![[Pasted image 20251028172549.png]]
@@ -245,3 +246,8 @@ considerando também capacidade e custo por bit:
 
 cache → ram → secundária
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Memórias - Lógica de seleção e mapeamento]]

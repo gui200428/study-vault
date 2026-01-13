@@ -1,4 +1,4 @@
-
+#faculdade #resumos #java 
 ## If/ else
 
 **Formas de representar o if/else**
@@ -70,3 +70,9 @@ equals <- Compara valores de objetos
 - **Curto-circuito**: Mais eficiente pois pode parar a avaliação antecipadamente
 - **Completa**: Sempre avalia todas as condições, independente do resultado
 - **XOR**: Útil quando você precisa que apenas uma condição seja verdadeira
+
+
+---
+### Próximo conteúdo:
+
+[[004 - Estruturas de decisão]]

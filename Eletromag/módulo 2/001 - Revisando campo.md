@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletromag 
 ## Relembrando campo elétrico:
 
 ![[Pasted image 20251115102423.png]]
@@ -19,3 +19,8 @@
 
 ![[Pasted image 20251115102752.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Campo em distribuição de cargas contínua]]

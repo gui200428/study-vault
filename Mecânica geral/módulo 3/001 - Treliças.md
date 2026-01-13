@@ -1,4 +1,4 @@
-
+#faculdade #mecanica #resumos #formulario 
 ## Regras:
 
 1- Ponto com duas estruturas chegando, se não tiver nenhuma carga ou apoio no ponto, então podemos desconsiderar as estruturas, pois suas forças serão 0.

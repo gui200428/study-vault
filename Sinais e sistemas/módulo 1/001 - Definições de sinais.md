@@ -1,12 +1,12 @@
-
+#faculdade #resumos #sinais_sistemas
 ## Sinal:
-→ Conjunto de informações que pode ser descrito por um modelo matematico
+→ Conjunto de informações que pode ser descrito por um modelo matemático
 
-### Tipos de sinaisL
+### Tipos de sinais
 
 - Unidimensional (1D)
 - Bidimensional (2D)
-- Tridimencional (3D)
+- Tridimensional (3D)
 
 ![[Pasted image 20250924165015.png]]
 
@@ -42,3 +42,8 @@ Ao pegar os pontos 3 e 1, temos um periodo. Para achar o T, basta fazer 3 - 1 = 
 ![[Pasted image 20250924165908.png]]
 
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Operações com sinais]]

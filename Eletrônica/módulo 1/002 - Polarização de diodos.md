@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica 
 ## Polarização direta
 
 → Conecta o ânodo do diodo ao terminal positivo da fonte e o cátodo ao terminal negativo da fonte. Vamos estudar como a corrente vai se comportar.
@@ -92,5 +92,7 @@
 ![[Pasted image 20250917180833.png]]
 
 
+---
+### Próximo conteúdo:
 
-
+[[003 - Portas lógicas com diodos]]

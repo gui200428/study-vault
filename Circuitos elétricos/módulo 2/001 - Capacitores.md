@@ -190,3 +190,8 @@ $$
 Ceq = C_1+C_2+...+C_n
 $$
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Indutores]]

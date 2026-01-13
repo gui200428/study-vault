@@ -1,4 +1,4 @@
-
+#faculdade #aom #resumos 
 ## Definição de computador:
 
 → Conjunto integrado de hardware, software e dispositivos periféricos. Projetados para funcionar em conjunto e executar tarefas computacionais.
@@ -143,3 +143,9 @@ Ex: SSD, HDD.
 executar instruções de um programa
 → Programado usando linguagens de programação como Assembly, C, ou C++
 
+
+---
+
+### Próximo conteúdo:
+
+[[003 - Barramentos]]

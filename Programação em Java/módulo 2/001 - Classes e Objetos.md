@@ -1,3 +1,4 @@
+#faculdade #resumos #java 
 ## 1. Conceitos Fundamentais
 
 A base da POO é a relação entre a definição (Classe) e a concretização (Objeto).
@@ -300,3 +301,8 @@ public class Poodle extends Cachorro {
 }
 ```
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Interfaces e Classes abstratas]]

@@ -1,3 +1,4 @@
+#faculdade #resumos #estrutura_de_dados 
 ## Definição:
 
 A diferença entre uma fila e uma pilha esta na ordem de entrada e saída dos dados. Na fila, o primeiro a entrar é o primeiro a sair. Só podemos colocar itens no final da fila e retirar os elementos do inicio da fila.
@@ -38,3 +39,8 @@ A diferença entre uma fila e uma pilha esta na ordem de entrada e saída dos da
 
 ![[Pasted image 20250608003139.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Recursividade]]

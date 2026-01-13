@@ -1,3 +1,4 @@
+#faculdade #aom #resumos 
 ## Histórico:
 
 **1. Dispositivos mecânicos (3000 a.C - 1800**
@@ -173,7 +174,8 @@ Calculator – Univ. da Pensilvânia)**
 → Grande velocidade de processamento
 → Alto grau de interatividade
 
-
+### Próximo conteúdo:
+[[002 - Computadores]]
 
 
 

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #modelos_dinamicos 
 ## Etapas da modelagem:
 
 **1- Definição do problema:** É determinado o que se deseja conhecer, suas causas e efeitos. Listagem das variáveis e entradas e saídas do sistema.
@@ -34,5 +34,11 @@ Notação das variáveis:
 ### Segunda lei de newton:
 
 ![[Pasted image 20250920233512.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[003 - Diagrama de blocos]]
 
 

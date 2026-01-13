@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletromag 
 ## Definição:
 
 →  Linhas feitas com o objetivo de representar visualmente o campo elétrico.
@@ -40,4 +40,9 @@
 ### $$\frac{Q_+}{Q_-}= \frac{18}{8} = \frac{9}{4}$$
 
 ### $$Q_+=\frac{9}{4}Q_-$$
+
+---
+### Próximo conteúdo:
+
+[[004 - Fluxo de campo elétrico (Φ)]]
 

@@ -1,4 +1,4 @@
-
+#faculdade #resumos #fisica_experimental 
 ## Objetivo:
 → Determinação do coeficiente de dilatação térmica linear (α). E Identificar o material de um tubo de metal.
 
@@ -35,3 +35,9 @@ Este experimento permite determinar uma propriedade importante dos materiais, o 
 - **Tf​ (Temperatura Final):** Medida com um termômetro após o aquecimento da haste (ex: com vapor, próxima a 100°C).
 - **ΔT (Variação de Temperatura):** Calculada como Tf​−T0​.
 - **ΔL (Dilatação):** Medida diretamente usando um **relógio comparador** acoplado à extremidade livre da haste.
+
+
+---
+### Próximo conteúdo:
+
+[[Notes/Faculdade/Disciplinas/Física experimental 3/Formulário]]

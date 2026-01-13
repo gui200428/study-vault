@@ -87,3 +87,9 @@ $$2x + 2y - z = 2$$
 
 ![[Pasted image 20250412121331.png]]
 
+
+
+---
+### Próximo conteúdo:
+
+[[Formulario]]

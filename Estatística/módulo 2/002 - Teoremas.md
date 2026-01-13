@@ -24,3 +24,9 @@
 
 ### $$P(U_2∣V)=\frac{P(U_2)*P(V∣U_2)}{P(V)}$$
 → Probabilidade de sair a urna que queremos, multiplicado pela probabilidade de sair o item que queremos naquela urna, dividido pela probabilidade total de sair o item que queremos.
+
+
+---
+### Próximo conteúdo:
+
+[[Notes/Faculdade/Disciplinas/Estatística/módulo 2/Exercícios|Exercícios]]

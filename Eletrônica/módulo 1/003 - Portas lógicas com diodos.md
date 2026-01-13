@@ -1,4 +1,4 @@
-
+#faculdade #resumos #eletronica 
 ## Relembrando a tabela verdade das portas AND e OR
 
 → Em electronica, a implementação das portas logicas são feitas pela relação de nível logico baixo (0 ou GND) e nível logico alto (1 / 5V / 12V).
@@ -79,3 +79,8 @@
 **Obs importante:** O nível lógico da saída é afetado pela tensão de polarização direta do diodo. (Vd).
 
 
+
+---
+### Próximo conteúdo:
+
+[[004 - Circuitos retificadores]]

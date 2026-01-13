@@ -1,4 +1,4 @@
-
+#faculdade  #resumos #estatistica 
 ## Definição:
 
 Ela descreve como os valores de uma variável contínua estão distribuídos.
@@ -38,3 +38,8 @@ Ela descreve como os valores de uma variável contínua estão distribuídos.
 **OBS:** A área esquerda da figura, onde Z < 0, a área SEMPRE vai valer 0,5. E a outra metade, para 
 Z ≥ 0 deve olhar para a tabela de distribuição para encontrar o valor da área.
 
+
+---
+### Próximo conteúdo:
+
+[[Exercicios]]

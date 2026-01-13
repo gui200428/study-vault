@@ -1,3 +1,6 @@
+#faculdade #resumos #eletromag 
+
+## Definição:
 
 ![[Pasted image 20251115122944.png]]
 

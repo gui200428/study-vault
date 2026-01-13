@@ -1,3 +1,7 @@
+#faculdade #resumos #eletromag 
+
+## Definição:
+
 Quando temos um número infinito de cargas, precisamos usar as seguintes formulas para calcular a carga total:
 
 
@@ -20,3 +24,8 @@ Quando temos um número infinito de cargas, precisamos usar as seguintes formula
 
 
 
+
+---
+### Próximo conteúdo:
+**Módulo 2:**
+[[001 - Revisando campo]]

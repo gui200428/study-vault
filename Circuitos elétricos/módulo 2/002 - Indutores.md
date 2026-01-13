@@ -153,3 +153,7 @@ $$Leq=\frac{L_1L_2}{L_1+L_2}$$
 ![[Pasted image 20250326233334.png]]
 
 
+---
+### Próximo conteúdo:
+
+[[Notes/Faculdade/Disciplinas/Circuitos elétricos/módulo 2/Formulário|Formulário]]

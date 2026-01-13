@@ -154,3 +154,8 @@ $$
 P_3(x) = y_0 L_0(x) + y_1 L_1(x) + y_2 L_2(x) + y_3 L_3(x)
 $$
 
+
+---
+### Próximo conteúdo:
+**Módulo 3:**
+[[001 - Regra do trapézio]]

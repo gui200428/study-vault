@@ -24,3 +24,8 @@
 
 ![[Pasted image 20250412121441.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[006 Plano tangente]]

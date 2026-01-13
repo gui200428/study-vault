@@ -1,3 +1,4 @@
+#faculdade #aom #resumos 
 
 ![[Pasted image 20251102201406.png]]
 **Módulos de entrada e saída:** componentes essenciais. Cada módulo conecta-se ao barramento do sistema e gerencia a comunicação com os periféricos. Utilizando lógica própria para adaptar diferença de velocidade, formato de dados e métodos de operação. Periféricos **não** são conectados diretamente ao barramento devido a problemas de incompatibilidade com o processador. **Os módulos de E/S** atuam como intermediários.
@@ -119,3 +120,8 @@ Existem estados para informar diversas condições de erro.
 - Não é escalável para sistemas com muitos periféricos.
 - Pode causar latência em operações criticas.
 
+
+---
+### Próximo conteúdo:
+
+[[004 - Dispositivos de IO - Interrupção e DMA]]

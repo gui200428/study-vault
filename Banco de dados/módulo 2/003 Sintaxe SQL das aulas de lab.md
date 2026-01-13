@@ -53,3 +53,8 @@ SELECT coluna from tabela order by coluna desc
 ```
 
 ![[Pasted image 20250412194724.png]]
+
+
+---
+### Próximo conteúdo:
+[[Trabalho - Revisão para a prova]]

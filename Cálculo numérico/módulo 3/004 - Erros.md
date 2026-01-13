@@ -1,3 +1,4 @@
+#faculdade #resumos #calc_numerico 
 ## Erro na integração do trapézio:
 
 1- Calcular a derivada segunda da função inicial

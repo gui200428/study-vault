@@ -1,3 +1,4 @@
+#faculdade #resumos #sinais_sistemas 
 
 **1- Sinais de tempo continuo ou discreto**
 **2- Sinais analógicos ou digitais**
@@ -164,3 +165,8 @@ t = 5.
 
 ![[Pasted image 20250927120230.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[004 - Sistemas]]

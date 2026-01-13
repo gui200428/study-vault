@@ -109,3 +109,8 @@
 
 ![[Pasted image 20250323011839.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[Resumo]]

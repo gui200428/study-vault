@@ -24,3 +24,9 @@ Setor circular
 ### $$A=\frac{\pi .r^2}{4}$$
 
 ![[Pasted image 20250410002937.png]]
+
+
+---
+### Próximo conteúdo:
+**Módulo 3:**
+[[001 - Treliças]]

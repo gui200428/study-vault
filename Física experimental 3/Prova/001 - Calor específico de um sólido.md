@@ -1,4 +1,4 @@
-
+#faculdade #resumos #fisica_experimental 
 ## Objetivo do experimento:
 
 Achar o calor específico de um objeto desconhecido e comparar o valor encontrado com a tabela para identificar de qual é o material do objeto.
@@ -52,3 +52,8 @@ Com todos esses valores em mãos, basta isolar o Cs e achar os valores!
 
 **Pegar todos os valores do Cs, calcular a média e achar o correspondente na tabela**
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Princípio de Arquimedes]]

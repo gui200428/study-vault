@@ -40,3 +40,9 @@ N:N
 
 ### 6. Atributo chave
 → Atributo que identifica unicamente cada instancia da entidade. Chave primária da entidade forte. Ex: CPF, ISBN, ID. etc.
+
+
+---
+### Próximo conteúdo:
+
+[[002 - Projeto do banco de dados]]

@@ -58,3 +58,8 @@ Aproximação por parábola `y = x²`
 
 ![[Pasted image 20250410205001.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[003 Continuidade de uma função]]

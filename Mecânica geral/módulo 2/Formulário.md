@@ -86,3 +86,8 @@ pega o valor e divide em 3, pega o valor mais próximo do ângulo de 90.
 
 ![[Pasted image 20250407163217.png]]
 
+
+---
+### Próximo conteúdo:
+
+[[Formulário - aplicado]]

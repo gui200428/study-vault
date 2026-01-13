@@ -1,4 +1,4 @@
-
+#faculdade #resumos #modelos_dinamicos 
 ## Componentes:
 
 ### Resistores

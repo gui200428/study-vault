@@ -1,3 +1,4 @@
+#faculdade #aom #resumos 
 ## Revisão - Decimal para binário:
 
 → Dividir por 2 e anotas os restos da divisão
@@ -79,3 +80,7 @@
 
 ![[Pasted image 20250928182721.png]]
 
+---
+### Próximo conteúdo:
+
+[[005 - Circuitos sequenciais]]

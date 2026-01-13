@@ -1,3 +1,6 @@
+#faculdade #resumos #eletromag 
+
+## Definição:
 
 - Se trata de uma medida vetorial
 - Pode ser trabalhado nas 3 dimensões x/y/z.
@@ -42,3 +45,9 @@ O campo elétrico no ponto será a soma dos campos elétricos produzidos por cad
 
 
 ![[Pasted image 20250910110356.png]]
+
+
+---
+### Próximo conteúdo:
+
+[[003 - Densidade de cargas]]

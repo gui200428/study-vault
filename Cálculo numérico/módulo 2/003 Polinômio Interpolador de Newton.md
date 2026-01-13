@@ -61,3 +61,9 @@ P(X) = 0 + 3(X-1) + 5(X-1)(X-3) + 1(X-1)(X-3)(X-4)
 **Polinômio final:**
 
 P(X) = $X^3-3x^2+2x$
+
+
+---
+### Próximo conteúdo:
+
+[[004 Interpolação linear]]

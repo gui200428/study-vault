@@ -1,3 +1,4 @@
+#faculdade #resumos #calc_dif 
 ## Ponto critico
 
 https://www.youtube.com/watch?v=pdX_hOH_jEA

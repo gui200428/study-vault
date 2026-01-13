@@ -1,4 +1,4 @@
-
+#faculdade #resumos #java 
 ## 1. Loop `for`
 
 O loop `for` é ideal quando você sabe exatamente quantas vezes deseja repetir uma operação.
@@ -218,3 +218,9 @@ arquivo.close();
 3. **Escolha o loop certo**: Considere se você sabe o número de iterações
 4. **Cuidado com modificações**: Evite alterar a estrutura durante `for-each`
 5. **Performance**: `for` tradicional é geralmente mais rápido que `for-each` para arrays grandes
+
+
+---
+### Próximo conteúdo:
+
+[[006 - Array]]

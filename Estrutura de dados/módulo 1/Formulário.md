@@ -24,3 +24,9 @@
 ![[P2_3.jpg]]
 ![[P2_4.jpg]]
 ![[P2_5.jpg]]
+
+
+---
+### Próximo conteúdo:
+
+[[001 - Listas duplamente encadeadas]]

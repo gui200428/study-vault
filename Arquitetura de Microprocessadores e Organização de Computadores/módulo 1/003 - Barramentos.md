@@ -1,4 +1,4 @@
-
+#faculdade #aom #resumos 
 ## Definição:
 
 → O barramento pode ser definido como um canal de comunicação que interliga os principais componentes do sistema. É composto por diversas trilhas. Cada trilha pode transportar sinais que correspondem a valores binários. 
@@ -66,3 +66,7 @@ duas razões:
 - Capacidade de transferência de dados do barramentos
 Solução → Utilização de múltiplos barramentos
 
+---
+### Próximo conteúdo:
+
+[[004 - Portas lógicas]]

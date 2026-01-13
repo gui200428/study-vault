@@ -1,4 +1,4 @@
-
+#faculdade #resumos #modelos_dinamicos
 ## Sistemas dinâmicos / modelos
 
 
@@ -29,3 +29,8 @@
 
 **Matemático:** representação matemática por meio de equações, elas buscam representar o comportamento dinâmico do sistema.
 
+
+---
+### Próximo conteúdo:
+
+[[002 - Modelagem de um sistema]]

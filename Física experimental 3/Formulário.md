@@ -1,4 +1,4 @@
-#fisica_experimental #formulario #resumos 
+#faculdade #fisica_experimental #formulario #resumos 
 ## Tratamento estatístico:
 → É usado para quando se tem N medidas feitas com um instrumento de medida com uma determinada precisão.
 

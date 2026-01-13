@@ -1,4 +1,4 @@
-
+#faculdade #resumos #calc_numerico 
 ## Aplicação:
 
 → Mesma lógica de simspon 1/8
@@ -9,3 +9,8 @@
 
 $$\frac{3h}{8}$$
 
+
+---
+### Próximo conteúdo:
+
+[[004 - Erros]]

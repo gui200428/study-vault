@@ -1,6 +1,4 @@
-#faculdade #logica_matematica #resumos
-# Diagramas lógicos
-
+#faculdade #logica_matematica #resumos 
 ## Quando usar:
 
 **Uso:** A teoria dos diagramas lógicos é utilizada para representar relações entre conjuntos de forma visual. Ela é aplicada em questões que envolvem categorias, permitindo analisar se todos os elementos pertencem a um conjunto, se apenas alguns fazem parte, se nenhum está incluído ou se há interseção entre diferentes conjuntos. Essa abordagem facilita a compreensão de relações de inclusão, exclusão e sobreposição entre os elementos envolvidos.
@@ -128,8 +126,7 @@
 ![[Pasted image 20250331110739.png]]
 
 
+---
+### Próximo conteúdo:
 
-
-
-
-
+[[002 - Paradoxo de hursel]]

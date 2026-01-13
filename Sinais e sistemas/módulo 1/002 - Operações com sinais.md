@@ -1,4 +1,4 @@
-
+#faculdade #resumos #sinais_sistemas 
 ## 1- Deslocamento temporal
 
 - **x(t+a)**: Adiantamento no tempo. O sinal é deslocado para a **esquerda** em 'a' unidades.
@@ -100,3 +100,7 @@ Atraso do sinal:
 
 
 
+---
+### Próximo conteúdo:
+
+[[003 - Classificação de sinais]]

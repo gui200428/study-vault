@@ -1,3 +1,4 @@
+#faculdade #resumos #estrutura_de_dados 
 ## Definição
 
 → Em estrutura de dados, uma função é considerada recursiva quando ela chama a si mesma para realizar operações. Essa chamada pode ocorrer de forma explicita ou implícita.
@@ -25,3 +26,8 @@
 ![[Pasted image 20250608004113.png]]
 
 
+
+---
+### Próximo conteúdo:
+**EDA - módulo 1:**
+[[001 - Árvores]]

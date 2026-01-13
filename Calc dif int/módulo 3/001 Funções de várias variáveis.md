@@ -125,3 +125,9 @@ Então a imagem é:
 
 $$Im(f)=[0,2]$$
 
+
+
+---
+### Próximo conteúdo:
+
+[[002 Limite com x e y]]

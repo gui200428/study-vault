@@ -16,3 +16,9 @@ Se **qualquer uma dessas 3 condições falhar**, a função **não é contínua*
 ![[Pasted image 20250410210104.png]]
 
 
+
+---
+### Próximo conteúdo:
+
+[[004 Derivadas parciais]]
+

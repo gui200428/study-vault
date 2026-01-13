@@ -1,4 +1,4 @@
-
+#faculdade #resumos #fisica 
 ## Definição:
 
 Se trata de um movimento oscilatório (Vibratório). Apresenta uma característica especifica de “vai e vem” → Oscilação, também conhecido como ciclo.
