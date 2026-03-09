@@ -115,7 +115,7 @@ Número de vezes que um material é “mais pesado” que outro.
 
 **Definição:** Volume ocupado por uma determinada massa de uma substância. Volume ocupado por unidade de massa.
 
-**Corresponde ao nverso da massa específica:**
+**Corresponde ao inverso da massa específica:**
 ### $$\upsilon_{s} = \frac{V}{m} = \frac{1}{\rho}$$
 ![[Pasted image 20260307194053.png]]
 ![[Pasted image 20260307193922.png]]
