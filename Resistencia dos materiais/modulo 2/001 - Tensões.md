@@ -98,7 +98,7 @@ E: Módulo da elasticidade do material (Pa)
 
 **Se a estrutura conter partes diferentes. deverá ser calculado o $\Delta l$ para cada seção da estrutura, e então somar todas as partes**
 
-![[Notes/Faculdade/Disciplinas/Eletrônica/módulo 2/Imgs/Untitled.jpg]]
+![[Notes/Faculdade/Disciplinas/Eletrônica 1/módulo 2/Imgs/Untitled.jpg]]
 
 ![[Pasted image 20250607154506.png]]
 
