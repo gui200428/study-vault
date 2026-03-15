@@ -1,12 +1,15 @@
 
 ## Transistor
 
+Transistor tem duas funções principais: eles podem agir como switchs para controlar circuitos, ou como amplificadores de sinal. Essencialmente, um transistor é uma estrutura com dois diodos ligados de forma inversa. Ao injetar corrente no terminal de **base**, ele permite o fluxo dos elétrons presentes no emissor, para o coletor.
+
+![[Pasted image 20260311153227.png]]
 ### Estrutura:
 Um transistor é constituído por 3 regiões dopadas:
 
-**1- Coletor**
+**1- Emissor**
 **2- Base**
-**3- Emissor**
+**3- Coletor**
 
 ![[Pasted image 20260311152506.png]]
 
@@ -37,7 +40,7 @@ Um transistor é constituído por 3 regiões dopadas:
 ![[Pasted image 20260311153413.png]]
 
 **Polarização do transistor:**
-- Fonte $V_{BB}$  polariza o diretamente o diodo emissor.
+- Fonte $V_{BB}$  polariza o diretamente o diodo emissor. (Para um transistor de silicio, é preciso de uma tensão de 0,7V para permitir a passagem dos elétrons do emissor para o coletor.)
 - Fonte $V_{cc}$ polariza reversamente o diodo coletor.
 
  → Base estreita e fracamente dopada permite a passagem de quase todos os elétrons
