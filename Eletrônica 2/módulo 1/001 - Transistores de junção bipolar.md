@@ -1,4 +1,7 @@
 
+#faculdade #eletronica_2 #resumos 
+
+---
 ## Transistor
 
 Transistor tem duas funções principais: eles podem agir como switchs para controlar circuitos, ou como amplificadores de sinal. Essencialmente, um transistor é uma estrutura com dois diodos ligados de forma inversa. Ao injetar corrente no terminal de **base**, ele permite o fluxo dos elétrons presentes no emissor, para o coletor.

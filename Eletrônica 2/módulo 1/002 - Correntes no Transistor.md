@@ -1,4 +1,7 @@
 
+#faculdade #eletronica_2 #resumos 
+
+---
 ## Esquemático de um transistor NPN
 
 ![[Pasted image 20260314163813.png]]

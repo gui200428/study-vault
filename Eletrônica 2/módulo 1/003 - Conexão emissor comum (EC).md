@@ -1,4 +1,7 @@
 
+#faculdade #eletronica_2 #resumos 
+
+---
 ## Tipos de conexão:
 
 - **Emissor comum (EC)**

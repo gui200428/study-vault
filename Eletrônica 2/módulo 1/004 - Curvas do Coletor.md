@@ -1,4 +1,7 @@
 
+#faculdade #eletronica_2 #resumos 
+
+---
 ## Circuito:
 
 ![[Pasted image 20260314174103.png]]
