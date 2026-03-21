@@ -12,11 +12,11 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 **Analogia: A ISA é a “fachada”, painel do carro e o volante, enquanto microarquitetura é o motor do carro. O microcódigo é a mecânica que traduz o giro do volante (instrução da ISA) na ação real.**
 
 ## Unidade de controle - tomada de decisões:
-**Definição:** A unidade de controle recebe informações e gerencia como os dados vão trafegar em:
+**Definição:** A unidade de controle (Control Unit) é o "maestro" da CPU. Ela recebe as instruções decodificadas e gerencia como os sinais e dados vão trafegar fisicamente pelos componentes.
 
-- Registradores
-- ALU
-- Barramentos
+- Registradores. **Gaveta de armazenamento rápido**
+- ALU **Onde o cálculo matemático ocorre**
+- Barramentos 
 - Memória
 - Multiplexadores. **Lógicas combinacionais que coordenam com os flags como o circuito vai funcionar.**
 
@@ -28,9 +28,11 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 **Definição:** Qualquer situação que **impede** que o **pipeline** continue executando.
 
 **Pipeline:**
-1. Busca
-2. Decode
-3. Execute
+1. Busca. **Pega instruções da memória**
+2. Decodificação. **Descobre o que a instrução faz e gera o microcódigo**
+3. Execução. **A ALU faz a conta.**
+4. Memoria **Acessa a RAM se necessário**
+5. Write-back. **Escreve o o resultado final de volta no registrador**
 ## Ciclos de máquina - base para qualquer arquitetura 
 
 - **Microarquitetura:** Instruções menores dentro da arquitetura. Cada comando tem um conjunto de  microinstruções. **Cada comando tem um conjunto de microinstruções**
@@ -70,9 +72,62 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 - Facilita correção de bugs no hardware.
 
 ## Microprogramação:
-- Tecnica / método de projetar a unidade de controle usando microcódigo 
+- Técnica / método de projetar a unidade de controle usando microcódigo 
 - É o processo de escrever microcódigo 
 
 **Analogia:**
 **Microcódigo:** roteiro das cenas (o que deve ser feito).
-**Microprogramação:** Tecnica de escrever o roteiro (organizar, criar e escrever cenas).
+**Microprogramação:** Técnica de escrever o roteiro (organizar, criar e escrever cenas).
+
+
+## Ciclos de máquina
+→ Uma instrução executa em vários ciclos de máquina. Cada ciclo corresponde a um conjunto de microinstruções.
+
+→ Quanto mais rápido se executa a ação, melhor é o desempenho.
+
+**Exemplo clássico de ciclo de maquina:**
+
+**Pipeline:**
+1. Busca. **Pega instruções da memória**
+2. Decodificação. **Descobre o que a instrução faz e gera o microcódigo**
+3. Execução. **A ALU faz a conta.**
+4. Memoria **Acessa a RAM se necessário**
+5. Write-back. **Escreve o o resultado final de volta no registrador**
+**Cada instrução é um ciclo de clock.**
+
+
+## Controle cabeado vs controle microprogramado:
+
+### Controle cabeado:
+- Sinais de controle gerados por lógica combinacional. Se usa portas lógicas para realizar todas as operações.
+- Menor flexibilidade.
+
+### Controle microprogramado:
+- Sinais gerados por leitura de microinstruções.
+- Usado em arquiteturas mais complexas
+- Totalmente flexível, permitindo instruções complexas.
+- x86
+
+![[Pasted image 20260321194431.png]]
+
+### Exemplo de execução microprogramada:
+
+![[Pasted image 20260321194513.png]]
+
+
+## Microarquitetura relevante do 8086:
+
+![[Pasted image 20260321194610.png]]
+
+
+## T - state
+→ Leva 1 ciclo de clock para executar cada T-state
+
+![[Pasted image 20260321194735.png]]
+
+### WAIT
+- Se a memória ou dispositivo **não estiver pronto** durante o T3, o sinal READY fica desativado.
+- Então a CPU insere ciclo de espera.
+
+![[Pasted image 20260321194859.png]]
+
