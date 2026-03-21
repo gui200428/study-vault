@@ -75,4 +75,4 @@
 - **Endereços são verificados quanto ao limite. Uma tarefa não pode acessar a área das outras.** Antes de fazer a leitura, o hardware confere se o offset é maior que o “limite” estipulado. Se for maior, a CPU bloqueia o acesso na mesma hora. É isso que protege o computador e gera o **segmentation fault (falha de segmentação)** quando um programa tenta invadir o espaço do outro.
 
 
-(aula 3 - 11)
+(aula 3 - 11) - teste
