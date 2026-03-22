@@ -122,7 +122,7 @@
 Foi criado para sistemas pequenos e de processador único.
 
 - Não permite o uso de coprocessador.
-- Design da placa mão fica mais barato e simples, não exige chips extras para gerenciar a comunicação.
+- Design da placa mãe fica mais barato e simples, não exige chips extras para gerenciar a comunicação.
 
 ### Modo máximo:
 **Definição:** O microprocessador “terceiriza” a geração dos sinais de controle. Ele envia apenas sinais de status para um chip externo.. (Controlador de barramento intel 8288). O chip 8288 traduz o status e gera os comandos reais para a memória e periféricos.
