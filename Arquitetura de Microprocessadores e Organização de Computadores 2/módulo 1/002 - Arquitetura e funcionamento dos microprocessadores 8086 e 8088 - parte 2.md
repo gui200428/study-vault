@@ -19,7 +19,7 @@
 
 ### 3. Controle de barramento e temporização:
 **Definição:** A BIU é a “porta-voz” do processador. É a única parte do chip que tem permissão e capacidade de se comunicar com a parte externa (RAM e periféricos de entrada/saída).
-- **Sinais e Temporização:** Ela gera todos os sinais elétricos de controle que dizem à placa mãe se o processador que ler ou escrever dados no momento. **(Gera sinais para memória e E/S (Ciclos de leitura/ escrita))**.
+- **Sinais e Temporização:** Ela gera todos os sinais elétricos de controle que dizem à placa mãe se o processador quer ler ou escrever dados no momento. **(Gera sinais para memória e E/S (Ciclos de leitura/ escrita))**.
 - **Execução de Pedidos:** quando a unidade de execução (EU) precisa de um dado para fazer uma conta, ela pede para a BIU. A BIU vai até a memória, busca a informação e entrega para a EU. **Coordena o acesso ao barramento (Endereços, dados e controle.)**
 
 ### 4. Leituras/escritas de dados:
