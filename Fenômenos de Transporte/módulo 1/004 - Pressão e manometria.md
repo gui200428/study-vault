@@ -123,4 +123,4 @@ Como todos os tubos estão conectados na base, a pressão no fundo tem que ser e
 ### Líquidos diferentes
 - Os opostos não se alinham
 - Se jogar água em um lado e óleo no outro (líquidos que não se misturam, os níveis finais não serão iguais.)
-- Como o óleo é mais menos denso que a água, vai precisar de uma coluna bem mais alta de óleo para fazer o mesmo “peso” e igualar a pressão com uma coluna mais baixa de água.
+- Como o óleo é menos denso que a água, vai precisar de uma coluna bem mais alta de óleo para fazer o mesmo “peso” e igualar a pressão com uma coluna mais baixa de água.

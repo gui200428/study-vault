@@ -24,7 +24,7 @@
 
 ### 4. Leituras/escritas de dados:
 **Definição:** Execução prática da movimentação de informações (buscar / salvar) na memória ou nos periféricos, trabalhando sob demanda para o processador.
-- Executa os acessos de dados solicitados pela EU (por exemplo, ler um operando na memoria apontado por DS ou SS.) **Quando a EU precisa de um dado para uma conta, a BIU vai até a memória física, executa a leitura / escrita e entrega o resultado.**.
+- Executa os acessos de dados solicitados pela EU (por exemplo, ler um operando na memoria apontado por DS ou SS.) **Quando a EU precisa de um dado para uma conta, a BIU vai até a memória física, executa a leitura / escrita e entrega o resultado.**
 
 ### 5. Eventos especiais:
 **Definição:** São situações imprevistas ou comandos específicos do programa que quebram a sincronia e interrompem o trabalho contínuo da fila de pré-busca da BIU.
@@ -41,7 +41,7 @@
 ### 1. ALU e registradores gerais:
 **Definição:** É a área de trabalho ativa da CPU, composto pelo “cérebro matemático” (ALU).
 
-- **ALU:** executa operações aritméticas / lógicas. **A unidade lógica e aritmética** é uma calculadora do sistema, onde as comas, subtrações e operações comparativas (AND, OR) realmente acontecem na prática.
+- **ALU:** executa operações aritméticas / lógicas. **A unidade lógica e aritmética** é uma calculadora do sistema, onde as somas, subtrações e operações comparativas (AND, OR) realmente acontecem na prática.
 
 - **Regs gerais:** 
 1. AX, BX, CX, DX;
@@ -61,7 +61,7 @@
 
 **A EU calcula o deslocamento a partir do modo de endereçamento (Ex: BX+ SI + disp).** Ela resolva as equações dos modos avançados de endereçamento para descobrir o valor final do deslocamento antes de pedir o dados para o lado de fora.
 
-**Em seguida, solicita à BIU a formação do endereço físico (segmento << 4 + deslocamento) e o acesso à memória, quando necessário.** Como a EU é “cega” para a parte externa, ela entrega esse valor de deslocamento resolvido para a BIU com a mensagem: “Some isso ao registrador de segmento, encontre o endereço físico final de 20 bits e me trago o que está lá”.
+**Em seguida, solicita à BIU a formação do endereço físico (segmento << 4 + deslocamento) e o acesso à memória, quando necessário.** Como a EU é “cega” para a parte externa, ela entrega esse valor de deslocamento resolvido para a BIU com a mensagem: “Some isso ao registrador de segmento, encontre o endereço físico final de 20 bits e me traga o que está lá”.
 
 
 ### 4. Controle de fluxo:
