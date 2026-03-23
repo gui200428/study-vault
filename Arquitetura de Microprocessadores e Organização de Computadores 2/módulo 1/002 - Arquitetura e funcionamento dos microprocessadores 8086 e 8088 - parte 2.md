@@ -8,7 +8,7 @@
 ### Funções principais:
 
 ### 1. Busca de instruções (Fetch):
-**Definição:** Trabalho continuo da BIU de ler as próximas instruções do programa direto da memória e trazê-las para dentro do processados antes da **unidade de execução (EU)** precisa delas.
+**Definição:** Trabalho continuo da BIU de ler as próximas instruções do programa direto da memória e trazê-las para dentro do processados antes da **unidade de execução (EU)** precisar delas.
 - Lê bytes de instrução da memória usando o CS:IP (Code segment + instruction pointer). **A BIU usa a combinação dos registradores CS (CODE SEGMENT) e IP (Instruction pointer) para saber exatamente qual é a próxima linha de código a ser lida.**
 - Armazena os bytes na fila de pré-busca (Instruction queue) de 6 bytes. **Os bytes lidos não vão direto para a execução, eles ficam armazenados em uma pequena fila de espera de 6 bytes (no 8086). Isso cria um pipeline rudimentar, economizando tempo.**
 
