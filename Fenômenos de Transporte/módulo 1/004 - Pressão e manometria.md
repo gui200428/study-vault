@@ -101,7 +101,7 @@ $\rho * g =$ peso especifico (γ)
 
 - A pressão num liquido aumenta proporcionalmente à profundidade. Sendo a constante de proporcionalidade igual ao **peso especifico** do liquido:
 
-### $$P_{a}=  P_{atm} * γ * h$$
+### $$P_{a}=  P_{atm} + γ * h$$
 Pa = pressão no ponto A. (Pressão absoluta em um ponto especifico do liquido.)
 
 ![[Pasted image 20260321213709.png]]
