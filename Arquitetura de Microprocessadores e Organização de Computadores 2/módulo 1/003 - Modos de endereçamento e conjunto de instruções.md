@@ -168,19 +168,19 @@ $$MOV AX, BX$$
 
 $$PUSH \ EAX$$
 $$LEA RAX, [RBX+4]$$
-![[Pasted image 20260321163221.png]]
+![[Pasted image 20260321163221.png|342]]
 
 
 ### 2. Instruções aritméticas:
 **Definição:**operações com inteiros e flags
 
-![[Pasted image 20260321163317.png]]
+![[Pasted image 20260321163317.png|342]]
 
 
 ### 3. Instruções Lógicas / de Bits:
 **Definição:** manipulam bits.
 
-![[Pasted image 20260321163408.png]]
+![[Pasted image 20260321163408.png|342]]
 
 ### 4. Instruções de controle de fluxo:
 **Definição:** Contem saltos condicionais e incondicionais.
@@ -202,7 +202,7 @@ $$LEA RAX, [RBX+4]$$
 ### 5. Instruções de comparação e testes
 **Definição:** Manipulam flags sem alterar operandos:
 
-![[Pasted image 20260321163713.png]]
+![[Pasted image 20260321163713.png|342]]
 
 
 ### 6. Instruções de manipulação de Strings

@@ -6,7 +6,7 @@
 ### $$p = \frac{F(N)}{A(m^2)}$$
 **Unidade de pressão:**
 
-![[Pasted image 20260321195919.png]]
+![[Pasted image 20260321195919.png|697]]
 → A unidade que mede-se pressão é $N/m^2$ que pode ser chamada de Pa (Pascal).
 
 **Relação:**
@@ -22,7 +22,7 @@
 
 ### Conversão de medidas:
 
-![[Pasted image 20260321200532.png]]
+![[Pasted image 20260321200532.png|697]]
 
 ![[Pasted image 20260321210049.png]]
 ## Pressão absoluta X Pressão relativa
