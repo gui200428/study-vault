@@ -4,7 +4,7 @@
 ![[Pasted image 20260320165718.png]]
 
 
-## Relocação:
+## Realocação:
 
 **Definição:** É o conflito que ocorre em sistemas multitarefa quando o programador (ou compilador) precisa gerar referência de memória para um programa, mas não faz a menor ideia de em qual parte física da RAM esse programa será efetivamente carregado.
 

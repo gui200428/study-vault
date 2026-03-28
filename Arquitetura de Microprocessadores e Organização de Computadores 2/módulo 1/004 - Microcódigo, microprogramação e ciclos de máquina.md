@@ -22,7 +22,7 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 
 ## Desempenho e otimização 
 
-- Quando trabalhamos com hardware, entender o funcionamento do microcódigo, vai ajudar com a otimização dad aplicação.
+- Quando trabalhamos com hardware, entender o funcionamento do microcódigo, vai ajudar com a otimização da aplicação.
 
 ### Hazards:
 **Definição:** Qualquer situação que **impede** que o **pipeline** continue executando.
@@ -30,9 +30,10 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 **Pipeline:**
 1. Busca. **Pega instruções da memória**
 2. Decodificação. **Descobre o que a instrução faz e gera o microcódigo**
-3. Execução. **A ALU faz a conta.**
-4. Memoria **Acessa a RAM se necessário**
-5. Write-back. **Escreve o o resultado final de volta no registrador**
+3. Busca de operandos (OF).
+4. Execução. **A ALU faz a conta.**
+5. Memoria **Acessa a RAM se necessário**
+6. Write-back. **Escreve o o resultado final de volta no registrador**
 ## Ciclos de máquina - base para qualquer arquitetura 
 
 - **Microarquitetura:** Instruções menores dentro da arquitetura. Cada comando tem um conjunto de  microinstruções. **Cada comando tem um conjunto de microinstruções**
@@ -88,11 +89,12 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 **Exemplo clássico de ciclo de maquina:**
 
 **Pipeline:**
-1. Busca. **Pega instruções da memória**
-2. Decodificação. **Descobre o que a instrução faz e gera o microcódigo**
-3. Execução. **A ALU faz a conta.**
-4. Memoria **Acessa a RAM se necessário**
-5. Write-back. **Escreve o o resultado final de volta no registrador**
+1. Busca de instruções (IF). **Pega instruções da memória**
+2. Decodificação (ID). **Descobre o que a instrução faz e gera o microcódigo**
+3. Busca de operandos (OF).
+4. Execução (EX). **A ALU faz a conta.**
+5. Memoria (MEM) **Acessa a RAM se necessário**
+6. Write-back (WB. **Escreve o o resultado final de volta no registrador**
 **Cada instrução é um ciclo de clock.**
 
 
@@ -131,3 +133,8 @@ ISA (Instruction set architecture). **E o “contrato” ou o idioma oficial do 
 
 ![[Pasted image 20260321194859.png]]
 
+![[Pasted image 20260325145220.png]]
+
+![[Pasted image 20260325145231.png|668]]
+
+![[Pasted image 20260325145246.png]]
