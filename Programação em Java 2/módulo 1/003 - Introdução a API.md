@@ -1,7 +1,7 @@
 
 ## Modelo:
 
-![[Pasted image 20260412111838.png|697]]
+![[Pasted image 20260412111838.png]]
 
 ---
 
