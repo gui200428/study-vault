@@ -33,7 +33,7 @@ obs: formula deduzida por $i = \frac{\Delta{q}}{\Delta{t}}$
 ### $$i = n *e*d*l*v$$
 **Sendo:**
 - n = densidade de elétrons do material (valor tabelado)
-- e = carga do elétron ($1,6*10^{-19}$ C)
+- e = carga do elétron ($1,6*10^{-19}$ C) **Usar valor em módulo!**
 - d e l = dimensões da chapa
 - v = velocidade do fluxo de elétrons
 
@@ -134,7 +134,7 @@ O que está em vermelho é difícil de medir!
 
 
 
-### $$q*b=m*\frac{v}{R}$$
+### $$q*B=m*\frac{v}{R}$$
 
 ## Período:
 → Tempo que a partícula demora para percorrer a circunferência:

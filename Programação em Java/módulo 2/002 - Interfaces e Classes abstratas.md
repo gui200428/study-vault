@@ -104,12 +104,13 @@ public class Gerente extends Funcionario {
 | Suporte somente constantes do tipo estática.                                                                                                                         | Se você incluir um novo método em uma classe abstrata você tem a opção de fornecer uma implementação padrão para ele.                             |
 | Se você incluir um novo método em uma interface você precisa ajustar todas as implementações dessa interface.                                                        | Se você incluir um novo método em uma classe abstrata, você tem a opção de fornecer uma implementação para ele.                                   |
 
-|**Característica**|**Interface**|**Classe Abstrata**|
-|---|---|---|
-|**Foco**|O que o objeto **FAZ** (Capacidades).|O que o objeto **É** (Identidade).|
-|**Herança**|Uma classe implementa várias (`implements A, B`).|Uma classe estende apenas uma (`extends A`).|
-|**Atributos**|Apenas constantes (`public static final`).|Qualquer tipo de variável de estado.|
-|**Construtor**|Não tem.|Pode ter (para inicializar atributos).|
+| **Característica** | **Interface**                                     | **Classe Abstrata**                          |
+| ------------------ | ------------------------------------------------- | -------------------------------------------- |
+| **Foco**           | O que o objeto **FAZ** (Capacidades).             | O que o objeto **É** (Identidade).           |
+| **Herança**        | Uma classe implementa várias (`implements A, B`). | Uma classe estende apenas uma (`extends A`). |
+| **Atributos**      | Apenas constantes (`public static final`).        | Qualquer tipo de variável de estado.         |
+| **Construtor**     | Não tem.                                          | Pode ter (para inicializar atributos).       |
+|                    |                                                   |                                              |
 
 
 ---
