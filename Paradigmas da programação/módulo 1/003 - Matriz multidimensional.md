@@ -89,7 +89,8 @@ Visualmente, isso gera `[[0, 0, 0], [0, 0, 0], [0, 0, 0]]`. Parece perfeito. Mas
 
 
 ```python
-matriz_errada[0][0] = 9 print(matriz_errada) 
+matriz_errada[0][0] = 9
+print(matriz_errada) 
 # Saída errada: [[9, 0, 0], [9, 0, 0], [9, 0, 0]]
 ```
 

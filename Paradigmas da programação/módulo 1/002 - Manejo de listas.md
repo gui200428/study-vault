@@ -55,7 +55,6 @@ lista.pop(0)
 ```
 
 
-
 #### Função sort
 → Organiza a lista de forma crescente, para todos os tipos de dados.
 

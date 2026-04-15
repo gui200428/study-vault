@@ -92,7 +92,7 @@ t.join()
 
 - Trava de segurança, apenas uma thread pode executar bytecode python por vez.
 
-#### Caso de tarefa I/O Bound (Existe espera para uma açãoser concluida)
+#### Caso de tarefa I/O Bound (Existe espera para uma ação ser concluída)
 
 → Quando uma thread bate em uma operação de I/O, leitura de disco ou de uma página na internet, o python libera o GIL. Isso permite que outra thread comece a rodar e executar sua tarefa.
 
@@ -123,7 +123,7 @@ for url in urls:
     t.start()
 
 for t in threads:
-    t.join() # Aguarda a tropa toda voltar
+    t.join()
 ```
 
 Cria uma lista de threads, uma para cada url, executa elas e depois espera pelo resultado delas.

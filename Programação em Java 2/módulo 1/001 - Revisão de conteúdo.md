@@ -1,4 +1,4 @@
-
+2
 ## Modificadores de Acesso (Encapsulamento)
 
 Servem para definir a **visibilidade** de atributos e métodos, protegendo o código.
@@ -66,7 +66,7 @@ Utiliza-se a palavra-chave **`extends`**. Em Java, uma classe só pode herdar de
 public class Cachorro {
 	protected String nome; // protected: filhos podem acessar direto
 	
-	public Cachorro(String nome) {
+	public cachorro(String nome) {
 		this.nome = nome;
 	}
 
