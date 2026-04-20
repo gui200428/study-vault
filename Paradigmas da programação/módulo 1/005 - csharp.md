@@ -51,6 +51,15 @@ Console.WriteLine($"Erro: {ex.Message}");
 ```
 
 
+### Input do c sharp
+
+```c#
+string a = Console.ReadLine(); // Por padrão aceita só string
+```
+
+```c#
+int num = int.Parse(Console.ReadLine());
+```
 ### Tratamento de exceções: (try-catch)
 
 C# utiliza blocos try/catch para impedir que o programa quebre. Ele serve como tratamento de erros.
