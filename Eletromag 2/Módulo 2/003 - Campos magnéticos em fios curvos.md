@@ -49,5 +49,17 @@ i = corrente
 z = distância do centro da espira até o ponto P **ao longo do eixo**
 
 
-(aula 10 - 1)
+![[Pasted image 20260605174229.png]]
+
+
+---
+
+## Campo magnético em arcos
+
+
+![[Pasted image 20260605174445.png]]
+
+
+![[Pasted image 20260605174459.png]]
+
 

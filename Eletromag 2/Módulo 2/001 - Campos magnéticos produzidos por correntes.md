@@ -122,7 +122,7 @@ Módulo do vetor r:
 
 ### $$\vec{B}=-\frac{\mu_0i}{4\pi x}[\frac{b}{\sqrt{x^2+b^2}}+\frac{a}{\sqrt{x^2+a^2}}]\hat{k}$$
 **Sendo:**
-- a = extensão do fio abaixo da origem (o fio vai até y=−a).
+- a = extensão do fio abaixo da origem (o fio vai até y=−a). (NUNCA RECEBE o sinal independente da posição do plano.)
 - b = extensão do fio acima da origem (o fio vai até y=+b).
 - i = corrente.
 - x = distancia perpendicular do fio até o ponto. ($\vec{r}_p$ seguindo o desenho)
