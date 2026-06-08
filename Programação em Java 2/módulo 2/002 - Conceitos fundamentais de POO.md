@@ -1,29 +1,4 @@
 
-## Modificadores de Acesso (Encapsulamento)
-
-Servem para definir a **visibilidade** de atributos e métodos, protegendo o código.
-
-| Modificador     | Visibilidade | Descrição                                                                           |
-| :-------------- | :----------- | :---------------------------------------------------------------------------------- |
-| **`public`**    | Global       | Acessível por qualquer classe, em qualquer lugar do projeto.                        |
-| **`protected`** | Hereditária  | Acessível pela própria classe, classes do mesmo pacote e subclasses (herança).      |
-| **`default`**   | Pacote       | (Quando não se escreve nada). Acessível apenas por classes do mesmo pacote.         |
-| **`private`**   | Restrita     | Acessível **apenas** dentro da própria classe. Nem as subclasses têm acesso direto. |
-
-
-**Declarações:**
-
-```java
-public decimal limiteCredito;
-private String nome;
-protected int valor;
-//default
-double preco;
-```
-
-
----
-
 ## Encapsulamento
 
 Serve para ocultar e proteger o estado interno de um objeto. Tem a função de impedir que os dados sejam modificados diretamente fora da classe.
@@ -143,11 +118,13 @@ public void aumentarLimite(String nome, int limite, int clienteID) {
 ```
 
 
-### Instanciação de objetos:
 
-Serve para materializar o conceito. A classe é apenas uma "planta" ou um molde. A palavra reservada `new` aloca um espaço na memória e cria o objeto real para ser operado no sistema.
+### Abstração
+Oculta detalhes internos.
 
 ```java
-// No arquivo Main.java
-Person p = new Person();
+abstract class Veiculo {
+	abstract void mover();
+}
 ```
+
