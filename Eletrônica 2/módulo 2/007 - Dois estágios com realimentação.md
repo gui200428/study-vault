@@ -4,7 +4,7 @@
 
 ### Ganho de tensão:
 
-### $$A_v= \frac{r_f}{r_e}$$
+### $$A_v= \frac{r_f}{r_e} + 1$$
 
 **Obs: rf e re são resistores físicos.**
 
