@@ -297,3 +297,89 @@ A ideia central do slide é exatamente essa:
 
 ![[Pasted image 20260915035532.png]]
 
+### Meio compartilhado e subcamada MAC
+Quando vários dispositivos usam o **mesmo meio de transmissão**, pode acontecer de dois ou mais tentarem transmitir ao mesmo tempo.
+Isso pode gerar **colisões** ou disputa pelo canal.
+A subcamada **MAC (Media Access Control)** é responsável por organizar esse acesso.
+
+Ela define regras para decidir:
+- **quem pode transmitir**;
+- **quando pode transmitir**;
+- o que fazer quando vários dispositivos querem usar o meio ao mesmo tempo.
+
+> **MAC = controla o acesso ao meio compartilhado.**
+
+
+## 12. CSMA/CD
+
+**CSMA/CD (Carrier Sense Multiple Access with Collision Detection)** é um método de controle de acesso usado em redes Ethernet compartilhadas antigas.
+
+A ideia é:
+1. **escuta o meio** antes de transmitir;
+2. se o canal estiver livre, transmite;
+3. se detectar uma colisão, interrompe a transmissão;
+4. espera um tempo aleatório;
+5. tenta novamente.
+
+### Carrier Sense
+
+Antes de falar, o dispositivo verifica se alguém já está usando o meio.
+
+> **“escuta antes de transmitir.”**
+
+### Collision Detection
+
+Enquanto transmite, o dispositivo continua monitorando o meio.
+
+Se perceber que outro dispositivo transmitiu ao mesmo tempo, detecta a colisão.
+
+### Recuo exponencial — Backoff
+
+Depois de uma colisão, os dispositivos não tentam novamente imediatamente.
+
+Cada um espera um intervalo aleatório antes de retransmitir.
+
+Se as colisões continuarem acontecendo, o intervalo possível de espera aumenta.
+
+> **CSMA/CD = escuta → transmite → detecta colisão → espera → tenta de novo.**
+
+### Importante
+
+Isso está associado principalmente ao **Ethernet compartilhado e half-duplex**.
+
+Nas redes Ethernet modernas com **switches e full-duplex**, normalmente não existem colisões desse tipo e o CSMA/CD praticamente deixou de ser necessário.
+
+
+## 13. CSMA/CA
+
+**CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)** tenta **evitar colisões antes que elas aconteçam**.
+
+Em redes sem fio, detectar uma colisão enquanto transmite é bem mais difícil do que em cabo. Por isso, a estratégia muda.
+
+O funcionamento básico é:
+
+1. o dispositivo escuta o meio;
+2. se estiver ocupado, espera;
+3. quando o canal parece livre, aguarda um tempo aleatório;
+4. se continuar livre, transmite;
+5. o receptor pode confirmar o recebimento com um **ACK**.
+
+> **CSMA/CA = escuta → espera → tenta evitar colisão → transmite.**
+
+### Por que usar espera aleatória?
+
+Se vários dispositivos percebessem o canal livre ao mesmo tempo, todos poderiam transmitir juntos.
+
+Então cada um espera um intervalo aleatório diferente antes de tentar.
+
+Isso reduz a chance de colisão.
+
+### Diferença principal
+
+**CSMA/CD:** detecta colisão depois que ela acontece.  
+**CSMA/CA:** tenta evitar a colisão antes da transmissão.
+
+> **CD = Collision Detection**  
+> **CA = Collision Avoidance**
+
+
