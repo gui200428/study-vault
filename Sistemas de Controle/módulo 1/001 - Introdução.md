@@ -227,3 +227,26 @@ Polo (X) = -5
 
 **Interpretação:** o zero \(s=-2\) e o polo \(s=-5\) pertencem ao sistema \(G(s)\). Ao aplicar uma entrada degrau \(R(s)=1/s\), surge também um polo em \(s=0\) na expressão da saída \(C(s)\). O polo \(s=-5\) produz o termo transitório \(e^{-5t}\), que desaparece ao longo do tempo.
 
+
+### Polos da entrada x polos do sistema
+
+**Ao analisar a saída C(s):**
+
+→ Os polos provenientes da entrada geram a resposta forçada.
+→ Para uma entrada degrau, o polo em s = 0 gera a parte constante da resposta, associada ao regime permanente.
+
+→ Os polos provenientes do sistema geram a resposta natural.
+→ A resposta natural corresponde à resposta transitória e desaparece ao longo do tempo em sistemas estáveis.
+
+**Resumindo:**
+
+Polo da entrada → resposta forçada → regime permanente
+Polos do sistema → resposta natural → resposta transitória
+
+
+
+## Frações parciais:
+
+![[Pasted image 20260917144119.png]]
+
+![[Pasted image 20260917144201.png]]

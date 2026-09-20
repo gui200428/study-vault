@@ -85,6 +85,8 @@
 
 ## Multiprogramação esconde a espera de E/S.
 
+Técnica de sistema operacional que permite manter vários programas na memória principal ao mesmo tempo para que eles compartilhe os recursos de uma única CPU.
+
 - Enquanto um job espera, outro job pode usar a CPU.
 ![[Pasted image 20260910154616.png]]
 
