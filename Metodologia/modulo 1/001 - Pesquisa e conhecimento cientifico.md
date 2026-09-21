@@ -16,12 +16,9 @@
 ## Pesquisa qualitativa x quantitativa
 
 ### Qualitativa:
-- objetiva, trabalha com números e análises estatísticas.
-
-### Quantitativa:
 - busca compreender fenômenos de maneira interpretativa e mais subjetiva.
-
-
+### Quantitativa:
+- objetiva, trabalha com números e análises estatísticas.
 ### Dedução:
 - parte de ideias/teorias gerais para analisar casos particulares.
 - parte de fatos particulares para chegar a conclusões mais gerais.
