@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "release": "ba412bc2cdca053d158586937cf6857cc22fb2e5",
+  "generatedAt": "2026-09-22T04:19:28.401Z",
+  "files": [
+    {
+      "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Análise e Proj de Sistemas 2/módulo 1/002 - Diagrama de classes.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 1/001 - Arquitetura e funcionamento dos microprocessadores 8086 e 8088 - parte 1.md",
+      "lastModified": "2026-03-22T13:00:14-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 1/002 - Arquitetura e funcionamento dos microprocessadores 8086 e 8088 - parte 2.md",
+      "lastModified": "2026-03-23T18:00:08-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 1/003 - Modos de endereçamento e conjunto de instruções.md",
+      "lastModified": "2026-03-28T19:15:57-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 1/004 - Microcódigo, microprogramação e ciclos de máquina.md",
+      "lastModified": "2026-03-28T19:15:57-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 2/Aula 6 - Relatório.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 2/Aula 7 - Relatório.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 2/Aula 8 - Relatório.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 2/módulo 2/Aula 9 - Relatório.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/002 - Computadores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/003 - Barramentos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/004 - Portas lógicas.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/005 - Circuitos sequenciais.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 2/001 - Memórias - Definição e Organização.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 2/002 - Memórias - Lógica de seleção e mapeamento.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 2/003 - Dispositivos IO - Conceitos e polling.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 2/004 - Dispositivos de IO - Interrupção e DMA.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/001 - Tipos de entidade e atributos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/002 - Projeto do banco de dados.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/003 Sintaxe SQL das aulas de lab.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/Anotações/Atividade Banco de dados - João.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/Docs/Atividade.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/Docs/Projeto biblioteca.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Banco de dados/módulo 2/Trabalho - Revisão para a prova.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/001 Funções de várias variáveis.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/002 Limite com x e y.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/003 Continuidade de uma função.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/004 Derivadas parciais.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/005 Vetor gradiente.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/006 Plano tangente.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 3/Formulario.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Calc dif int/módulo 4/anotações.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/001 Interpolação polinomial.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/002 Fórmula interpolatória de Lagrange.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/003 Polinômio Interpolador de Newton.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/004 Interpolação linear.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/005 Interpolação inversa.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/006 Cálculo do erro na Interpolação.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 2/Resumo.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 3/001 - Regra do trapézio.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 3/002 - Simpson um terço.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 3/003 - Simpson três oitavos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Cálculo numérico/módulo 3/004 - Erros.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Circuitos elétricos/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Circuitos elétricos/módulo 2/001 - Capacitores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Circuitos elétricos/módulo 2/002 - Indutores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Circuitos elétricos/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Circuitos elétricos/módulo 3/001 - Circuitos de primeira e segunda ordem.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 1/001 - Fundamentos do magnetismo.md",
+      "lastModified": "2026-03-28T19:15:57-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 1/002 - Fundamentos do magnetismo - parte 2.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 1/003 - Força magnética sobre correntes.md",
+      "lastModified": "2026-03-28T19:15:57-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 1/004 - Torque sobre espiras.md",
+      "lastModified": "2026-03-28T19:15:57-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 2/001 - Campos magnéticos produzidos por correntes.md",
+      "lastModified": "2026-06-09T12:23:43-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 2/002 - Campos magnéticos produzidos por correntes.md",
+      "lastModified": "2026-05-29T00:54:23-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 2/003 - Campos magnéticos em fios curvos.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 2/004 - Campo em uma bobina.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletromag 2/Módulo 2/005 - Campo magnético.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 1/001 - Lei de Coulomb.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 1/002 - Campo Elétrico (E).md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 1/003 - Densidade de cargas.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 2/001 - Revisando campo.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 2/002 - Campo em distribuição de cargas contínua.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 2/003 - Linhas de campo elétrico.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 2/004 - Fluxo de campo elétrico (Φ).md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletromag/módulo 2/005 - Lei de Gauss.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 1/001 - Semicondutores.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 1/002 - Polarização de diodos.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 1/003 - Portas lógicas com diodos.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 1/004 - Circuitos retificadores.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 2/001 - Diodo Zener.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 2/002 - Leds.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 1/módulo 2/003 - Fotodiodos.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 1/001 - Transistores de junção bipolar.md",
+      "lastModified": "2026-03-17T00:28:46-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 1/002 - Correntes no Transistor.md",
+      "lastModified": "2026-03-17T00:28:46-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 1/003 - Conexão emissor comum (EC).md",
+      "lastModified": "2026-03-17T00:28:46-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 1/004 - Curvas do Coletor.md",
+      "lastModified": "2026-03-17T00:28:46-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 1/005 - Aproximações para o transistor.md",
+      "lastModified": "2026-03-17T00:28:46-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/001 - Amplificador com polarização do emissor.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/002 - Beta CA e Resistencia interna CA do diodo emissor.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/003 - Modelos de transistores.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/004 - Ganho de tensão.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/005 - Impedância de entrada.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/006 - Amplificador estagio em cascata.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/007 - Dois estágios com realimentação.md",
+      "lastModified": "2026-06-09T21:46:10-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/008 - Amplificador coletor comum (CC).md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/009 - Teorema de Tevenin.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/010 - Impedância de saída.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/011 - EC em cascata com CC.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/Arquivo/001 - Modelos CA - Capacitor de acoplamento.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eletrônica 2/módulo 2/Arquivo/002 - Amplificador com polarização da base.md",
+      "lastModified": "2026-06-06T19:56:11-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/001 - Introdução.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/002 - Crise do software.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/003 - Modelos de Processos de Software.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/004 - Modelos Evolutivos.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/005 - Modelos formais e concorrentes.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 1/006 - Modelo de Desenvolvimento Baseado em Componente.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 1/Formulários.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 2/001 - Probabilidade geral.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 2/002 - Teoremas.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 2/Exercícios.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 2/Formulário - Exercícios.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 3/001 - Distribuição binomial.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 3/002 -  Distribuição de Poisson.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 3/003 - Distribuição Normal.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estatística/módulo 3/Exercicios.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 1/001 - Tabela hash.md",
+      "lastModified": "2026-04-20T00:17:50-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 1/002 - Tabela hash - colisões.md",
+      "lastModified": "2026-04-20T00:17:50-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 1/003 - Árvores.md",
+      "lastModified": "2026-04-20T00:17:50-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 1/004 - Árvores B+.md",
+      "lastModified": "2026-04-20T00:17:50-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 2/000- Trabalho.md",
+      "lastModified": "2026-06-07T12:45:49-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 2/001 - Heap.md",
+      "lastModified": "2026-06-07T12:45:49-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 2/002 - Heapsort.md",
+      "lastModified": "2026-06-07T12:45:49-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 2/003 - Grafos.md",
+      "lastModified": "2026-06-07T12:45:49-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados 2/módulo 2/004 - Algoritmos - Prim Kruskal e Dijkstra.md",
+      "lastModified": "2026-06-07T22:29:28-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados/módulo 1/001 - Árvores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados avançados/módulo 2/001 - Árvores binárias.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 2/001 - Listas duplamente encadeadas.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 2/002 - Pilha.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 2/Docs/Palíndromo.md",
+      "lastModified": "2025-04-12T16:57:40-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 2/Docs/Projeto pilha dinâmica V2.md",
+      "lastModified": "2025-04-12T16:57:40-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 3/001 - Fila.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Estrutura de dados/módulo 3/002 - Recursividade.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/001 - Introdução.md",
+      "lastModified": "2026-03-07T20:13:53-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/002 - Conceitos basicos.md",
+      "lastModified": "2026-03-07T20:13:53-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/003 - Conceitos PT02.md",
+      "lastModified": "2026-03-09T00:27:53-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/004 - Pressão e manometria.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/005 - Cinemática dos fluidos.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/006 - Equação da conservação de massa.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Fenômenos de Transporte/módulo 1/P001 - Prova.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Física experimental 3/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física experimental 3/Prova/001 - Calor específico de um sólido.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física experimental 3/Prova/002 - Princípio de Arquimedes.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física experimental 3/Prova/003 - Dilatação de Sólidos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física experimental 3/Relatórios/001 - Calor específico de um sólido.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física/módulo 2/001 - Termodinâmica.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Física/módulo 2/002 - Calorimetria.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Física/módulo 2/003 - Trocas de calor com mudança de estado.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Física/módulo 2/004 - Teoria cinética dos Gases.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Física/módulo 2/Exercícios.md",
+      "lastModified": "2025-04-19T11:51:44-03:00"
+    },
+    {
+      "path": "Física/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Física/módulo 3/001 - Movimento circular uniforme (M.C.U).md",
+      "lastModified": "2025-05-26T14:18:00-03:00"
+    },
+    {
+      "path": "Física/módulo 3/002 - Movimento harmônico simples (M.H.S).md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Lógica matemática/Módulo 2/001 - Diagramas lógicos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Lógica matemática/Módulo 2/002 - Paradoxo de hursel.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Lógica matemática/Módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Lógica matemática/Módulo 3/001 - Principio da casa de pombos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Lógica matemática/Módulo 3/002 - Permutação e Combinação.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Mecânica geral/módulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Mecânica geral/módulo 2/Formulário - aplicado.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Mecânica geral/módulo 2/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Mecânica geral/módulo 3/001 - Treliças.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/001 - Pesquisa e conhecimento cientifico.md",
+      "lastModified": "2026-09-21T13:40:56-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/002 - Metodologia.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/003 - Método.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/004 - Universo, amostra e sujeitos da pesquisa.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/005 - Citações - ABNT 10520.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Metodologia/modulo 1/006 - Referencias - NBR 6023.md",
+      "lastModified": "2026-09-21T01:47:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 1/001 - EDO - Solução analítica.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 1/002 - EDO - Solução analítica.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 2/001 - Função transferência e transformada de laplace.md",
+      "lastModified": "2026-05-29T00:54:23-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 2/002 - Transformada de laplace.md",
+      "lastModified": "2026-05-29T00:54:23-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 2/003 - Frações parciais com polos repetidos.md",
+      "lastModified": "2026-05-29T00:54:23-03:00"
+    },
+    {
+      "path": "Modelos dinamicos 2/módulo 2/004 - Frações parciais com polos complexos.md",
+      "lastModified": "2026-05-29T00:54:23-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 1/001 - Teoria inicial.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 1/002 - Modelagem de um sistema.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 1/003 - Diagrama de blocos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 1/004 - Modelagem.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 1/Exercicios/AT 001.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Modelos dinamicos/módulo 2/001 - Modelagem com circuitos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Paradigmas da programação/módulo 1/001 - Repetição, padrões e formatação em Python.md",
+      "lastModified": "2026-04-12T19:14:44-03:00"
+    },
+    {
+      "path": "Paradigmas da programação/módulo 1/002 - Manejo de listas.md",
+      "lastModified": "2026-04-15T16:48:20-03:00"
+    },
+    {
+      "path": "Paradigmas da programação/módulo 1/003 - Matriz multidimensional.md",
+      "lastModified": "2026-04-15T16:48:20-03:00"
+    },
+    {
+      "path": "Paradigmas da programação/módulo 1/004 - Threads em python.md",
+      "lastModified": "2026-04-15T16:48:20-03:00"
+    },
+    {
+      "path": "Paradigmas da programação/módulo 1/005 - csharp.md",
+      "lastModified": "2026-04-20T00:17:50-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 1/001 - Revisão de conteúdo.md",
+      "lastModified": "2026-06-08T17:13:35-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 1/002 - Tratamento de exceção.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 1/003 - Introdução a API.md",
+      "lastModified": "2026-04-12T19:14:44-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 2/001 - Spring Boot.md",
+      "lastModified": "2026-06-08T17:13:35-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 2/002 - Conceitos fundamentais de POO.md",
+      "lastModified": "2026-06-08T17:13:35-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 2/003 - APIS REST.md",
+      "lastModified": "2026-06-08T17:13:35-03:00"
+    },
+    {
+      "path": "Programação em Java 2/módulo 2/004 - Consumo de APIs - APIs que consultam outras APIs.md",
+      "lastModified": "2026-06-08T17:13:35-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/001 - Comandos basicos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/002 - Operadores.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/003 - Estruturas de decisão.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/004 - Estruturas de decisão.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/005 - Estruturas de repetição.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 1/006 - Array.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 2/001 - Classes e Objetos.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Programação em Java/módulo 2/002 - Interfaces e Classes abstratas.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "README.md",
+      "lastModified": null
+    },
+    {
+      "path": "Resistencia dos materiais/modulo 1/Formulário.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Resistencia dos materiais/modulo 2/001 - Tensões.md",
+      "lastModified": "2026-03-12T11:29:08-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 1/001 - Números complexos.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 1/002 - Transformada Z e ROC.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 1/003 - Transformada inversa de Z.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 1/004 - Causalidade e Estabilidade.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 1/005 - Equações de diferenças e diagrama de blocos.md",
+      "lastModified": "2026-04-12T13:03:39-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 2/001 - Teorema da Amostragem, aliasing e reconstrução.md",
+      "lastModified": "2026-05-19T20:18:34-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 2/002 - Análise de Fourier de sinais amostrados - DFT e FFT.md",
+      "lastModified": "2026-05-20T13:07:00-03:00"
+    },
+    {
+      "path": "Sinais e sistemas 2/módulo 2/003 - Filtros FIR e IIR.md",
+      "lastModified": "2026-05-20T16:10:23-03:00"
+    },
+    {
+      "path": "Sinais e sistemas/módulo 1/001 - Definições de sinais.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Sinais e sistemas/módulo 1/002 - Operações com sinais.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Sinais e sistemas/módulo 1/003 - Classificação de sinais.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Sinais e sistemas/módulo 1/004 - Sistemas.md",
+      "lastModified": "2026-01-12T22:16:52-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 1/001 - Introdução.md",
+      "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 1/002 - Sistemas de primeira ordem.md",
+      "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 1/003 - Sistemas de segunda ordem.md",
+      "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 1/004 - Aproximação de sistemas de segunda ordem.md",
+      "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 1/001 - Introdução.md",
+      "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 1/002 - Gerenciamento de processos.md",
+      "lastModified": "2026-09-11T18:28:28-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 1/003 - Threads em Java.md",
+      "lastModified": "2026-09-11T18:28:28-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/001 - Introdução.md",
+      "lastModified": "2026-09-14T19:09:44-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/002 - Anatomia da conexão..md",
+      "lastModified": "2026-09-14T19:09:44-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/003 - Camada física.md",
+      "lastModified": "2026-09-14T19:09:44-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/004 - Física da transmissão digital.md",
+      "lastModified": "2026-09-15T03:55:41-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/005 - Camada de Enlace.md",
+      "lastModified": "2026-09-15T04:33:36-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/006 - Decibel (dB).md",
+      "lastModified": "2026-09-15T04:33:36-03:00"
+    }
+  ]
+}
