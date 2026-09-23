@@ -11,7 +11,7 @@ Segundo **Pressman (2021)**, o software envolve:
 
 Segundo **Sommerville (2011)**, software pode ser entendido como um conjunto de **soluções algorítmicas**, escritas em uma **linguagem de programação** e executadas em uma máquina real.
 
-> **Versão curta:** Software é um **produto lógico** composto por programas, dados e documentação para realizar determinadas funções.
+> **Resumo:** Software é um **produto lógico** composto por programas, dados e documentação para realizar determinadas funções.
 
 **Software = programas + dados + documentação**  
 **Software = produto lógico, não físico**
@@ -46,7 +46,7 @@ Os primeiros computadores, como **ENIAC** e **UNIVAC**, eram grandes, caros e vo
 
 Os programas eram escritos em **linguagens de baixo nível**, muito próximas do hardware, e normalmente feitos para tarefas bastante específicas.
 
-> **Versão curta:** Primeiros softwares = baixo nível + hardware específico + cálculos especializados.
+> **Resumo:** Primeiros softwares = baixo nível + hardware específico + cálculos especializados.
 
 > **1940–50 = máquinas enormes + software especializado**
 
@@ -58,7 +58,7 @@ Sistemas como **MS-DOS** e **Apple DOS** ajudaram nesse processo, enquanto aplic
 
 O **VisiCalc** é citado como um dos primeiros grandes exemplos de planilha eletrônica para computadores pessoais.
 
-> **Versão curta:** PCs popularizaram o software para uso pessoal e comercial.
+> **Resumo:** PCs popularizaram o software para uso pessoal e comercial.
 
 
 PCs = software sai do laboratório → chega ao usuários
@@ -71,7 +71,7 @@ Em vez de depender apenas de comandos de texto, o usuário passou a interagir at
 
 O material destaca a influência do **Xerox PARC** e exemplos como **Apple Lisa, Mac OS e Windows**.
 
-> **Versão curta:** Interfaces gráficas tornaram os computadores mais fáceis e acessíveis.
+> **Resumo:** Interfaces gráficas tornaram os computadores mais fáceis e acessíveis.
 
 
 ### Internet e Software Livre
@@ -82,7 +82,7 @@ Navegadores como **Netscape Navigator** e **Internet Explorer** ajudaram a levar
 
 Nesse período também ganhou força o movimento de **software livre**, com projetos como **GNU** e **Linux**, defendendo liberdades como **usar, estudar, modificar e distribuir software**.
 
-> **Versão curta:** Internet trouxe conectividade; software livre trouxe maior liberdade sobre o código.
+> **Resumo:** Internet trouxe conectividade; software livre trouxe maior liberdade sobre o código.
 
 
 ### Netscape Navigator
@@ -98,7 +98,7 @@ Já a **computação em nuvem** permite armazenar e acessar dados e serviços at
 
 **Exemplos:** Google Drive e Dropbox.
 
-> **Versão curta:** Aplicativos móveis levaram software aos smartphones; a nuvem permitiu acessar dados e serviços pela Internet.
+> **Resumo:** Aplicativos móveis levaram software aos smartphones; a nuvem permitiu acessar dados e serviços pela Internet.
 
 
 ### Tendências atuais e futuras
@@ -108,14 +108,12 @@ A **IA** permite criar sistemas capazes de oferecer automação, assistência e 
 
 Já **AR e VR** permitem experiências mais **interativas e imersivas**.
 
-> **Versão curta:** O software moderno incorpora IA, aprendizado de máquina, AR e VR para criar sistemas mais inteligentes e interativos.
+> **Resumo:** O software moderno incorpora IA, aprendizado de máquina, AR e VR para criar sistemas mais inteligentes e interativos.
 
 
 ## Campos de aplicação do software
 
 Segundo **Pressman (2021)**, existem **7 grandes categorias de software**.
-
-Por enquanto, o slide apresenta a primeira:
 
 ### Software de Sistema
 
@@ -123,7 +121,7 @@ Por enquanto, o slide apresenta a primeira:
 
 **Exemplos:** sistemas operacionais, compiladores, drivers, softwares de rede e componentes de telecomunicações.
 
-> **Versão curta:** Software de sistema fornece suporte e serviços para outros softwares e para o funcionamento do computador.
+> **Resumo:** Software de sistema fornece suporte e serviços para outros softwares e para o funcionamento do computador.
 
 ### Software de Aplicação
 
@@ -133,13 +131,13 @@ Normalmente processam informações para apoiar **operações, atividades comerc
 
 **Exemplo:** sistema financeiro, sistema de vendas ou sistema de gestão empresarial.
 
-> **Versão curta:** Software de aplicação resolve uma necessidade específica do usuário ou negócio.
+> **Resumo:** Software de aplicação resolve uma necessidade específica do usuário ou negócio.
 
 ### Software de Engenharia/Científico
 São softwares voltados para **cálculos, simulações e análises técnicas ou científicas**, geralmente envolvendo grande quantidade de processamento matemático.
 **Exemplos:** meteorologia, análise genética, dinâmica orbital, projetos auxiliados por computador e simulações de engenharia.
 
-> **Versão curta:** Software científico realiza cálculos e análises técnicas complexas.
+> **Resumo:** Software científico realiza cálculos e análises técnicas complexas.
 
 
 ### Software Embarcado
@@ -149,7 +147,7 @@ Pode realizar uma função simples ou controlar partes importantes do sistema.
 
 **Exemplos:** software de um micro-ondas, painel de um automóvel ou sistema de freios.
 
-> **Versão curta:** Software embarcado é integrado ao equipamento para controlar suas funções.
+> **Resumo:** Software embarcado é integrado ao equipamento para controlar suas funções.
 
 
 ### Software para Linha de Produtos
@@ -159,7 +157,7 @@ Em vez de desenvolver tudo novamente, uma base comum pode ser reutilizada e adap
 
 **Exemplo:** uma família de sistemas de controle de estoque adaptada para empresas diferentes.
 
-> **Versão curta:** Linha de produtos reutiliza uma base comum para criar softwares semelhantes.
+> **Resumo:** Linha de produtos reutiliza uma base comum para criar softwares semelhantes.
 
 > **Linha de produtos = mesma base → vários produtos**
 
@@ -169,25 +167,25 @@ São softwares desenvolvidos para ambientes **conectados em rede**, incluindo ap
 
 **Exemplos:** sistemas Web, serviços em nuvem e aplicativos para smartphones.
 
-> **Versão curta:** Aplicações Web/móveis são softwares voltados para redes, navegadores, nuvem ou dispositivos móveis.
+> **Resumo:** Aplicações Web/móveis são softwares voltados para redes, navegadores, nuvem ou dispositivos móveis.
 
 
 ### Software de Inteligência Artificial
 São softwares voltados para problemas complexos que utilizam técnicas como **heurísticas, reconhecimento de padrões e aprendizado de máquina**.
 Essa categoria inclui aplicações como **robótica, tomada de decisão, reconhecimento de imagem e voz, aprendizado de máquina e jogos**.
 
-> **Versão curta:** Software de IA utiliza técnicas inteligentes para resolver problemas complexos.
+> **Resumo:** Software de IA utiliza técnicas inteligentes para resolver problemas complexos.
 
 
-|Categoria|Ideia principal|
-|---|---|
-|**Sistema**|Dá suporte a outros programas/sistema|
-|**Aplicação**|Resolve necessidade específica|
-|**Engenharia/Científico**|Cálculos e análises|
-|**Embarcado**|Integrado a um equipamento|
-|**Linha de produtos**|Base reutilizada em vários produtos|
-|**Web/Móvel**|Rede, navegador, nuvem e dispositivos móveis|
-|**Inteligência Artificial**|Heurísticas, padrões e aprendizado|
+| Categoria                   | Ideia principal                              |
+| --------------------------- | -------------------------------------------- |
+| **Sistema**                 | Dá suporte a outros programas/sistema        |
+| **Aplicação**               | Resolve necessidade específica               |
+| **Engenharia/Científico**   | Cálculos e análises                          |
+| **Embarcado**               | Integrado a um equipamento                   |
+| **Linha de produtos**       | Base reutilizada em vários produtos          |
+| **Web/Móvel**               | Rede, navegador, nuvem e dispositivos móveis |
+| **Inteligência Artificial** | Heurísticas, padrões e aprendizado           |
 **Sistema = suporta**  
 **Aplicação = resolve**  
 **Científico = calcula**  
