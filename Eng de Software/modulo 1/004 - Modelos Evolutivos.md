@@ -13,7 +13,7 @@ Entre suas principais vantagens estão:
 - identificar e solucionar problemas durante a evolução do sistema;
 - antecipar o treinamento dos usuários.
 
-> **Versão curta:** Modelos Evolutivos constroem o software gradualmente, utilizando versões anteriores para orientar sua evolução.
+> **Resumo:** Modelos Evolutivos constroem o software gradualmente, utilizando versões anteriores para orientar sua evolução.
 
 **Evolutivo = desenvolver + avaliar + evoluir**
 
@@ -77,7 +77,7 @@ A ideia principal é que cada incremento entregue uma parte **funcional do siste
 
 Cada incremento passa pelo ciclo de desenvolvimento necessário para produzir uma versão funcional.
 
-O material representa esse processo envolvendo atividades como:
+Processo envolvendo atividades:
 
 **Requisitos → Análise → Projeto → Implementação → Testes → Implantação**
 
@@ -97,7 +97,7 @@ Uma implementação inicial é apresentada aos usuários, recebe comentários e 
 
 Existe, portanto, um **feedback rápido** entre as atividades.
 
-O material destaca que o desenvolvimento incremental é uma parte importante das **abordagens ágeis**, principalmente em sistemas de negócios, e-commerce e sistemas pessoais.
+O desenvolvimento incremental é uma parte importante das **abordagens ágeis**, principalmente em sistemas de negócios, e-commerce e sistemas pessoais.
 
 ---
 
@@ -136,12 +136,12 @@ O modelo é especialmente aplicável quando os requisitos podem ser **particiona
 
 # Tipos de Incrementos
 
-O material apresenta três tipos de incrementos:
+Tipos de incrementos:
 
-| Tipo | Característica |
-| --- | --- |
-| Evolutivo | A versão anterior é aproveitada e aperfeiçoada |
-| Descartável | O produto daquela etapa é descartado e outro é criado |
+| Tipo        | Característica                                                           |
+| ----------- | ------------------------------------------------------------------------ |
+| Evolutivo   | A versão anterior é aproveitada e aperfeiçoada                           |
+| Descartável | O produto daquela etapa é descartado e outro é criado                    |
 | Operacional | Protótipos esclarecem requisitos enquanto o produto final é desenvolvido |
 
 ### Evolutivos
@@ -168,12 +168,12 @@ Um exemplo apresentado é o desenvolvimento de um **processador de texto**.
 
 As funcionalidades poderiam ser entregues da seguinte maneira:
 
-| Release | Funcionalidades |
-| --- | --- |
-| 1º | Arquivos, edição e produção de documentos |
-| 2º | Recursos mais sofisticados de edição |
-| 3º | Verificação sintática e gramatical |
-| 4º | Recursos avançados de disposição de página |
+| Release | Funcionalidades                            |
+| ------- | ------------------------------------------ |
+| 1º      | Arquivos, edição e produção de documentos  |
+| 2º      | Recursos mais sofisticados de edição       |
+| 3º      | Verificação sintática e gramatical         |
+| 4º      | Recursos avançados de disposição de página |
 
 Cada release amplia as capacidades existentes até formar o produto completo.
 
@@ -206,7 +206,7 @@ Por exemplo:
 - outra pode trabalhar os **requisitos**;
 - outra pode tratar do **projeto do sistema**.
 
-> **Versão curta:** O Modelo Espiral desenvolve o sistema em ciclos, utilizando a análise de riscos para decidir como o projeto deve continuar.
+> **Resumo:** O Modelo Espiral desenvolve o sistema em ciclos, utilizando a análise de riscos para decidir como o projeto deve continuar.
 
 **Espiral = ciclos + riscos**
 
@@ -263,7 +263,7 @@ Depois da análise dos riscos, é escolhido um modelo de desenvolvimento adequad
 
 O próprio Modelo Espiral pode utilizar outros modelos dentro de seus ciclos.
 
-O material apresenta como exemplo a possibilidade de utilizar o **Modelo Cascata** quando determinado risco estiver relacionado à integração de subsistemas.
+Exemplo: possibilidade de utilizar o **Modelo Cascata** quando determinado risco estiver relacionado à integração de subsistemas.
 
 ---
 
@@ -402,7 +402,7 @@ O protótipo permite compreender melhor o sistema antes que o produto final seja
 
 Uma de suas principais funções é auxiliar na **identificação e validação dos requisitos**.
 
-> **Versão curta:** Prototipação cria uma versão preliminar do sistema para compreender e validar melhor os requisitos.
+> **Resumo:** Prototipação cria uma versão preliminar do sistema para compreender e validar melhor os requisitos.
 
 **Protótipo = experimentar antes de construir o produto final**
 
