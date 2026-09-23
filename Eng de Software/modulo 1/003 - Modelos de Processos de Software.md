@@ -43,7 +43,7 @@ A ideia é semelhante à água descendo uma cascata: o desenvolvimento segue pre
 
 Sua estrutura linear torna o processo relativamente simples de administrar e permite estabelecer prazos e acompanhar o progresso do projeto. Em contrapartida, essa mesma estrutura torna o modelo **pouco flexível para mudanças**.
 
-> **Versão curta:** O Modelo Cascata organiza o desenvolvimento em fases sequenciais, concluindo uma etapa antes de avançar para a seguinte.
+> **Resumo:** O Modelo Cascata organiza o desenvolvimento em fases sequenciais, concluindo uma etapa antes de avançar para a seguinte.
 
 **Cascata = sequencial + previsível**
 
@@ -51,7 +51,7 @@ Sua estrutura linear torna o processo relativamente simples de administrar e per
 
 # Fases do Modelo Cascata
 
-Segundo a organização apresentada no material, o Modelo Cascata possui as seguintes fases principais:
+O Modelo Cascata possui as seguintes fases principais:
 
 1. **Análise e definição de requisitos**
 2. **Projeto de sistema e software**
@@ -59,7 +59,7 @@ Segundo a organização apresentada no material, o Modelo Cascata possui as segu
 4. **Integração e teste do sistema**
 5. **Operação e manutenção**
 
-O material também representa esse fluxo de maneira mais detalhada como:
+**Detalhamento:**
 
 **Levantamento de requisitos → Planejamento → Modelagem → Desenvolvimento → Teste → Implantação → Manutenção**
 
@@ -246,7 +246,7 @@ A baseline representa um **conjunto fixo de documentos produzidos como resultado
 
 Ela serve como uma referência oficial para acompanhar o desenvolvimento do projeto.
 
-> **Versão curta:** Baseline é uma referência fixa e documentada do estado do projeto em determinado momento.
+> **Resumo:** Baseline é uma referência fixa e documentada do estado do projeto em determinado momento.
 
 **Baseline = referência oficial**
 
@@ -256,7 +256,7 @@ Ela serve como uma referência oficial para acompanhar o desenvolvimento do proj
 
 O Cascata é mais apropriado quando os requisitos estão **bem definidos e sofrem poucas alterações**.
 
-Entre as desvantagens apresentadas estão:
+Desvantagens:
 
 - dificuldade de acomodar mudanças nos requisitos;
 - pouco ou nenhum feedback natural entre as fases;
@@ -265,12 +265,10 @@ Entre as desvantagens apresentadas estão:
 - atrasos em uma etapa podem afetar todo o restante do projeto;
 - dependência de requisitos relativamente estáveis;
 - pouca flexibilidade;
-- dificuldade de reutilização, segundo a classificação apresentada no material;
+- dificuldade de reutilização;
 - processo excessivamente sincronizado.
 
-O material também lista como desvantagem que o modelo **“não prevê a manutenção”**, apesar de apresentar anteriormente **Operação e Manutenção** como uma das fases do Cascata.
-
-> **Observação:** há essa diferença dentro do próprio material. Para a prova, mantenha a classificação e a formulação utilizadas pela professora de acordo com o contexto da questão.
+O modelo **“não prevê a manutenção”**, apesar de apresentar anteriormente **Operação e Manutenção** como uma das fases do Cascata.
 
 ---
 
@@ -289,18 +287,18 @@ O material cita especialmente ambientes nos quais documentação, controle e pre
 
 O Cascata e os métodos ágeis possuem abordagens diferentes para organizar o desenvolvimento.
 
-| Aspecto | Modelo Cascata | Métodos Ágeis |
-| --- | --- | --- |
-| Filosofia | Sequencial e preditiva | Iterativa e adaptativa |
-| Estrutura | Fases rígidas e definidas | Ciclos curtos |
-| Flexibilidade | Baixa | Alta |
-| Cliente | Participação mais limitada | Participação contínua |
-| Entregas | Principalmente ao final | Incrementais e frequentes |
-| Riscos | Podem aparecer mais tarde | Tratados continuamente |
-| Documentação | Extensa e formal | Leve e focada no essencial |
-| Mudanças | Difíceis após o início | Adaptadas durante o projeto |
-| Resultado funcional | Aparece mais tarde | Surge desde os primeiros ciclos |
-| Projeto adequado | Requisitos estáveis | Requisitos incertos ou em evolução |
+| Aspecto             | Modelo Cascata             | Métodos Ágeis                      |
+| ------------------- | -------------------------- | ---------------------------------- |
+| Filosofia           | Sequencial e preditiva     | Iterativa e adaptativa             |
+| Estrutura           | Fases rígidas e definidas  | Ciclos curtos                      |
+| Flexibilidade       | Baixa                      | Alta                               |
+| Cliente             | Participação mais limitada | Participação contínua              |
+| Entregas            | Principalmente ao final    | Incrementais e frequentes          |
+| Riscos              | Podem aparecer mais tarde  | Tratados continuamente             |
+| Documentação        | Extensa e formal           | Leve e focada no essencial         |
+| Mudanças            | Difíceis após o início     | Adaptadas durante o projeto        |
+| Resultado funcional | Aparece mais tarde         | Surge desde os primeiros ciclos    |
+| Projeto adequado    | Requisitos estáveis        | Requisitos incertos ou em evolução |
 
 **Cascata = seguir o plano**  
 **Ágil = adaptar o plano**

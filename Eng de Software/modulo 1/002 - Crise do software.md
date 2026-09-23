@@ -158,13 +158,13 @@ Uma mudança realizada durante a definição tende a ser muito mais simples do q
 
 # Fases e Custos
 
-O material também apresenta a seguinte distribuição:
+**Distribuição:**
 
-| Fase | Percentual apresentado | Principais atividades |
-| --- | ---: | --- |
-| Definição | 10% a 15% | Requisitos, viabilidade e planejamento |
-| Desenvolvimento | 15% a 30% | Arquitetura, interface, código, testes e documentação |
-| Manutenção | 60% a 80% | Correções, adaptações, melhorias e novas funções |
+| Fase            | Percentual apresentado | Principais atividades                                 |
+| --------------- | ---------------------: | ----------------------------------------------------- |
+| Definição       |              10% a 15% | Requisitos, viabilidade e planejamento                |
+| Desenvolvimento |              15% a 30% | Arquitetura, interface, código, testes e documentação |
+| Manutenção      |              60% a 80% | Correções, adaptações, melhorias e novas funções      |
 
 A **manutenção** pode representar a maior parcela dos esforços relacionados ao software.
 
@@ -176,7 +176,7 @@ A **manutenção** pode representar a maior parcela dos esforços relacionados a
 
 Colocar o programa em funcionamento não encerra o desenvolvimento.
 
-O material indica que grande parte do esforço relacionado ao software acontece **depois da primeira entrega ao cliente**, principalmente devido à manutenção e evolução do sistema.
+Grande parte do esforço relacionado ao software acontece **depois da primeira entrega ao cliente**, principalmente devido à manutenção e evolução do sistema.
 
 ---
 
@@ -248,7 +248,7 @@ Organizam a forma como métodos e ferramentas são utilizados durante o processo
 
 # Aplicações do Software
 
-O material apresenta diferentes aplicações e categorias de software.
+Diferentes aplicações e categorias de software:
 
 | Categoria | Ideia principal |
 | --- | --- |
