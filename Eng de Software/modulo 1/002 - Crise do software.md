@@ -8,7 +8,7 @@ A falta de **metodologias formais**, ferramentas adequadas e planejamento result
 
 A resposta para esses problemas foi o surgimento da **Engenharia de Software**.
 
-> **Versão curta:** A Crise do Software representa os problemas causados pela dificuldade de desenvolver softwares cada vez mais complexos de forma organizada e previsível.
+> **Resumo:** A Crise do Software representa os problemas causados pela dificuldade de desenvolver softwares cada vez mais complexos de forma organizada e previsível.
 
 ### Principais problemas da Crise do Software
 
@@ -28,7 +28,7 @@ Segundo Pressman, os principais problemas encontrados no desenvolvimento de soft
 
 # Problemas Associados à Crise do Software
 
-Os problemas da crise não estavam relacionados apenas ao código. O material destaca três fatores principais.
+Os problemas da crise não estavam relacionados apenas ao código. Existem três fatores principais:
 
 ## Falhas das Pessoas Responsáveis pelo Desenvolvimento
 
@@ -131,7 +131,7 @@ Uma definição inicial adequada deve detalhar aspectos como:
 
 Uma definição inicial ruim é apontada como uma das principais causas de fracasso no desenvolvimento de software.
 
-> **Versão curta:** Quanto melhor os requisitos forem definidos no início, menor a chance de problemas durante o desenvolvimento.
+> **Resumo:** Quanto melhor os requisitos forem definidos no início, menor a chance de problemas durante o desenvolvimento.
 
 ---
 
@@ -242,7 +242,7 @@ Auxiliam a execução das atividades de desenvolvimento.
 
 Organizam a forma como métodos e ferramentas são utilizados durante o processo.
 
-> **Versão curta:** Engenharia de Software aplica métodos, ferramentas e procedimentos de forma sistemática para desenvolver e manter software com qualidade.
+> **Resumo:** Engenharia de Software aplica métodos, ferramentas e procedimentos de forma sistemática para desenvolver e manter software com qualidade.
 
 ---
 
@@ -348,7 +348,7 @@ Esses sistemas podem apresentar problemas como:
 
 Mesmo apresentando essas dificuldades, muitos sistemas legados continuam executando **funções essenciais para o negócio**, tornando sua substituição difícil.
 
-> **Versão curta:** Software legado é um sistema antigo que continua sendo usado e modificado porque ainda executa funções importantes.
+> **Resumo:** Software legado é um sistema antigo que continua sendo usado e modificado porque ainda executa funções importantes.
 
 **Legado = antigo + ainda necessário**
 

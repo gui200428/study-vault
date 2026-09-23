@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "d0f979d720c35edd9d1e6731b562199310a8b58d",
-  "generatedAt": "2026-09-23T13:20:49.679Z",
+  "release": "0ac516c75ba3b6350da78b5abd8402a8111670d5",
+  "generatedAt": "2026-09-23T13:57:48.116Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -397,7 +397,7 @@
     },
     {
       "path": "Eng de Software/modulo 1/002 - Crise do software.md",
-      "lastModified": "2026-09-21T01:47:52-03:00"
+      "lastModified": "2026-09-23T10:57:17-03:00"
     },
     {
       "path": "Eng de Software/modulo 1/003 - Modelos de Processos de Software.md",
