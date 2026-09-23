@@ -533,3 +533,300 @@ Apesar de aparecerem na mesma aula, os dois modelos possuem objetivos diferentes
 
 **Concorrente = organizar atividades em paralelo**  
 **Formal = provar propriedades matematicamente**
+
+
+## Tabela resumo — 005 — Desenvolvimento Concorrente e Métodos Formais
+
+## Desenvolvimento Concorrente
+
+| Situação / Conceito             | Regra / Ideia principal                                              | Lembrete rápido                    |
+| ------------------------------- | -------------------------------------------------------------------- | ---------------------------------- |
+| **Desenvolvimento Concorrente** | Permite executar diferentes atividades do projeto ao mesmo tempo     | **atividades em paralelo**         |
+| **Outro nome**                  | Engenharia Concorrente                                               | **Concorrente = paralelo**         |
+| **Funcionamento**               | Uma atividade não precisa terminar para outra começar                | **não espera terminar**            |
+| **Condução do processo**        | Depende das necessidades do usuário, decisões da gerência e revisões | **eventos influenciam o processo** |
+| **Estrutura**                   | Várias atividades coexistem e evoluem durante o projeto              | **rede de atividades**             |
+**Concorrente = atividades em paralelo.**
+
+
+| Característica    | Ideia principal                                            | Lembrete rápido        |
+| ----------------- | ---------------------------------------------------------- | ---------------------- |
+| **Paralelismo**   | Várias atividades acontecem simultaneamente                | **ao mesmo tempo**     |
+| **Iteratividade** | Atividades podem ser revistas e modificadas                | **revisar e melhorar** |
+| **Flexibilidade** | Processo se adapta a mudanças nos requisitos e no ambiente | **adaptar**            |
+**Paralelismo = simultâneo**  
+**Iteratividade = revisar**  
+**Flexibilidade = adaptar**
+
+# Estados das atividades
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Atividades**|Podem existir simultaneamente, mas cada uma em um estado diferente|**mesmo tempo, estados diferentes**|
+|**Eventos**|Provocam mudança de estado|**evento → transição**|
+|**Em desenvolvimento**|Atividade está sendo executada|**fazendo**|
+|**Pronto**|Atividade terminou determinada execução|**pronto**|
+|**Em revisão**|Resultado está sendo analisado|**conferindo**|
+|**Revisão completa**|Revisão foi concluída|**revisado**|
+|**Controlado**|Atividade está em situação controlada|**controlado**|
+
+> **Evento → mudança de estado.**
+
+# Concorrente × Sequencial
+
+|Aspecto|Sequencial|Concorrente|
+|---|---|---|
+|**Execução**|Uma etapa depois da outra|Várias atividades ao mesmo tempo|
+|**Dependência**|Maior ordem entre as fases|Atividades podem coexistir|
+|**Visualização**|Fluxo mais linear|Rede de atividades|
+|**Mudança**|Menos flexível|Maior capacidade de adaptação|
+
+**Sequencial = uma etapa depois da outra**  
+**Concorrente = várias atividades coexistindo**
+
+# Desenvolvimento Concorrente × Software Concorrente
+
+|Conceito|Significado|Lembrete rápido|
+|---|---|---|
+|**Desenvolvimento concorrente**|Atividades do **projeto** são executadas em paralelo|**projeto paralelo**|
+|**Software concorrente**|O **sistema** executa várias tarefas simultaneamente|**programa paralelo**|
+
+**Desenvolvimento concorrente = como o software é desenvolvido.**  
+**Software concorrente = como o software executa tarefas.**
+
+# Vantagens do Desenvolvimento Concorrente
+
+|Vantagem|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Menor tempo**|Atividades simultâneas podem reduzir o tempo total|**paralelo = mais rápido**|
+|**Melhoria da qualidade**|Revisões e feedback ajudam a detectar problemas|**problema aparece cedo**|
+|**Colaboração**|Diferentes equipes podem trabalhar juntas|**equipes em paralelo**|
+
+**Concorrência = paralelismo + colaboração + rapidez.**
+
+# Desvantagens do Desenvolvimento Concorrente
+
+|Problema|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Gerenciamento complexo**|Muitas atividades simultâneas precisam ser coordenadas|**mais coisas acontecendo = mais controle**|
+|**Risco de integração**|Componentes paralelos podem entrar em conflito|**juntar pode dar ruim**|
+|**Dependência de ferramentas**|Precisa organizar e sincronizar atividades|**coordenação exige ferramenta**|
+
+# Tecnologias relacionadas à concorrência
+
+|Tecnologia|Uso apresentado|
+|---|---|
+|**Apache Cassandra**|Replicação, particionamento e processamento distribuído|
+|**Google Bigtable**|Processamento paralelo de grandes volumes|
+|**Apache Kafka**|Processamento paralelo de mensagens|
+|**Hadoop**|Processamento distribuído em clusters|
+|**Elasticsearch**|Indexação e buscas paralelas|
+|**Redis**|Leituras e escritas concorrentes|
+|**MongoDB**|Leituras e escritas concorrentes|
+|**Azure Cosmos DB**|Replicação e processamento paralelo|
+|**Amazon DynamoDB**|Leituras e escritas paralelas|
+|**Apache Spark**|Processamento paralelo de grandes conjuntos de dados|
+
+# Exemplos de Sistemas Concorrentes
+
+|Sistema|Operações simultâneas|
+|---|---|
+|**Netflix**|Streaming + recomendações + usuários|
+|**Uber**|Corridas + rotas + preços + motoristas|
+|**Spotify**|Streaming + recomendações + playlists|
+|**Amazon**|Pedidos + estoque + pagamento + recomendações|
+|**Google Maps**|Rotas + trânsito + localização|
+
+
+# Métodos Formais
+
+| Situação / Conceito | Regra / Ideia principal                                                         | Lembrete rápido          |
+| ------------------- | ------------------------------------------------------------------------------- | ------------------------ |
+| **Métodos Formais** | Utilizam matemática e lógica para especificar, desenvolver e verificar sistemas | **matemática + lógica**  |
+| **Objetivo**        | Produzir uma descrição precisa e verificar propriedades do sistema              | **especificar + provar** |
+| **Uso principal**   | Sistemas em que erros podem causar consequências graves                         | **alto risco**           |
+| **Áreas citadas**   | Aeronáutica, medicina, segurança e finanças                                     | **sistemas críticos**    |
+**Método Formal = especificação matemática + verificação.**
+
+
+# Especificação Formal
+
+|Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Especificação formal**|Modelo matemático criado antes da implementação|**modelo antes do código**|
+|**Linguagem**|Utiliza notação matemática|**formal = matemática**|
+|**Análise**|Permite analisar e provar propriedades|**provar antes de implementar**|
+|**Transformação**|Requisito informal é convertido em uma descrição formal|**informal → formal**|
+
+# Verificação × Validação
+
+|Conceito|O que faz|Lembrete rápido|
+|---|---|---|
+|**Verificação**|Utiliza provas matemáticas para verificar propriedades|**PROVAR**|
+|**Análise**|Avalia desempenho e estratégias possíveis|**ANALISAR**|
+|**Validação**|Pode usar simulações para avaliar a solução|**COMPORTAMENTO**|
+|**Implementação**|Produz software de acordo com a especificação|**transformar em programa**|
+
+**Verificação = provar propriedades**  
+**Validação = avaliar comportamento**
+
+
+# Processo dos Métodos Formais
+
+|Ordem|Etapa|
+|---|---|
+|**1**|Definição dos requisitos|
+|**2**|Especificação formal|
+|**3**|Transformações formais|
+|**4**|Programa executável|
+|**5**|Integração e testes|
+
+Requisitos → Especificação formal → Transformações → Programa → Testes
+
+
+# Preservação da Correção
+
+|Conceito|Regra / Ideia|Lembrete rápido|
+|---|---|---|
+|**Transformações formais**|Cada transformação precisa preservar as propriedades anteriores|**não perder a correção**|
+|**Refinamento**|A representação fica progressivamente mais próxima do programa|**refinar até virar código**|
+|**Resultado**|Programa final permanece de acordo com a especificação inicial|**especificação → programa correto**|
+
+## Cleanroom
+|Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Cleanroom**|Exemplo de desenvolvimento baseado em Métodos Formais|**IBM**|
+|**Desenvolvimento**|Incremental|**em etapas**|
+|**Correção**|Cada estágio é demonstrado correto em relação ao anterior|**correção preservada**|
+Cleanroom = incremental + demonstração de correção.
+
+# Vantagens dos Métodos Formais
+
+|Vantagem|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Precisão**|Matemática reduz ambiguidades|**menos ambiguidade**|
+|**Confiabilidade**|Permite verificar propriedades rigorosamente|**mais confiança**|
+|**Segurança**|Problemas podem ser encontrados antes da implementação|**erro encontrado cedo**|
+
+Formal = precisão + confiabilidade + segurança.
+
+
+# Desvantagens dos Métodos Formais
+
+|Problema|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Complexidade**|Exige matemática e lógica|**precisa conhecimento especializado**|
+|**Custo inicial**|Especificação e provas exigem mais esforço|**mais caro no começo**|
+|**Adoção limitada**|Nem todo projeto necessita desse rigor|**nem tudo precisa disso**|
+|**Profissionais especializados**|Poucos desenvolvedores dominam as técnicas|**treinamento**|
+|**Interface difícil de formalizar**|Nem todos os aspectos são fáceis de representar matematicamente|**UI é complicada de formalizar**|
+|**Cliente**|Notação matemática pode ser difícil de compreender|**cliente pode não entender**|
+
+# Quando usar Métodos Formais
+
+| Aplicação                     | Necessidade principal            | Lembrete rápido              |
+| ----------------------------- | -------------------------------- | ---------------------------- |
+| **Sistemas críticos**         | Segurança e confiabilidade       | **falha não pode acontecer** |
+| **Protocolos de comunicação** | Correção e segurança             | **comunicação correta**      |
+| **Sistemas financeiros**      | Precisão e integridade dos dados | **dinheiro exige precisão**  |
+# Métodos de Especificação Formal
+
+|Método|Característica|Lembrete rápido|
+|---|---|---|
+|**Método Z**|Utiliza linguagem formal matemática|**Z = notação formal**|
+|**Gramáticas de Grafos**|Representação visual através de grafos|**grafos = visual**|
+
+# Gramáticas de Grafos
+
+|Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Gramáticas de Grafos**|Representam estados, componentes e transformações|**representação visual**|
+|**Relação**|Relacionadas a Redes de Petri|**concorrência**|
+|**Uso**|Especificação e simulação de sistemas concorrentes|**comportamento do sistema**|
+
+# Notação Z
+
+|Situação / Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Notação Z**|Linguagem de especificação formal|**Z = formal**|
+|**Origem**|Criada originalmente para sistemas sequenciais|**começou sequencial**|
+|**Extensões**|Também podem representar concorrência|**pode representar processos**|
+|**CICS**|Exemplo da IBM usando Notação Z|**Z + IBM**|
+
+# Mitos dos Métodos Formais
+
+| Mito                                   | Realidade                                               | Lembrete rápido                   |
+| -------------------------------------- | ------------------------------------------------------- | --------------------------------- |
+| **“Garantem programa perfeito”**       | Reduzem erros, mas não garantem perfeição               | **formal ≠ perfeito**             |
+| **“Só servem para provar programas”**  | Também ajudam a especificar requisitos                  | **não é só prova**                |
+| **“Só servem para sistemas críticos”** | Outros projetos também podem se beneficiar              | **uso não é exclusivo**           |
+| **“Matemática é impossível”**          | Pode ser aprendida com treinamento                      | **aprendível**                    |
+| **“Sempre aumenta custo”**             | Esforço inicial pode reduzir retrabalho depois          | **gasta antes, economiza depois** |
+| **“Cliente nunca entende”**            | Pode existir documentação paralela em linguagem natural | **matemática + linguagem comum**  |
+| **“Ninguém usa na prática”**           | Existem aplicações reais                                | **é usado de verdade**            |
+
+# Exemplos reais de Métodos Formais
+
+| Sistema                     | Aplicação                          |
+| --------------------------- | ---------------------------------- |
+| **CompCert**                | Verificação formal de compilador C |
+| **Microsoft Hyper-V**       | Hardware e isolamento de VMs       |
+| **AWS S2N**                 | Segurança de implementação TLS     |
+| **Airbus A380**             | Sistemas de controle de voo        |
+| **NASA Mars Rover**         | Software de controle crítico       |
+| **Siemens Rail Automation** | Sinalização ferroviária            |
+| **Fuchsia OS**              | Segurança e correção do kernel     |
+
+# Comparação final — Concorrente × Formal
+
+|Modelo|Foco|Palavra-chave|
+|---|---|---|
+|**Desenvolvimento Concorrente**|Organizar atividades simultaneamente|**PARALELO**|
+|**Métodos Formais**|Especificar e verificar matematicamente|**PROVAR**|
+
+**Concorrente = atividades em paralelo.**
+
+**3 características:**  
+**Paralelismo = simultâneo**  
+**Iteratividade = revisar**  
+**Flexibilidade = adaptar**
+
+**Evento → mudança de estado.**
+
+**Sequencial = um depois do outro.**  
+**Concorrente = vários ao mesmo tempo.**
+
+**Desenvolvimento concorrente = atividades do PROJETO em paralelo.**  
+**Software concorrente = tarefas do SISTEMA em paralelo.**
+
+**Vantagens = rapidez + qualidade + colaboração.**  
+**Desvantagens = gerenciamento + integração + ferramentas.**
+
+---
+
+**Método Formal = matemática + lógica + verificação.**
+
+**Requisito informal → especificação formal.**
+
+**Verificação = PROVAR propriedades.**  
+**Validação = AVALIAR comportamento.**
+
+**Processo:**  
+**Requisitos → Especificação Formal → Transformações → Programa → Testes**
+
+**Cada transformação deve preservar a correção.**
+
+**Cleanroom = incremental + demonstração de correção.**
+
+**Vantagens:**  
+**Precisão + confiabilidade + segurança.**
+
+**Desvantagens:**  
+**Complexidade + custo inicial + especialistas.**
+
+**Gramática de Grafos = representação visual.**  
+**Z = especificação formal.**
+
+
+> **CONCORRENTE = PARALELO**  
+> **FORMAL = MATEMÁTICA / PROVA**

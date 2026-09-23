@@ -193,3 +193,66 @@ Essa categoria inclui aplicações como **robótica, tomada de decisão, reconhe
 **Linha de produtos = reutiliza**  
 **Web/Móvel = conecta**  
 **IA = aprende/decide**
+
+
+| Situação / Conceito                | Regra / Ideia principal                                                                                              | Lembrete rápido                               |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| **Software**                       | Produto **conceitual e lógico** usado para executar determinadas funções                                             | **não é físico**                              |
+| **Composição do software**         | Programas/instruções + estruturas de dados + documentação                                                            | **programas + dados + documentação**          |
+| **Pressman**                       | Software envolve instruções, estruturas de dados e informações descritivas                                           | **programa + dados + docs**                   |
+| **Sommerville**                    | Software pode ser visto como soluções algorítmicas escritas em linguagem de programação e executadas por uma máquina | **algoritmo → linguagem → máquina**           |
+| **Software na Eng. de Software**   | Inclui código **e artefatos** necessários para desenvolver, testar, entender e manter o sistema                      | **não é só código**                           |
+| **Artefatos de software**          | Requisitos, diagramas, planos de teste, manuais etc.                                                                 | **tudo que ajuda a construir/manter**         |
+| **Funcionalidade**                 | Faz corretamente aquilo para que foi criado                                                                          | **faz o que deveria fazer**                   |
+| **Confiabilidade**                 | Funciona de maneira consistente e lida adequadamente com falhas                                                      | **funciona sem surtar**                       |
+| **Usabilidade**                    | É fácil de aprender, entender e utilizar                                                                             | **fácil de usar**                             |
+| **Eficiência**                     | Utiliza adequadamente tempo, memória e processamento                                                                 | **usa bem os recursos**                       |
+| **Manutenibilidade**               | É fácil de corrigir, modificar e melhorar                                                                            | **fácil de alterar**                          |
+| **Portabilidade**                  | Pode funcionar ou ser adaptado para diferentes plataformas                                                           | **roda em ambientes diferentes**              |
+| **Reusabilidade**                  | Componentes podem ser reaproveitados em outros sistemas                                                              | **reaproveitar código/componentes**           |
+| **Escalabilidade**                 | Suporta crescimento de usuários/dados sem grande perda de desempenho                                                 | **cresce sem morrer**                         |
+| **Segurança**                      | Protege sistema e dados contra acessos e alterações não autorizadas                                                  | **protege dados e acesso**                    |
+| **1940–1950**                      | Mainframes, software de baixo nível e aplicações científicas/militares específicas                                   | **máquinas enormes + software especializado** |
+| **ENIAC / UNIVAC**                 | Exemplos dos primeiros grandes computadores                                                                          | **primeiros computadores**                    |
+| **Computadores pessoais**          | Software passou dos ambientes especializados para usuários e empresas                                                | **laboratório → usuário comum**               |
+| **MS-DOS / Apple DOS**             | Sistemas ligados à popularização dos computadores pessoais                                                           | **era dos PCs**                               |
+| **VisiCalc**                       | Um dos primeiros grandes exemplos de planilha eletrônica para PCs                                                    | **planilha dos primeiros PCs**                |
+| **Interfaces gráficas**            | Janelas, ícones e menus facilitaram a interação com computadores                                                     | **GUI = mais fácil de usar**                  |
+| **Xerox PARC**                     | Teve influência importante no desenvolvimento das interfaces gráficas                                                | **influência nas GUIs**                       |
+| **Apple Lisa / Mac OS / Windows**  | Exemplos da popularização de sistemas com interfaces gráficas                                                        | **janelas + ícones + menus**                  |
+| **Internet — anos 1990**           | Trouxe conectividade, comunicação e novas formas de distribuir software                                              | **software conectado**                        |
+| **Netscape Navigator**             | Navegador importante na popularização da Web nos anos 1990                                                           | **Netscape = Web**                            |
+| **Internet Explorer**              | Outro navegador importante na expansão da Web                                                                        | **navegadores popularizaram a Internet**      |
+| **Software livre**                 | Defende liberdade para usar, estudar, modificar e distribuir software                                                | **usar + estudar + modificar + distribuir**   |
+| **GNU / Linux**                    | Exemplos ligados ao movimento de software livre                                                                      | **liberdade sobre o código**                  |
+| **Aplicativos móveis**             | Popularização do software em smartphones e outros dispositivos móveis                                                | **software no bolso**                         |
+| **Computação em nuvem**            | Dados e serviços são armazenados/acessados através da Internet                                                       | **acesso remoto pela Internet**               |
+| **Google Drive / Dropbox**         | Exemplos de serviços baseados em nuvem                                                                               | **dados na nuvem**                            |
+| **IA / Machine Learning**          | Permitem sistemas com automação, assistência, aprendizado e personalização                                           | **software mais inteligente**                 |
+| **AR**                             | Realidade aumentada adiciona elementos digitais ao ambiente real                                                     | **digital + mundo real**                      |
+| **VR**                             | Realidade virtual cria experiências digitais imersivas                                                               | **imersão virtual**                           |
+| **Software de Sistema**            | Dá suporte a outros programas e ao funcionamento do computador                                                       | **SUPORTA**                                   |
+| **Exemplos — Sistema**             | SO, compiladores, drivers, redes e telecomunicações                                                                  | **faz o sistema funcionar**                   |
+| **Software de Aplicação**          | Resolve uma necessidade específica do usuário ou organização                                                         | **RESOLVE**                                   |
+| **Exemplos — Aplicação**           | Sistema financeiro, vendas, gestão empresarial                                                                       | **problema específico**                       |
+| **Software Engenharia/Científico** | Realiza cálculos, simulações e análises técnicas/científicas                                                         | **CALCULA**                                   |
+| **Exemplos — Científico**          | Meteorologia, genética, dinâmica orbital, CAD, simulações                                                            | **matemática + análise**                      |
+| **Software Embarcado**             | Fica integrado a um equipamento e controla suas funções                                                              | **CONTROLA**                                  |
+| **Exemplos — Embarcado**           | Micro-ondas, automóveis, sistema de freios                                                                           | **software dentro do equipamento**            |
+| **Linha de Produtos**              | Usa componentes/base comum para criar vários produtos semelhantes                                                    | **REUTILIZA**                                 |
+| **Exemplo — Linha de Produtos**    | Mesma base de sistema adaptada para várias empresas                                                                  | **uma base → vários produtos**                |
+| **Aplicações Web / Móveis**        | Funcionam em redes, navegadores, nuvem ou dispositivos móveis                                                        | **CONECTA**                                   |
+| **Exemplos — Web/Móvel**           | Sistemas Web, serviços em nuvem e apps para smartphones                                                              | **Internet + dispositivos**                   |
+| **Software de IA**                 | Usa heurísticas, reconhecimento de padrões e aprendizado para problemas complexos                                    | **APRENDE / DECIDE**                          |
+| **Exemplos — IA**                  | Robótica, reconhecimento de voz/imagem, ML, tomada de decisão, jogos                                                 | **comportamento inteligente**                 |
+| **7 categorias de Pressman**       | Sistema, Aplicação, Engenharia/Científico, Embarcado, Linha de Produtos, Web/Móvel e IA                              | **7 categorias**                              |
+
+|Categoria|Palavra-chave|Pergunta mental|
+|---|---|---|
+|**Sistema**|**SUPORTA**|Dá suporte ao computador/outros programas?|
+|**Aplicação**|**RESOLVE**|Resolve uma necessidade específica?|
+|**Engenharia/Científico**|**CALCULA**|Faz cálculos/simulações/análises?|
+|**Embarcado**|**CONTROLA**|Está dentro de um equipamento controlando ele?|
+|**Linha de produtos**|**REUTILIZA**|A mesma base gera vários produtos?|
+|**Web/Móvel**|**CONECTA**|Funciona em rede, Web, nuvem ou celular?|
+|**IA**|**APRENDE/DECIDE**|Usa heurísticas, padrões ou aprendizado?|

@@ -7,7 +7,7 @@ O **Modelo de Desenvolvimento Baseado em Componentes**, também chamado de **CBD
 
 A ideia principal é evitar reconstruir tudo do zero sempre que uma funcionalidade já existe e pode ser reaproveitada.
 
-> **Versão curta:** O sistema é montado pela combinação de componentes reutilizáveis que possuem funções bem definidas.
+> **Resumo:** O sistema é montado pela combinação de componentes reutilizáveis que possuem funções bem definidas.
 
 **Componente = bloco reutilizável de software**
 
@@ -100,7 +100,7 @@ Um **componente de software** é uma unidade:
 
 Ele interage com outros componentes através de **interfaces bem definidas**.
 
-> **Versão curta:** Um componente é uma parte independente do software que executa uma função específica e pode ser integrada a outros componentes.
+> **Resumo:** Um componente é uma parte independente do software que executa uma função específica e pode ser integrada a outros componentes.
 
 **Componente = função específica + interface definida + reutilização**
 
@@ -365,7 +365,7 @@ O material apresenta algumas tecnologias históricas e modernas relacionadas ao 
 
 Ele permite realizar chamadas remotas de operações em objetos distribuídos através de uma rede.
 
-> **Versão curta:** CORBA permite comunicação entre componentes distribuídos, mesmo quando utilizam tecnologias diferentes.
+> **Resumo:** CORBA permite comunicação entre componentes distribuídos, mesmo quando utilizam tecnologias diferentes.
 
 ---
 

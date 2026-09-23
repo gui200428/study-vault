@@ -425,3 +425,142 @@ O acompanhamento constante do funcionamento do software ajuda a identificar padr
 ## Backup
 
 Realizar **backups periódicos** permite recuperar informações importantes caso uma falha provoque perda de dados.
+
+### Tabela resumo
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Crise do Software**|Surgiu nas décadas de **1960–1970** quando a complexidade cresceu mais rápido que a capacidade de desenvolver e manter sistemas|**complexidade > capacidade das equipes**|
+|**Causa da crise**|Falta de metodologias formais, ferramentas adequadas e planejamento|**sem método = atraso + custo + baixa qualidade**|
+|**Resposta à crise**|Surgimento da **Engenharia de Software**|**crise → Engenharia de Software**|
+|**Prazo e custo**|Eram difíceis de estimar corretamente|**estimativas imprecisas**|
+|**Produtividade**|Não acompanhava o aumento da demanda|**demanda > produtividade**|
+|**Qualidade**|Software frequentemente apresentava qualidade inadequada|**qualidade abaixo do esperado**|
+|**Manutenção**|Sistemas existentes eram difíceis e caros de manter|**manutenção problemática**|
+|**Falhas das pessoas**|Gestores sem conhecimento técnico, pouco treinamento e resistência a mudanças|**pessoas/processo também causam problemas**|
+|**Caráter do software**|Software é **lógico**, não físico|**hardware = físico / software = lógico**|
+|**Desgaste do software**|Software não se desgasta fisicamente, mas pode se **deteriorar com alterações**|**não desgasta → deteriora**|
+### Mitos do Software
+
+| Situação / Conceito                                | Regra / Ideia principal                                                                  | Lembrete rápido                    |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| **Mitos do software**                              | Ideias aceitas como verdadeiras, mas que não correspondem à realidade do desenvolvimento | **parece verdade, mas não é**      |
+| **Mitos de gerenciamento**                         | Relacionados à gestão de projeto e equipe                                                | **gestão**                         |
+| **Mitos dos clientes**                             | Relacionados a requisitos e mudanças solicitadas                                         | **requisitos/mudanças**            |
+| **Mitos dos profissionais**                        | Relacionados ao trabalho de desenvolvimento                                              | **desenvolvedores**                |
+| **“Temos um manual, então está tudo certo”**       | Ter padrões documentados não significa que eles são usados, conhecidos ou atualizados    | **ter padrão ≠ aplicar padrão**    |
+| **“Computadores modernos garantem qualidade”**     | Hardware moderno não substitui processos, métodos e conhecimento                         | **máquina boa ≠ software bom**     |
+| **“Projeto atrasado? Coloque mais programadores”** | Novos membros aumentam inicialmente comunicação, treinamento e coordenação               | **mais pessoas ≠ mais velocidade** |
+| **Adicionar pessoas**                              | Pode funcionar, mas precisa ser feito de forma planejada                                 | **planejamento primeiro**          |
+### Mitos dos clientes
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**“Uma definição geral já basta”**|Requisitos iniciais devem detalhar informações importantes do sistema|**ideia vaga ≠ requisito**|
+|**Definição inicial**|Deve considerar domínio da informação, funções, desempenho, interfaces, restrições e validação|**definir antes de desenvolver**|
+|**Requisitos ruins**|Uma definição inicial ruim pode levar ao fracasso do projeto|**requisito ruim → problema depois**|
+|**“Mudanças são fáceis”**|Software é flexível, mas mudanças não são necessariamente simples ou baratas|**flexível ≠ barato de mudar**|
+|**Mudança na definição**|Custo relativo **1x**|**cedo = barato**|
+|**Mudança no desenvolvimento**|Custo relativo **1,5x a 6x**|**já começa a pesar**|
+|**Mudança na manutenção**|Custo relativo **60x a 100x**|**tarde = caríssimo**|
+### Fases e custos
+
+|Fase|Percentual apresentado|Lembrete rápido|
+|---|---|---|
+|**Definição**|**10% a 15%**|requisitos + viabilidade + planejamento|
+|**Desenvolvimento**|**15% a 30%**|arquitetura + código + testes|
+|**Manutenção**|**60% a 80%**|maior parte do esforço|
+### Mitos dos profissionais
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**“Funcionou, acabou”**|Muito trabalho acontece após a primeira entrega|**entrega ≠ fim**|
+|**Depois da entrega**|Manutenção e evolução continuam consumindo esforço|**software continua mudando**|
+|**“Só avalio qualidade quando executar”**|Qualidade pode ser analisada também através de outros artefatos|**qualidade ≠ só execução**|
+|**“Só entregamos o programa”**|Software inclui programa, modelos, documentos, planos e suporte|**software ≠ somente código**|
+|**“Engenharia de Software só cria documentação”**|Seu objetivo é melhorar qualidade, organização e reduzir retrabalho|**qualidade + organização + menos retrabalho**|
+### Engenharia de Software
+
+| Situação / Conceito          | Regra / Ideia principal                                       | Lembrete rápido                 |
+| ---------------------------- | ------------------------------------------------------------- | ------------------------------- |
+| **Engenharia de Software**   | Aplicação de abordagem sistemática, disciplinada e mensurável | **organizar o desenvolvimento** |
+| **Objetivo**                 | Desenvolvimento, operação e manutenção de software            | **todo o ciclo do software**    |
+| **Métodos**                  | Técnicas usadas para projetar e construir software            | **como fazer**                  |
+| **Ferramentas**              | Auxiliam as atividades de desenvolvimento                     | **com o que fazer**             |
+| **Procedimentos**            | Organizam como métodos e ferramentas são utilizados           | **como organizar o uso**        |
+| **3 elementos fundamentais** | Métodos + Ferramentas + Procedimentos                         | **M + F + P**                   |
+### Aplicações do Software
+
+| Categoria                   | Ideia principal                                                      | Lembrete rápido               |
+| --------------------------- | -------------------------------------------------------------------- | ----------------------------- |
+| **Inteligência Artificial** | Resolve problemas com algoritmos não numéricos                       | **IA = problemas complexos**  |
+| **Web**                     | Aplicações executadas/acessadas por navegador                        | **Web = browser**             |
+| **Computação Ubíqua**       | Computação distribuída integrada a diferentes ambientes/dispositivos | **ubíqua = distribuída**      |
+| **Software Aberto**         | Código-fonte disponível para visualização e modificação              | **aberto = código acessível** |
+### Problemas atuais no desenvolvimento
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Gerentes sem conhecimento técnico**|Podem avaliar apenas prazo e entrega sem entender complexidade, arquitetura ou débito técnico|**gestão sem técnica = problema**|
+|**Falta de treinamento**|Tecnologias mudam rápido e saber usar ferramentas não significa dominar fundamentos|**ferramenta moderna ≠ fundamento**|
+|**Resistência a mudanças**|Pode impedir adoção de DevOps, testes automatizados, refatoração e gestão ágil|**“sempre foi assim” = risco**|
+|**Fundamentos**|Continuam importantes mesmo com linguagens, frameworks, nuvem e IA|**tecnologia muda, fundamento fica**|
+### Problemas atuais no desenvolvimento
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Software legado**|Sistema antigo que continua sendo usado e modificado|**antigo + ainda necessário**|
+|**Por que continua existindo?**|Executa funções importantes para o negócio|**difícil substituir**|
+|**Problemas comuns**|Baixa qualidade, pouca documentação, poucos testes e pouco controle de mudanças|**velho + difícil de manter**|
+|**Mudanças em legado**|São feitas para acompanhar requisitos e plataformas atuais|**continua evoluindo**|
+### Falhas de Software
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Falha de software**|Pode afetar serviços, empresas, comunicações e infraestrutura|**falha pode ter impacto real**|
+|**CrowdStrike**|Exemplo do material de atualização que afetou sistemas Windows e vários setores|**atualização defeituosa → impacto global**|
+|**Starlink 2025**|Exemplo apresentado de falha em serviços internos essenciais|**software crítico pode derrubar serviço**|
+|**Erro de código**|Bugs podem causar travamentos ou comportamento inesperado|**bug = erro de código**|
+|**Vulnerabilidade**|Pode permitir acesso indevido a dados ou recursos|**falha de segurança**|
+|**Atualização defeituosa**|Pode introduzir novos erros ou quebrar funções existentes|**update também pode quebrar**|
+|**Conflito de software**|Programas podem interferir uns nos outros|**software × software**|
+|**Falha de hardware**|Não é defeito do software, mas pode afetar sua execução|**hardware pode provocar sintomas no software**|
+### Prevenção e mitigação
+
+| Situação / Conceito  | Regra / Ideia principal                                    | Lembrete rápido                   |
+| -------------------- | ---------------------------------------------------------- | --------------------------------- |
+| **Segurança**        | Manter ferramentas de segurança atualizadas                | **proteger**                      |
+| **Atualizações**     | Corrigem vulnerabilidades e problemas conhecidos           | **corrigir**                      |
+| **Testes rigorosos** | Encontrar problemas antes da disponibilização              | **testar antes = corrigir antes** |
+| **Monitoramento**    | Detectar padrões e problemas antes de interrupções maiores | **observar continuamente**        |
+| **Backup**           | Permite recuperar informações após perda de dados          | **falhou? recuperar**             |
+
+
+**Crise do Software = complexidade crescendo + falta de método → atraso, custo, baixa qualidade e manutenção difícil.**
+
+**Crise → Engenharia de Software.**
+
+**Engenharia de Software = sistemática + disciplinada + mensurável.**
+
+**Engenharia de Software = Métodos + Ferramentas + Procedimentos.**
+
+**Software = lógico → não desgasta fisicamente, mas se deteriora com mudanças.**
+
+**Mitos:**  
+**Gerenciamento = gestão**  
+**Clientes = requisitos/mudanças**  
+**Profissionais = desenvolvimento**
+
+**Mais programadores ≠ projeto automaticamente mais rápido.**
+
+**Mudança cedo = barata → 1x**  
+**Mudança no desenvolvimento = 1,5x–6x**  
+**Mudança na manutenção = 60x–100x**
+
+**Manutenção = 60%–80% do esforço.**
+
+**Legado = antigo + ainda necessário.**
+
+**Falhas = código + segurança + atualização + conflitos + hardware.**
+
+**Prevenção = segurança + atualizar + testar + monitorar + backup.**

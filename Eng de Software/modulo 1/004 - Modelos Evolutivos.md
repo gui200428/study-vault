@@ -654,3 +654,317 @@ Utiliza ciclos curtos e feedback frequente para reduzir riscos relacionados ao d
 **Espiral = analisar riscos**  
 **Prototipação = validar requisitos**  
 **Ágil = entregar e receber feedback rapidamente**
+
+
+
+
+### Tabela resumo
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Modelos Evolutivos**|Software é construído gradualmente e evolui conforme surgem novas informações|**desenvolver + avaliar + evoluir**|
+|**Participação do cliente**|Cliente consegue avaliar versões antes do produto final|**feedback durante o desenvolvimento**|
+|**Funcionamento**|Desenvolvimento acontece em ciclos|**não é linear**|
+|**Iteração**|Permite revisar e melhorar versões anteriores|**faz → avalia → melhora**|
+|**Vantagens**|Antecipar produto, manter comunicação, identificar problemas cedo e antecipar treinamento|**feedback cedo**|
+|**Ciclo típico**|Planejamento → Análise → Projeto → Prototipação → Avaliação|**ciclo de evolução**|
+|**Modelos apresentados**|Espiral e Prototipação|**evolução em ciclos**|
+
+### Iterativo × Incremental
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Modelos Evolutivos**|Software é construído gradualmente e evolui conforme surgem novas informações|**desenvolver + avaliar + evoluir**|
+|**Participação do cliente**|Cliente consegue avaliar versões antes do produto final|**feedback durante o desenvolvimento**|
+|**Funcionamento**|Desenvolvimento acontece em ciclos|**não é linear**|
+|**Iteração**|Permite revisar e melhorar versões anteriores|**faz → avalia → melhora**|
+|**Vantagens**|Antecipar produto, manter comunicação, identificar problemas cedo e antecipar treinamento|**feedback cedo**|
+|**Ciclo típico**|Planejamento → Análise → Projeto → Prototipação → Avaliação|**ciclo de evolução**|
+|**Modelos apresentados**|Espiral e Prototipação|**evolução em ciclos**|
+
+### Modelo Incremental
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Modelo Incremental**|Sistema é dividido em partes entregues separadamente|**software aos poucos**|
+|**Cada incremento**|Entrega uma parte funcional do sistema|**funciona de verdade**|
+|**Nova versão**|Pode adicionar funções e modificar design|**vai aumentando**|
+|**Ciclo de incremento**|Requisitos → Análise → Projeto → Implementação → Testes → Implantação|**mini ciclo completo**|
+|**Resultado**|Cada ciclo produz uma versão funcional|**funciona mesmo incompleto**|
+|**Feedback**|Especificação, desenvolvimento e validação podem se intercalar|**feedback rápido**|
+|**Ágil**|Desenvolvimento incremental é importante em abordagens ágeis|**entregas pequenas e frequentes**|
+
+### Vantagens do Incremental
+
+| Vantagem                     | Ideia principal                                        | Lembrete rápido                      |
+| ---------------------------- | ------------------------------------------------------ | ------------------------------------ |
+| **Entrega antecipada**       | Cliente não precisa esperar o sistema inteiro          | **usa antes de terminar**            |
+| **Prioridade**               | Primeiro incremento contém requisitos mais importantes | **mais importante primeiro**         |
+| **Descoberta de requisitos** | Uso das versões ajuda a descobrir novas necessidades   | **cliente aprende usando**           |
+| **Menor risco**              | Menor chance de fracasso completo                      | **erro fica mais localizado**        |
+| **Feedback**                 | Experiência de uso orienta próximos incrementos        | **versão anterior ensina a próxima** |
+
+### Desvantagens do Incremental
+
+|Problema|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Divisão do sistema**|Nem todo sistema pode ser facilmente dividido|**precisa particionar**|
+|**Integração**|Incrementos diferentes podem ser difíceis de integrar|**juntar pode dar ruim**|
+|**Crescimento de escopo**|Cliente pode pedir funções novas a cada entrega|**escopo cresce**|
+|**Custo**|Novas solicitações podem aumentar custo final|**mais pedidos = mais custo**|
+|**Melhor cenário**|Requisitos relativamente independentes|**requisitos particionáveis**|
+
+### Tipos de Incrementos
+
+|Tipo|Característica|Lembrete rápido|
+|---|---|---|
+|**Evolutivo**|Versão anterior é aproveitada e melhorada|**aproveita**|
+|**Descartável**|Versão é usada para aprender e depois descartada|**usa → aprende → joga fora**|
+|**Operacional**|Protótipos ajudam a esclarecer requisitos enquanto produto final é desenvolvido|**protótipo + produto paralelo**|
+
+### Exemplos do Incremental
+
+| Exemplo                  | Como funciona                                                | Lembrete rápido                     |
+| ------------------------ | ------------------------------------------------------------ | ----------------------------------- |
+| **Processador de texto** | Funções são adicionadas release após release                 | **cada release aumenta capacidade** |
+| **ERP**                  | Financeiro, RH, estoque e vendas podem ser módulos separados | **módulos independentes**           |
+| **Web / Mobile**         | Cadastro/login primeiro; pagamento, chat etc. depois         | **MVP → novas funções**             |
+
+## Modelo Espiral
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Modelo Espiral**|Criado por **Boehm em 1988**|**Boehm + 1988**|
+|**Característica principal**|Modelo orientado a riscos|**RISCO é o centro**|
+|**Funcionamento**|Desenvolvimento ocorre em voltas/ciclos|**cada volta = fase**|
+|**Sequência**|Não possui uma sequência fixa de fases|**ciclo depende da necessidade**|
+|**Objetivo**|Usar análise de riscos para decidir como continuar|**analisar antes de avançar**|
+
+**Espiral = ciclos + riscos.**
+
+### Riscos no Espiral
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Risco explícito**|Riscos são analisados formalmente em todos os ciclos|**risco sempre presente**|
+|**Gerenciamento de riscos**|Acontece continuamente|**identificar → reduzir**|
+|**Alternativas**|São avaliadas de acordo com objetivos e riscos|**comparar opções**|
+|**Como estudar riscos**|Análise, protótipo, simulação e coleta de informações|**investigar o risco**|
+|**Objetivo do ciclo**|Minimizar ou eliminar riscos antes de continuar|**reduzir risco → avançar**|
+
+### 4 etapas do Modelo Espiral
+
+|Etapa|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**1. Definição de objetivos**|Define objetivos, restrições, riscos e alternativas|**o que queremos?**|
+|**2. Avaliação e redução de riscos**|Analisa e tenta reduzir os riscos encontrados|**o que pode dar errado?**|
+|**3. Desenvolvimento e validação**|Escolhe e aplica um modelo adequado|**construir/testar**|
+|**4. Planejamento**|Decide se haverá novo ciclo e planeja a próxima volta|**próxima volta**|
+
+**Objetivos → Riscos → Desenvolvimento → Planejamento → novo ciclo**
+
+
+### Atividades do Espiral
+
+|Atividade|Função|Lembrete rápido|
+|---|---|---|
+|**Comunicação com cliente**|Manter contato cliente ↔ desenvolvedor|**conversar**|
+|**Planejamento**|Recursos, tempo e informações|**organizar**|
+|**Engenharia**|Criar soluções e representações|**projetar**|
+|**Construção e release**|Construção, testes, instalação, documentação, treinamento e suporte|**entregar**|
+|**Avaliação do cliente**|Cliente avalia e gera feedback|**avaliar → novo ciclo**|
+
+### Vantagens do Espiral
+
+|Vantagem|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Gerenciamento de riscos**|Riscos são tratados continuamente|**principal vantagem**|
+|**Projetos complexos**|Adequado para projetos grandes e complexos|**grande + arriscado**|
+|**Flexibilidade**|Mudanças podem entrar nos ciclos|**aceita mudança**|
+|**Participação do cliente**|Cliente acompanha versões antes do final|**feedback constante**|
+
+**Espiral = alto controle de riscos + maior flexibilidade.**
+
+
+### Desvantagens do Espiral
+
+|Problema|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Complexidade**|Mais complexo que outros modelos|**difícil gerenciar**|
+|**Custo**|Pode ser caro|**ruim para projeto pequeno**|
+|**Dependência de especialistas**|Precisa de boa análise de riscos|**risco mal analisado = problema**|
+|**Tempo difícil de prever**|Número de ciclos pode ser desconhecido|**quantas voltas? ninguém sabe**|
+
+### Quando usar Espiral
+
+| Tipo de sistema           | Motivo                                        | Lembrete rápido        |
+| ------------------------- | --------------------------------------------- | ---------------------- |
+| **Hospitalar**            | Validação, testes e conformidade              | **risco alto**         |
+| **Governamental**         | Muitos stakeholders e requisitos variáveis    | **muita complexidade** |
+| **Aeroespacial / Defesa** | Segurança, confiabilidade e hardware complexo | **risco crítico**      |
+> **Espiral = projetos grandes + complexos + alto risco.**
+
+
+# Prototipação
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Prototipação**|Cria uma representação preliminar do software|**versão antes da versão**|
+|**Objetivo principal**|Compreender e validar requisitos|**descobrir o que realmente precisa**|
+|**Protótipo**|Permite experimentar antes do produto final|**testar ideia**|
+|**Quando usar**|Quando objetivos gerais são conhecidos, mas detalhes ainda não|**requisito nebuloso**|
+|**Cliente**|Ajuda cliente e desenvolvedor a descobrir requisitos|**ver ajuda a entender**|
+
+## Processo de Prototipação
+
+|Ordem|Etapa|
+|---|---|
+|**1**|Coleta e refinamento de requisitos|
+|**2**|Projeto rápido|
+|**3**|Construção do protótipo|
+|**4**|Avaliação pelo cliente|
+|**5**|Refinamento do protótipo|
+|**6**|Engenharia do produto final|
+
+**Construir → avaliar → refinar.**
+
+
+## Vantagens da Prototipação
+
+|Vantagem|Lembrete rápido|
+|---|---|
+|Requisitos podem estar incompletos no início|**descobrir depois**|
+|Facilita compreensão do sistema|**usuário consegue visualizar**|
+|Maior envolvimento do usuário|**feedback**|
+|Valida funcionalidades e interfaces|**testa antes de construir**|
+|Permite testar ambiente e tecnologias|**experimentar cedo**|
+|Ajuda a avaliar desempenho e banco de dados|**validar comportamento**|
+
+## Desvantagens da Prototipação
+
+| Problema                      | Ideia principal                                          | Lembrete rápido                             |
+| ----------------------------- | -------------------------------------------------------- | ------------------------------------------- |
+| **Começar cedo demais**       | Pode faltar análise suficiente do problema               | **protótipo sem entender problema**         |
+| **Funções desnecessárias**    | Alterações sucessivas podem adicionar coisas inadequadas | **escopo maluco**                           |
+| **Expectativa do cliente**    | Cliente pode achar que produto está quase pronto         | **“já tá funcionando, termina amanhã né?” * |
+| **Mudanças parecem fáceis**   | Protótipo pode dar impressão falsa de simplicidade       | **protótipo engana**                        |
+| **Protótipo ≠ produto final** | Pode faltar robustez e preparação para produção          | **funcionar ≠ estar pronto**                |
+
+## Formas de Prototipação
+
+|Tipo|Característica|Lembrete rápido|
+|---|---|---|
+|**Descartável**|Feito para aprender/avaliar e depois descartado|**faz → aprende → joga fora**|
+|**Algumas funções**|Implementa apenas partes específicas|**testa só uma parte**|
+|**Evolucionária**|Protótipo é refinado até evoluir junto com o sistema|**protótipo cresce**|
+
+## Fidelidade dos Protótipos
+
+| Fidelidade | Característica                                 | Lembrete rápido          |
+| ---------- | ---------------------------------------------- | ------------------------ |
+| **Baixa**  | Representação simples e rápida                 | **estrutura**            |
+| **Média**  | Visual próximo do produto final                | **aparência**            |
+| **Alta**   | Interface e interação próximas do sistema real | **experiência realista** |
+
+## Baixa Fidelidade — Wireframe
+
+|Situação|Regra / Ideia|
+|---|---|
+|**Nome**|Wireframe|
+|**Objetivo**|Representar estrutura e fluxo|
+|**Interação**|Pouca ou nenhuma|
+|**Custo**|Baixo|
+|**Velocidade**|Alta|
+|**Uso**|Explorar ideias e requisitos|
+
+
+## Média Fidelidade — Mockup
+
+| Situação             | Regra / Ideia                             |
+| -------------------- | ----------------------------------------- |
+| **Nome**             | Mockup                                    |
+| **Objetivo**         | Mostrar aparência mais próxima do produto |
+| **Interação**        | Pode ser simulada                         |
+| **Tecnologia final** | Não precisa usar a mesma                  |
+| **Uso**              | Validar telas, elementos e organização    |
+
+## Alta Fidelidade
+
+|Situação|Regra / Ideia|
+|---|---|
+|**Semelhança**|Muito próxima do produto final|
+|**Interação**|Próxima da real|
+|**Tecnologia**|Pode usar tecnologia real do produto|
+|**Custo**|Alto|
+|**Tempo**|Maior|
+|**Conhecimento técnico**|Maior|
+
+## Comparação rápida — fidelidade
+
+|Característica|Baixa|Média|Alta|
+|---|---|---|---|
+|**Semelhança**|Baixa|Média|Alta|
+|**Interação**|Pouca/nenhuma|Simulada|Próxima da real|
+|**Custo**|Baixo|Médio|Alto|
+|**Criação**|Rápida|Média|Mais lenta|
+|**Uso**|Explorar ideias|Validar interface|Simular produto real|
+
+**Wireframe = estrutura**  
+**Mockup = aparência**  
+**Alta fidelidade = experiência próxima do real**
+
+
+# Espiral × Prototipação Evolutiva × Ágil
+
+|Modelo|Foco principal|Lembrete rápido|
+|---|---|---|
+|**Espiral**|Analisa riscos formalmente em todos os ciclos|**ANALISAR RISCOS**|
+|**Prototipação Evolutiva**|Evita requisitos incorretos através da validação|**VALIDAR REQUISITOS**|
+|**Ágil**|Reduz riscos com ciclos curtos e feedback|**ENTREGAR + FEEDBACK**|
+
+**Evolutivo = desenvolver + avaliar + evoluir.**
+
+**Iterativo = repetir e melhorar.**  
+**Incremental = adicionar partes.**
+
+**Incremento = parte FUNCIONAL do produto final.**
+
+**Incremental = entrega cedo + feedback rápido + requisitos particionáveis.**
+
+**Tipos de incremento:**  
+**Evolutivo = aproveita**  
+**Descartável = joga fora**  
+**Operacional = protótipo + produto**
+
+---
+
+**Espiral = Boehm, 1988.**
+
+**Espiral = ciclos + RISCOS.**
+
+**4 etapas:**  
+**Objetivos → Riscos → Desenvolvimento → Planejamento → novo ciclo.**
+
+**Espiral funciona melhor em projeto grande, complexo e arriscado.**
+
+---
+
+**Prototipação = experimentar antes de construir.**
+
+**Processo:**  
+**Requisitos → projeto rápido → protótipo → cliente avalia → refina.**
+
+**Protótipo funcional ≠ produto final pronto.**
+
+**Descartável = joga fora.**  
+**Evolucionário = vai virando o produto.**
+
+**Wireframe = estrutura.**  
+**Mockup = aparência.**  
+**Alta fidelidade = quase real.**
+
+
+**Incremental = entregar partes**  
+**Espiral = controlar riscos**  
+**Prototipação = validar requisitos**  
+**Ágil = feedback rápido**

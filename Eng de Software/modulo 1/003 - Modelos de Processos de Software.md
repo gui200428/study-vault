@@ -439,3 +439,206 @@ Jogos mobile, multiplayer e plataformas interativas podem utilizar iterações r
 
 **Cascata = estabilidade e previsibilidade**  
 **Ágil = mudança e adaptação**
+
+
+### Tabela resumo 
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Desenvolvimento Clássico/Genérico**|Especificação e desenvolvimento acontecem em fases separadas|**fases separadas**|
+|**Exemplos — Clássico**|Cascata e Espiral|**modelo tradicional**|
+|**Desenvolvimento Evolutivo**|Especificação e desenvolvimento acontecem de forma interligada|**especifica + desenvolve junto**|
+|**Desenvolvimento Formal**|Parte de um modelo matemático formal que é transformado até chegar à implementação|**modelo matemático → implementação**|
+
+### Modelo Cascata
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Modelo Cascata / Waterfall**|Modelo sequencial com fases bem definidas|**sequencial**|
+|**Funcionamento**|Uma etapa é concluída antes de avançar para a próxima|**termina → avança**|
+|**Direção do processo**|Predominantemente linear|**vai pra frente**|
+|**Vantagem estrutural**|Facilita planejamento, cronogramas e acompanhamento|**organizado + previsível**|
+|**Principal limitação**|Pouca flexibilidade para mudanças|**mudança = problema**|
+|**Quando funciona melhor**|Quando requisitos são conhecidos e estáveis|**requisito estável = Cascata**|
+
+### Fases do Modelo Cascata
+|Fase|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**1. Requisitos**|Identificar necessidades do cliente e usuários|**o que fazer**|
+|**2. Planejamento**|Definir escopo, cronograma, recursos e tecnologias|**organizar o projeto**|
+|**3. Projeto / Modelagem**|Definir arquitetura, dados e estrutura do software|**como fazer**|
+|**4. Implementação**|Codificar o sistema|**programar**|
+|**5. Teste unitário**|Testar cada componente individualmente|**peça isolada**|
+|**6. Integração / teste de sistema**|Testar os componentes trabalhando juntos|**sistema completo**|
+|**7. Implantação**|Disponibilizar o sistema para uso|**colocar em produção**|
+|**8. Operação e manutenção**|Corrigir, adaptar e evoluir depois da entrega|**manter funcionando**|
+
+### Requisitos × Projeto
+
+|Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Requisitos**|Definem aquilo que o sistema precisa fazer|**O QUE**|
+|**Projeto / Modelagem**|Define como o sistema será construído|**COMO**|
+|**Levantamento de requisitos**|Pode usar entrevistas, documentação e análise de viabilidade|**entender a necessidade**|
+|**Planejamento**|Define escopo, cronograma, recursos e tecnologia|**organizar execução**|
+
+### Testes
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Teste unitário**|Testa unidades ou componentes individualmente|**isolado**|
+|**Teste de integração**|Testa componentes funcionando em conjunto|**juntos**|
+|**Teste funcional**|Verifica funções do sistema|**faz o que deveria?**|
+|**Correção de bugs**|Problemas encontrados são corrigidos antes da entrega|**achar → corrigir**|
+
+### Funcionamento sequencial do Cascata
+
+|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Dependência entre fases**|Cada fase depende da conclusão da anterior|**uma depois da outra**|
+|**Cronogramas**|São facilitados por etapas bem delimitadas|**fácil acompanhar**|
+|**Documentação**|Cada etapa tende a gerar registros/documentos|**processo documentado**|
+|**Mudança tardia**|Pode exigir retorno a etapas já concluídas|**gera retrabalho**|
+|**Entrega funcional**|Normalmente aparece mais perto do fim|**cliente espera mais**|
+|**Distância cliente-desenvolvedor**|Pode ser maior durante o processo|**menos feedback contínuo**|
+
+### Problemas do Modelo Cascata
+
+|Situação / Problema|Regra / Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Projetos reais não são totalmente lineares**|Projetos frequentemente exigem revisões e alterações|**vida real não é reta**|
+|**Mudanças**|Não são naturais no Cascata|**mudou? complicou**|
+|**Requisitos incompletos**|Cliente pode não conhecer tudo no início|**incerteza = problema**|
+|**Produto executável tardio**|Cliente vê o sistema funcionando só mais tarde|**feedback demora**|
+|**Erro descoberto tarde**|Pode exigir grande retrabalho|**erro tarde = caro**|
+|**Atraso em uma fase**|Pode impactar todas as etapas seguintes|**efeito dominó**|
+|**Pouca flexibilidade**|Difícil reorganizar etapas concluídas|**rígido**|
+
+### Vantagens do Cascata
+
+|Vantagem|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Estrutura simples**|Fases claras e organizadas|**fácil entender**|
+|**Previsibilidade**|Facilita planejamento de prazos e etapas|**planejável**|
+|**Documentação**|Produz documentação formal ao longo do projeto|**tudo registrado**|
+|**Controle**|Facilita acompanhamento e pontos de controle|**gestão fácil**|
+|**Grandes projetos**|Pode facilitar coordenação entre equipes em diferentes locais|**coordenação por plano**|
+
+### Baseline
+
+|Conceito|Ideia principal|Lembrete rápido|
+|---|---|---|
+|**Baseline**|Conjunto fixo de documentos produzidos ao final de uma fase|**referência oficial**|
+|**Função**|Serve para comparar e acompanhar o estado do projeto|**foto oficial do projeto**|
+|**Uso**|Ajuda no controle e acompanhamento|**ponto de referência**|
+
+### Desvantagens do Cascata
+
+| Desvantagem                           | Lembrete rápido               |
+| ------------------------------------- | ----------------------------- |
+| Mudanças difíceis de acomodar         | **pouca flexibilidade**       |
+| Pouco feedback entre fases            | **fases isoladas**            |
+| Difícil voltar para etapas anteriores | **retorno complicado**        |
+| Entrega funcional demora              | **produto aparece tarde**     |
+| Atrasos afetam o restante             | **efeito cascata mesmo**      |
+| Depende de requisitos estáveis        | **incerteza atrapalha**       |
+| Dificuldade de reutilização           | **reutilização limitada**     |
+| Processo muito sincronizado           | **uma fase depende da outra** |
+
+### Quando usar Cascata
+
+| Situação                            | Adequação         | Lembrete rápido              |
+| ----------------------------------- | ----------------- | ---------------------------- |
+| **Requisitos claros e estáveis**    | Boa               | **Cascata funciona bem**     |
+| **Mudanças frequentes**             | Ruim              | **Cascata sofre**            |
+| **Alta previsibilidade necessária** | Boa               | **controle**                 |
+| **Documentação formal obrigatória** | Boa               | **documentação forte**       |
+| **Setores regulados**               | Pode ser adequado | **auditoria + certificação** |
+
+### Cascata × Métodos Ágeis
+
+|Aspecto|Cascata|Ágil|
+|---|---|---|
+|**Filosofia**|Sequencial e preditiva|Iterativa e adaptativa|
+|**Estrutura**|Fases rígidas|Ciclos curtos|
+|**Flexibilidade**|Baixa|Alta|
+|**Cliente**|Participação mais limitada|Participação contínua|
+|**Entrega**|Principalmente no final|Frequente e incremental|
+|**Mudanças**|Difíceis|Esperadas e adaptadas|
+|**Riscos**|Podem aparecer tarde|Tratados continuamente|
+|**Documentação**|Extensa e formal|Mais leve e essencial|
+|**Resultado funcional**|Aparece tarde|Surge cedo|
+|**Requisitos**|Estáveis|Incertos ou em evolução|
+
+### Cliente e entregas
+
+|Situação|Cascata|Ágil|
+|---|---|---|
+|**Participação do cliente**|Mais forte no início e no final|Contínua|
+|**Feedback**|Menos frequente|Frequente|
+|**Entrega funcional**|Mais tardia|Mais cedo|
+|**Forma de entrega**|Grande entrega ao final|Pequenas entregas frequentes|
+|**Mudança de requisitos**|Difícil|Natural entre ciclos|
+
+### Gestão de riscos e documentação
+
+|Aspecto|Cascata|Ágil|
+|---|---|---|
+|**Riscos**|Alguns podem aparecer apenas mais tarde|Identificados continuamente|
+|**Feedback**|Menos frequente|Frequente|
+|**Documentação**|Extensa e formal|Leve e focada no essencial|
+|**Auditoria**|Facilitada pela documentação|Menos foco em documentação extensa|
+
+### Exemplos de uso do Cascata
+
+|Tipo de sistema|Por que Cascata pode ser usado|Lembrete rápido|
+|---|---|---|
+|**Sistemas embarcados**|Requisitos rígidos e testes extensivos|**controle + segurança**|
+|**Bancários legados**|Estabilidade e segurança|**não pode quebrar**|
+|**Militares / aeroespaciais**|Certificações, auditorias e regulamentações|**regulado**|
+|**Governamentais**|Exigências legais e documentação formal|**burocracia/documentação**|
+|**Infraestrutura crítica**|Segurança e previsibilidade|**risco alto**|
+
+### Exemplos de uso de métodos Ágeis
+
+|Tipo de software|Por que Ágil funciona bem|Lembrete rápido|
+|---|---|---|
+|**Aplicativos móveis**|Mudam conforme feedback|**usuário muda → app muda**|
+|**Web / E-commerce**|Novas funções aparecem constantemente|**evolução contínua**|
+|**Startups**|Precisam testar ideias rapidamente|**MVP + adaptação**|
+|**Sistemas internos**|Precisam de melhorias frequentes|**evolução constante**|
+|**Jogos digitais**|Balanceamento e novas funções contínuas|**itera e ajusta**|
+
+**3 categorias:**  
+**Clássico = separa**  
+**Evolutivo = junta**  
+**Formal = matematiza**
+
+**Cascata = sequencial + previsível + rígido.**
+
+**Fases:**  
+**Requisitos → Planejamento → Projeto → Implementação → Testes → Implantação → Manutenção**
+
+**Requisitos = O QUE**  
+**Projeto = COMO**
+
+**Unitário = componente sozinho**  
+**Integração = componentes juntos**
+
+**Baseline = referência oficial do projeto.**
+
+**Cascata funciona melhor com requisitos estáveis.**
+
+**Mudança frequente = Cascata sofre.**
+
+**Cascata = plano + documentação + previsibilidade.**  
+**Ágil = ciclos curtos + feedback + adaptação.**
+
+**Cascata = entrega tarde.**  
+**Ágil = entrega incremental.**
+
+**Cascata = seguir o plano.**  
+**Ágil = adaptar o plano.**
+
+**Cascata = estabilidade e previsibilidade.**  
+**Ágil = mudança e adaptação.**
