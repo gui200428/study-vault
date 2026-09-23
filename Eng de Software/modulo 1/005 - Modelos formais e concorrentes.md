@@ -7,7 +7,7 @@ O **Modelo de Desenvolvimento Concorrente**, também chamado de **Engenharia Con
 
 Em todas as fases de um projeto podem existir atividades sendo executadas simultaneamente. O processo é conduzido pelas **necessidades do usuário**, pelas **decisões da gerência** e pelos **resultados das revisões**.
 
-> **Versão curta:** No desenvolvimento concorrente, várias atividades do projeto podem acontecer ao mesmo tempo e evoluir de acordo com os eventos do projeto.
+> **Resumo:** No desenvolvimento concorrente, várias atividades do projeto podem acontecer ao mesmo tempo e evoluir de acordo com os eventos do projeto.
 
 **Concorrente = atividades em paralelo**
 
@@ -59,7 +59,7 @@ Assim, o modelo não representa simplesmente uma sequência de fases. Ele repres
 
 **Evento → mudança de estado**
 
-> **Versão curta:** No Modelo Concorrente, cada atividade possui um estado e eventos fazem essas atividades transitarem entre diferentes estados.
+> **Resumo:** No Modelo Concorrente, cada atividade possui um estado e eventos fazem essas atividades transitarem entre diferentes estados.
 
 ---
 
@@ -191,7 +191,7 @@ São especialmente importantes em sistemas onde erros podem provocar consequênc
 - segurança;
 - sistemas financeiros.
 
-> **Versão curta:** Métodos Formais utilizam matemática para especificar e verificar rigorosamente um sistema.
+> **Resumo:** Métodos Formais utilizam matemática para especificar e verificar rigorosamente um sistema.
 
 **Método Formal = especificação matemática + verificação**
 
@@ -267,7 +267,7 @@ Assim, é possível demonstrar que o programa final continua de acordo com a esp
 
 # Cleanroom
 
-Um exemplo apresentado de desenvolvimento baseado em Métodos Formais é o **Cleanroom**, desenvolvido pela IBM.
+Um exemplo apresentado de desenvolvimento baseado em Métodos Formais é o **Cleanroom** desenvolvido pela IBM.
 
 Ele utiliza desenvolvimento incremental, no qual a correção de cada estágio é demonstrada em relação ao estágio anterior.
 
@@ -418,15 +418,15 @@ Nesses ambientes, descobrir determinados erros apenas depois da implantação po
 
 O material apresenta sete ideias comuns sobre Métodos Formais que não representam completamente seu funcionamento.
 
-| Mito | Realidade apresentada |
-| --- | --- |
-| Garantem um programa perfeito | Reduzem classes de erros, mas não garantem perfeição |
-| Servem apenas para provar programas | Também ajudam principalmente na especificação dos requisitos |
-| Só servem para sistemas críticos | Outros projetos também podem se beneficiar de melhores especificações |
-| Utilizam matemática extremamente complexa | A matemática pode ser aprendida com treinamento adequado |
-| Sempre aumentam o custo | Mais esforço inicial pode reduzir problemas e retrabalho posteriores |
-| Clientes não conseguem compreender | Pode-se manter documentação paralela em linguagem natural |
-| Ninguém utiliza na prática | Existem aplicações reais em diversas empresas |
+| Mito                                      | Realidade apresentada                                                 |
+| ----------------------------------------- | --------------------------------------------------------------------- |
+| Garantem um programa perfeito             | Reduzem classes de erros, mas não garantem perfeição                  |
+| Servem apenas para provar programas       | Também ajudam principalmente na especificação dos requisitos          |
+| Só servem para sistemas críticos          | Outros projetos também podem se beneficiar de melhores especificações |
+| Utilizam matemática extremamente complexa | A matemática pode ser aprendida com treinamento adequado              |
+| Sempre aumentam o custo                   | Mais esforço inicial pode reduzir problemas e retrabalho posteriores  |
+| Clientes não conseguem compreender        | Pode-se manter documentação paralela em linguagem natural             |
+| Ninguém utiliza na prática                | Existem aplicações reais em diversas empresas                         |
 
 ---
 
