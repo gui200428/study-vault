@@ -45,7 +45,7 @@ Entre os modelos evolutivos apresentados estão:
 O **Modelo Incremental** constrói e entrega o software em **partes**, chamadas de **incrementos** ou módulos.
 
 Já a característica **iterativa** representa a repetição de ciclos de desenvolvimento, permitindo aproveitar o conhecimento obtido nas versões anteriores.
-
+ 
 Assim, o Modelo Iterativo e Incremental desenvolve o sistema através de **ciclos repetidos** e adiciona novas partes ao software progressivamente.
 
 **Iterativo = repetir e melhorar**  
@@ -672,15 +672,12 @@ Utiliza ciclos curtos e feedback frequente para reduzir riscos relacionados ao d
 
 ### Iterativo × Incremental
 
-|Situação / Conceito|Regra / Ideia principal|Lembrete rápido|
-|---|---|---|
-|**Modelos Evolutivos**|Software é construído gradualmente e evolui conforme surgem novas informações|**desenvolver + avaliar + evoluir**|
-|**Participação do cliente**|Cliente consegue avaliar versões antes do produto final|**feedback durante o desenvolvimento**|
-|**Funcionamento**|Desenvolvimento acontece em ciclos|**não é linear**|
-|**Iteração**|Permite revisar e melhorar versões anteriores|**faz → avalia → melhora**|
-|**Vantagens**|Antecipar produto, manter comunicação, identificar problemas cedo e antecipar treinamento|**feedback cedo**|
-|**Ciclo típico**|Planejamento → Análise → Projeto → Prototipação → Avaliação|**ciclo de evolução**|
-|**Modelos apresentados**|Espiral e Prototipação|**evolução em ciclos**|
+| Conceito                    | Ideia principal                                                  | Lembrete rápido           |
+| --------------------------- | ---------------------------------------------------------------- | ------------------------- |
+| **Iterativo**               | Repete ciclos para melhorar o sistema                            | **REPETIR + MELHORAR**    |
+| **Incremental**             | Adiciona novas partes ao sistema                                 | **ADICIONAR PARTES**      |
+| **Iterativo e Incremental** | Desenvolve em ciclos e adiciona funcionalidades progressivamente | **repete + acrescenta**   |
+| **Incremento**              | Parte funcional do produto final                                 | **não é só demonstração** |
 
 ### Modelo Incremental
 

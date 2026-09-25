@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "8704565667c1ca5049a72a970a63bc69af638e4d",
-  "generatedAt": "2026-09-23T20:05:29.530Z",
+  "release": "7e9e0ee389d758ebf3de32aa5bb9370a82dfe61c",
+  "generatedAt": "2026-09-25T15:37:02.203Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -405,7 +405,7 @@
     },
     {
       "path": "Eng de Software/modulo 1/004 - Modelos Evolutivos.md",
-      "lastModified": "2026-09-23T17:04:56-03:00"
+      "lastModified": "2026-09-25T12:36:10-03:00"
     },
     {
       "path": "Eng de Software/modulo 1/005 - Modelos formais e concorrentes.md",
@@ -925,7 +925,7 @@
     },
     {
       "path": "Teoria da computação/módulo 1/002 - Autômato finito deterministico.md",
-      "lastModified": "2026-09-23T10:20:16-03:00"
+      "lastModified": "2026-09-25T12:36:10-03:00"
     }
   ],
   "assets": [
@@ -1905,6 +1905,7 @@
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260915042409.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260915042522.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923002903.png",
-    "Teoria da computação/módulo 1/Imgs/Pasted image 20260923003015.png"
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260923003015.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260925115240.png"
   ]
 }
