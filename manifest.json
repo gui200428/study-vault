@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "7e9e0ee389d758ebf3de32aa5bb9370a82dfe61c",
-  "generatedAt": "2026-09-25T15:37:02.203Z",
+  "release": "cb9ca4fb80c93812ff3a1961ac552e1c5440e2a1",
+  "generatedAt": "2026-09-26T20:22:51.980Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -925,7 +925,11 @@
     },
     {
       "path": "Teoria da computação/módulo 1/002 - Autômato finito deterministico.md",
-      "lastModified": "2026-09-25T12:36:10-03:00"
+      "lastModified": "2026-09-26T17:22:05-03:00"
+    },
+    {
+      "path": "Teoria da computação/módulo 1/003 - Autômatos Finitos Não Determinísticos.md",
+      "lastModified": "2026-09-26T17:22:05-03:00"
     }
   ],
   "assets": [
@@ -1906,6 +1910,13 @@
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260915042522.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923002903.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923003015.png",
-    "Teoria da computação/módulo 1/Imgs/Pasted image 20260925115240.png"
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260925115240.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926163804.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164149.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164306.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164441.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164600.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164845.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926170051.png"
   ]
 }

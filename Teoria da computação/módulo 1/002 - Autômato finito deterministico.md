@@ -156,3 +156,5 @@ A cadeia terminou em **q1**.
 
 `δ(estado atual, entrada) = próximo estado`
 
+
+
