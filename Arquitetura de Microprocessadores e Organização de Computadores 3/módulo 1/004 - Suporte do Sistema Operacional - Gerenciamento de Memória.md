@@ -1,5 +1,3 @@
-# Suporte do Sistema Operacional - Gerenciamento de Memória
-
 ## Visão geral do gerenciamento de memória
 
 Na **uniprogramação**, a memória principal tem uma parte para o sistema operacional (**monitor residente**) e outra para o programa em execução. Na **multiprogramação**, a parte destinada ao usuário é subdividida para acomodar vários processos. O SO faz essa subdivisão dinamicamente: esse é o **gerenciamento de memória**.
@@ -93,7 +91,7 @@ O esquema compara o **escalonamento de job simples**, com uma fila de longo praz
 
 ## Paginação
 
-**Paginação** divide a memória em unidades de tamanho fixo e permite usar processos sem que estejam completamente carregados na RAM. A aula a apresenta como uma forma de usar a memória com eficiência e segurança.
+**Paginação** é uma técnica de gerenciamento de memória que permite que os processos utilizem a memória de forma eficiente e segura, mesmo que não estejam completamente carregados na memória RAM.
 
 - **Memória virtual:** espaço de endereçamento lógico do processo, que pode ser maior que a memória física disponível.
 - **Página:** unidade fixa da memória virtual; o exemplo da aula é **4 KB**.
