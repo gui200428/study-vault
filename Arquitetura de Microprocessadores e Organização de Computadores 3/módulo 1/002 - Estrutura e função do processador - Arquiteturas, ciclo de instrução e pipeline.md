@@ -4,7 +4,7 @@
 
 ### CISC (*Complex Instruction Set Computer*)
 
-Usa um conjunto de instruções e um hardware mais complexos. Uma instrução pode realizar mais de uma operação e acessar a memória diretamente. A arquitetura x86 e o 8051 aparecem como exemplos na aula.
+Usa um conjunto de instruções e um hardware altamente complexos. Opcode e operando são armazenados em posições diferentes na memória. Uma instrução pode realizar mais de uma operação e acessar a memória diretamente. A arquitetura x86 e o 8051 aparecem como exemplos na aula.
 
 No exemplo do 8051, as instruções têm tamanhos diferentes. O **opcode** indica a operação; o operando ou seu endereço pode ocupar outros bytes:
 
@@ -18,13 +18,31 @@ A tabela de instruções aritméticas do 8051 mostra essa variação. Operaçõe
 
 ![[Pasted image 20260927165431.png]]
 
-**Vantagens:** instruções capazes de fazer mais trabalho podem simplificar o programa, e a compatibilidade permite manter programas feitos para a arquitetura.
+**Vantagens:**
 
-**Desvantagens:** o projeto do processador fica mais complexo, com maior consumo de energia e dissipação de calor. Como as instruções podem durar tempos diferentes, otimizar a velocidade de execução também se torna mais difícil.
+- simplificação dos programas, pois uma instrução pode fazer mais trabalho;
+- compatibilidade com programas feitos para a arquitetura.
+
+**Desvantagens:**
+
+- projeto do processador mais complexo;
+- maior dissipação de calor e consumo de energia;
+- dificuldade para otimizar o desempenho e a velocidade;
+- instruções com durações diferentes.
+
+#### Ciclo de instrução CISC
+
+O diagrama da aula segue esta sequência:
+
+1. Buscar a instrução na memória.
+2. Interpretar a operação a ser realizada.
+3. Buscar os operandos, se houver.
+4. Executar a operação.
+5. Repetir o ciclo.
 
 ### RISC (*Reduced Instruction Set Computer*)
 
-Usa um conjunto de instruções e um hardware mais simples. As instruções são projetadas para realizar uma tarefa por vez e, na apresentação da aula, para execução em um ciclo de clock. O projeto prioriza registradores para reduzir acessos à memória. ARM e PIC16F877 são os exemplos mostrados.
+Usa um conjunto de instruções e um hardware mais simples. Opcode e operando são armazenados na mesma posição na memória. As instruções são projetadas para realizar uma tarefa por vez e, na apresentação da aula, para execução em um ciclo de clock. O projeto prioriza registradores para reduzir acessos à memória. ARM e PIC16F877 são os exemplos mostrados.
 
 Nos formatos do PIC16F877, o opcode e os campos da operação aparecem na mesma palavra de instrução de 14 bits. O formato muda conforme a função:
 
@@ -34,17 +52,34 @@ Nos formatos do PIC16F877, o opcode e os campos da operação aparecem na mesma 
 
 ![[Pasted image 20260927165432.png]]
 
-A tabela do PIC16F877 separa as instruções nesses grupos. Muitas aparecem com um ciclo, enquanto chamadas e desvios como `CALL` e `GOTO` aparecem com dois. Ou seja, o objetivo de simplificar a execução não significa que toda instrução da tabela dure exatamente um ciclo.
+A tabela do PIC16F877 separa as instruções nesses grupos. Muitas aparecem com um ciclo, enquanto chamadas e desvios como `CALL` e `GOTO` aparecem com dois.
+
+Obs: o material apresenta como característica do RISC a execução em um único ciclo de clock, porém essa tabela possui instruções com mais de um ciclo.
 
 ![[Pasted image 20260927165433.png]]
 
-**Vantagens:** desempenho, eficiência energética e possibilidade de escalar o projeto com mais núcleos e frequências de clock maiores.
+**Vantagens:**
 
-**Desvantagens:** programas podem ocupar mais espaço, pois uma tarefa complexa exige mais instruções simples; por isso, a otimização do código ganha importância.
+- desempenho elevado;
+- eficiência energética;
+- escalabilidade, com mais núcleos e frequências de clock maiores.
+
+**Desvantagens:**
+
+- maior tamanho do código, pois uma tarefa complexa exige mais instruções simples;
+- necessidade de otimização do código.
+
+#### Ciclo de instrução RISC
+
+O diagrama da aula mostra:
+
+1. Buscar a instrução na memória.
+2. Interpretar a operação a ser realizada.
+3. Buscar os operandos, se houver.
+
+A seta retorna à busca. O diagrama não mostra uma caixa separada para a execução.
 
 ## Ciclo de instrução e pipeline
-
-No ciclo básico mostrado na aula, o processador busca a instrução, interpreta a operação, busca os operandos quando necessário e executa. Depois, passa à próxima instrução.
 
 **Pipeline:** técnica que sobrepõe no tempo as fases de instruções diferentes. Enquanto uma instrução avança, outra já pode começar. Isso aumenta a quantidade de instruções concluídas ao longo do tempo, mas não diminui o tempo necessário para completar uma instrução isolada.
 
@@ -103,6 +138,9 @@ Quanto mais alto o nível, **menor a capacidade, maior a velocidade e maior o cu
 - **80486 (1989):** pipeline de instruções e unidade de ponto flutuante integrada, mantendo os 32 bits.
 - **Pentium (1993):** duas unidades de execução para processamento paralelo. A linha do tempo associa o Pentium Pro (1995) a múltiplos núcleos e o Pentium MMX (1996) a instruções multimídia.
 - **Pentium II, III e IV (1997 a 2004):** novas instruções e Hyper-Threading.
+
+A aula agrupa os processadores a seguir sob o rótulo **Arquiteturas de 64 bits**.
+
 - **Core (2006):** múltiplos núcleos e novos projetos de microarquitetura. **Core i (2008):** linhas i3, i5 e i7, com melhorias de cache e arquitetura de memória. **Core i9 (2017):** foco em desempenho e maior quantidade de núcleos e threads.
 
 ### Organização interna do 8086
@@ -127,7 +165,7 @@ Famílias mostradas: Cortex-A5/A7/A9, A53, A57/A72, A75/A76/A77 e A78.
 
 Voltado a aplicações de **tempo real** que exigem alta confiabilidade, como sistemas automotivos e dispositivos médicos. A prioridade é responder com baixa latência e tempo previsível.
 
-- memória *Tightly Coupled* (TCM) conectada ao núcleo;
+- memória *Tightly Coupled*, apresentada no material com a sigla **TMC**, conectada ao núcleo;
 - sistema avançado de interrupções;
 - dois núcleos em *lockstep*, executando a mesma instrução;
 - pipeline determinístico, com tempo de execução previsível.
