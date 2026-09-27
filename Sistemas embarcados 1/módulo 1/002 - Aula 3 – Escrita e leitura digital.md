@@ -1,5 +1,3 @@
-# Aula 3 – Escrita e leitura digital
-
 ## Níveis lógicos em circuitos discretos
 
 Em circuitos discretos, diferentes circuitos podem fazer escrita e leitura digital comunicando-se por um **nível lógico no barramento**. Tipicamente:
@@ -53,7 +51,8 @@ Em microcontroladores de arquitetura mais simples, como o **ATmega328P**, a escr
 
 ![[Pasted image 20260927194600.png]]
 
-Em **alta impedância (Z)**, o microcontrolador não impõe tensão ao barramento. É esse o estado usado para efetuar a **leitura digital**. No exemplo de comunicação, um microcontrolador coloca 0 ou 1 no barramento, enquanto os outros dispositivos aparecem em Z e podem receber esse sinal.
+Em **alta impedância (Z)**, o microcontrolador não impõe tensão ao barramento. É esse o estado usado para efetuar a **leitura digital**. Na **comunicação digital entre dispositivos** apresentada na aula, um microcontrolador coloca 0 ou 1 no barramento, enquanto os outros dispositivos aparecem em Z e podem receber esse sinal.
+
 
 ![[Pasted image 20260927194601.png]]
 

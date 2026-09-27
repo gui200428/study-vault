@@ -1,5 +1,3 @@
-# Aula 2 – GPIO
-
 ## Sistema embarcado e microcontrolador
 
 Um **sistema embarcado** reúne hardware e software para executar uma função específica. A aula apresenta o **microcontrolador** como parte de todo sistema embarcado: é um circuito integrado complexo que opera de forma semelhante a um computador.
