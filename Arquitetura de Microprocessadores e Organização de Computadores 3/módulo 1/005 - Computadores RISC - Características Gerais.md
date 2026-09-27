@@ -1,5 +1,3 @@
-# Computadores RISC - Características Gerais
-
 ## Características gerais
 
 A aula apresenta ideias que acompanharam a evolução da organização dos computadores:
@@ -94,7 +92,7 @@ ADD $t3, $t3, $t3
 
 Com os valores do slide, o desvio ocorre: a instrução sobre `$t2`, indicada para valores iguais, é pulada, e a instrução sobre `$t3`, indicada para valores diferentes, é alcançada.
 
-Obs: se os valores fossem iguais, o fluxo também chegaria à instrução após `DIFERENTE`, pois o exemplo não mostra um salto para contorná-la.
+**Obs**: se os valores fossem iguais, o fluxo também chegaria à instrução após `DIFERENTE`, pois o exemplo não mostra um salto para contorná-la.
 
 ### Multiplicação por somas sucessivas
 
@@ -142,11 +140,13 @@ O exemplo usa os cinco estágios **IF, ID, EX, MEM e WB**. No **resumo parcial d
 
 Com **5 estágios**, o material considera que cada instrução leva **5 ciclos** para terminar. Na multiplicação com **B = 4**, conta **4 instruções por iteração** (`BEQ`, `ADD`, `ADDI` e `J`) e **4 iterações**: `4 × 4 = 16` instruções dentro do laço. Somadas às **4 instruções `addi` de inicialização**, são **20 instruções**. `FIM` é um rótulo, não uma instrução.
 
-Obs: o slide menciona “1 instrução final”, mas na mesma linha diz que `FIM` é apenas um rótulo. O total apresentado permanece **20 instruções**.
+**Obs**: o slide menciona “1 instrução final”, mas na mesma linha diz que `FIM` é apenas um rótulo. O total apresentado permanece **20 instruções**.
 
 **Sem pipeline:** `20 instruções × 5 ciclos = 100 ciclos de clock`.
 
-Quando o **pipeline está cheio**, a primeira instrução está em **WB**, a segunda em **MEM**, a terceira em **EX**, a quarta em **ID** e a quinta em **IF**. A primeira termina em **5 ciclos**; cada instrução seguinte termina **um ciclo depois** da anterior. Assim, uma nova instrução pode começar e uma pode terminar a cada ciclo.
+### Pipeline cheio paralelismo máximo
+
+Quando o **pipeline está cheio**, ocorre o **paralelismo máximo**: a primeira instrução está em **WB**, a segunda em **MEM**, a terceira em **EX**, a quarta em **ID** e a quinta em **IF**. A primeira termina em **5 ciclos**; cada instrução seguinte termina **um ciclo depois** da anterior. Assim, uma nova instrução pode começar e uma pode terminar a cada ciclo.
 
 **Com pipeline:**
 
@@ -156,10 +156,10 @@ $$
 
 Usando os números da contagem da aula: **20 + 5 − 1 = 24 ciclos de clock**.
 
-Obs: o slide escreve “para **18 instruções** e 5 estágios”, mas substitui **20** na fórmula e chega a **24 ciclos**, como na contagem do slide anterior.
+**Obs**: o slide escreve “para **18 instruções** e 5 estágios”, mas substitui **20** na fórmula e chega a **24 ciclos**, como na contagem do slide anterior.
 
 O quadro final distribui as **20 instruções** pelos **24 ciclos**. Nele, as primeiras cinco instruções ocupam, em sequência, WB, MEM, EX, ID e IF; depois o término passa a ocorrer a cada ciclo.
 
 ![[Pasted image 20260927184718.png]]
 
-Obs: nesse quadro, o salto aparece como `j x0, loop`, enquanto o código anterior usa `jal x0, loop`. O quadro também termina após o salto da quarta iteração, sem mostrar a nova verificação de `beq` que levaria a `fim`.
+**Obs**: nesse quadro, o salto aparece como `j x0, loop`, enquanto o código anterior usa `jal x0, loop`. O quadro também termina após o salto da quarta iteração, sem mostrar a nova verificação de `beq` que levaria a `fim`.
