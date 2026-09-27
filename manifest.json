@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "d0c91f47592b0a5b640d75db1ca5369fb524b88b",
-  "generatedAt": "2026-09-27T20:56:54.418Z",
+  "release": "6789f48cf86dd04c144681c961d9cd820aecf892",
+  "generatedAt": "2026-09-27T21:04:30.507Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -45,7 +45,7 @@
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/001 - Microcontroladores e microprocessadores.md",
-      "lastModified": "2026-09-27T17:56:17-03:00"
+      "lastModified": "2026-09-27T18:03:35-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/002 - Estrutura e função do processador - Arquiteturas, ciclo de instrução e pipeline.md",

@@ -1,5 +1,3 @@
-# Microcontroladores e microprocessadores
-
 ## O que compõe um computador
 
 Um computador reúne hardware, software e periféricos para executar tarefas. Pode ser usado para uma função específica, como em sistemas embarcados com microcontrolador (µC), ou para tarefas gerais, como em sistemas com sistema operacional e microprocessador (µP).
@@ -34,7 +32,7 @@ No esquema, a CPU contém ULA, registradores e unidade de controle. Ela se comun
 
 ### Ciclo de máquina
 
-É o processo básico para completar uma instrução: **buscar** a instrução, **decodificá-la** e **executá-la**. A quantidade de ciclos necessária para executar instruções é uma das formas de avaliar a velocidade do processador.
+É o processo básico para completar uma instrução: **buscar** a instrução, **decodificá-la** e **executá-la**. A quantidade de ciclos necessária para executar instruções é uma das formas de avaliar a eficiência e a velocidade do processador.
 
 ## Memórias e barramentos
 
