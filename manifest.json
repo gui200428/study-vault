@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "57f997183146caeae6459f47c292dc27ac20c8e8",
-  "generatedAt": "2026-09-27T20:07:00.614Z",
+  "release": "f9b058635d762a26fccd6bfcdb57eaa3f3ee9864",
+  "generatedAt": "2026-09-27T20:24:27.222Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -50,6 +50,10 @@
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/002 - Estrutura e função do processador - Arquiteturas, ciclo de instrução e pipeline.md",
       "lastModified": "2026-09-27T17:06:26-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/003 - Suporte do Sistema Operacional - Escalonamento.md",
+      "lastModified": "2026-09-27T17:23:21-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
@@ -999,6 +1003,8 @@
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927165436.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927165437.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927165438.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927171000.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927171001.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928160336.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162119.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162537.png",
