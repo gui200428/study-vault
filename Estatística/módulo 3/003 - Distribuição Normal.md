@@ -42,4 +42,4 @@ Z ≥ 0 deve olhar para a tabela de distribuição para encontrar o valor da ár
 ---
 ### Próximo conteúdo:
 
-[[Exercicios]]
+[[Faculdade/Disciplinas/Estatística/módulo 3/Exercicios]]

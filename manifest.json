@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "cb9ca4fb80c93812ff3a1961ac552e1c5440e2a1",
-  "generatedAt": "2026-09-26T20:22:51.980Z",
+  "release": "883709599937a793ff1138abd885a7e375680878",
+  "generatedAt": "2026-09-27T03:46:15.975Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -449,7 +449,7 @@
     },
     {
       "path": "Estatística/módulo 3/003 - Distribuição Normal.md",
-      "lastModified": "2026-01-12T22:16:52-03:00"
+      "lastModified": "2026-09-27T00:45:49-03:00"
     },
     {
       "path": "Estatística/módulo 3/Exercicios.md",
@@ -930,6 +930,10 @@
     {
       "path": "Teoria da computação/módulo 1/003 - Autômatos Finitos Não Determinísticos.md",
       "lastModified": "2026-09-26T17:22:05-03:00"
+    },
+    {
+      "path": "Teoria da computação/módulo 1/Exercicios.md",
+      "lastModified": "2026-09-27T00:45:49-03:00"
     }
   ],
   "assets": [
@@ -1917,6 +1921,60 @@
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164441.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164600.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260926164845.png",
-    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926170051.png"
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926170051.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926182928.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926182938.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926182948.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926183754.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926184609.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926185110.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926185134.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926185955.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926190044.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926193956.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926194014.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926194029.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926195414.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926195424.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926201258.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926201331.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926202333.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926202347.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926203216.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926203229.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926203308.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926210216.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926210229.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926211047.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926211106.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926211206.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926211338.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926223559.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926223611.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926223639.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926225344.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926225400.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926225416.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926233043.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926233103.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926233128.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926234407.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926234422.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926234442.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926234912.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926235217.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926235255.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260926235323.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927001649.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927001659.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927001714.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927002922.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927002935.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927003003.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927004013.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927004030.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927004042.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927004303.png",
+    "Teoria da computação/módulo 1/Imgs/Pasted image 20260927004318.png"
   ]
 }
