@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "5a3ad97aac31baecfe1c76e86936d1c50962bd9a",
-  "generatedAt": "2026-09-27T21:40:26.937Z",
+  "release": "7fd5a98949f6fc15506625c40f24ef28e375eaa0",
+  "generatedAt": "2026-09-27T21:51:41.683Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -58,6 +58,10 @@
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/004 - Suporte do Sistema Operacional - Gerenciamento de Memória.md",
       "lastModified": "2026-09-27T18:39:57-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/005 - Computadores RISC - Características Gerais.md",
+      "lastModified": "2026-09-27T18:51:08-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
@@ -1013,6 +1017,7 @@
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927182513.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927182514.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927182515.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927184718.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928160336.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162119.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162537.png",
