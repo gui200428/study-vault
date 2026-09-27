@@ -2,7 +2,7 @@
 
 ## Processos e multiprogramação
 
-Um **processo** é um programa em execução, ou a entidade à qual a CPU é atribuída para executar esse programa. O material usa processo como um termo mais amplo que *job*. Na multiprogramação, vários processos existem ao mesmo tempo e disputam o processador. Como mais de um pode estar **pronto** para executar, o sistema operacional precisa decidir quem recebe a CPU e por quanto tempo.
+Um **processo** é um programa em execução, ou a entidade à qual a CPU é atribuída para executar esse programa. O material também o chama de **“espírito animado” de um programa** e usa processo como um termo mais amplo que *job*. Na multiprogramação, vários processos existem ao mesmo tempo e disputam o processador. Como mais de um pode estar **pronto** para executar, o sistema operacional precisa decidir quem recebe a CPU e por quanto tempo.
 
 O esquema mostra a alternância entre processos: cada um mantém seu próprio ponto de execução, mas a CPU atende um de cada vez ao longo do tempo.
 
@@ -36,7 +36,7 @@ Quando o processo deixa a CPU, o contador de programa e os dados de contexto sã
 
 ## O que é escalonamento
 
-**Escalonamento** (*scheduling*) é a decisão do sistema operacional sobre a ordem de execução de processos ou *threads* (linhas de execução) e a distribuição do tempo de CPU. É o que intermedeia a disputa pelo processador na multiprogramação.
+**Escalonamento** (ou agendamento, *scheduling*) é a decisão do sistema operacional sobre a ordem de execução de processos ou *threads* (linhas de execução) e a distribuição do tempo de CPU. É o que intermedeia a disputa pelo processador na multiprogramação.
 
 A política usada procura manter a interação com o usuário, dividir o processador de forma justa entre processos, threads e usuários, equilibrar a carga e evitar recursos ociosos. Os critérios de justiça e eficiência dependem do algoritmo escolhido.
 
@@ -53,7 +53,7 @@ A aula distingue quatro decisões:
 
 Decide quais processos que aguardam na memória secundária serão **admitidos na memória principal** e colocados na fila de prontos. Assim, controla o **grau de multiprogramação**: a quantidade de processos ativos no sistema.
 
-A seleção acontece antes da disputa direta pela CPU. Pode considerar tipo de processo (interativo ou *batch*), prioridade, tempo estimado de execução e política de uso dos recursos. Admitir processos demais sobrecarrega o sistema; controlar a entrada ajuda a equilibrar desempenho, uso de recursos e resposta às tarefas interativas.
+A seleção acontece antes da disputa direta pela CPU. Pode considerar tipo de processo (interativo ou *batch*), prioridade, tempo estimado de execução e política de uso dos recursos. Admitir processos demais sobrecarrega o sistema, especialmente se não são urgentes; controlar a entrada ajuda a equilibrar desempenho, uso de recursos e resposta às tarefas interativas.
 
 Exemplo: se a interface precisa continuar fluida, o escalonador pode admitir uma tarefa interativa antes de um backup em lote.
 
@@ -73,17 +73,21 @@ A regra é priorizar processos **interativos** e, entre eles, os de **menor temp
 
 ## Escalonamento de médio prazo
 
-Gerencia a movimentação de processos entre a **RAM** e a memória secundária (*swap*). Pode suspender um processo pronto ou bloqueado que não precise executar imediatamente e reativá-lo quando houver recursos.
+Gerencia a movimentação de processos entre a **RAM** e a memória secundária (*swap*). Atua como **intermediário entre o escalonamento de longo e curto prazo**, com foco na eficiência do uso da RAM. No material, o escalonamento de médio prazo também aparece denominado como **despachante**. Pode suspender um processo pronto ou bloqueado que não precise executar imediatamente e reativá-lo quando houver recursos.
 
-Isso libera memória para processos mais urgentes e reduz a carga do sistema. É útil quando há processos demais na RAM, quando algum está bloqueado por tempo indeterminado (por exemplo, esperando E/S) ou quando é preciso abrir espaço para outro de maior prioridade.
+Seus objetivos são:
 
-Também ajuda a evitar **thrashing**: a situação em que o sistema gasta mais tempo trocando processos entre memória e disco do que executando-os. No exemplo da aula, processos menos prioritários são suspensos e movidos para o disco para liberar memória às interações do usuário.
+- Reduzir a carga da CPU e da memória principal.
+- Melhorar o desempenho do sistema em ambientes multitarefa.
+- Evitar **thrashing**: quando o sistema gasta mais tempo trocando processos entre memória e disco do que executando-os.
+
+É útil quando há processos demais na RAM, quando algum está bloqueado por tempo indeterminado (por exemplo, esperando E/S) ou quando é preciso abrir espaço para outro de maior prioridade. No exemplo da aula, processos menos prioritários são suspensos e movidos para o disco para liberar memória às interações do usuário.
 
 ## Escalonamento de curto prazo
 
 Escolhe **qual processo da fila de prontos executará na CPU**. Essa decisão acontece com frequência, por exemplo após interrupções, eventos de E/S e trocas de contexto, e afeta diretamente o tempo de resposta e de espera. A aula associa a execução dessa escolha ao *dispatcher* do sistema operacional.
 
-Algoritmos citados: FIFO (*First-In, First-Out*), Round Robin, SJF (*Shortest Job First*), prioridade e filas multinível com realimentação. A escolha pode considerar tempo estimado de execução, prioridade, chegada e tempo de espera acumulado.
+Algoritmos citados: FIFO (*First-In, First-Out*), Round Robin, SJF (*Shortest Job First*), prioridade e filas multinível com realimentação. A escolha pode considerar tempo estimado de execução, prioridade, chegada e tempo de espera acumulado. Em um sistema multitarefa, alternar processos interativos e de segundo plano ajuda a manter a resposta ao usuário.
 
 ### Round Robin com quantum de 2 ms
 
@@ -120,3 +124,5 @@ P1 termina em 14 ms, P2 em 11 ms, P3 em 22 ms e P4 em 20 ms. O **tempo de execu�
 **Tempo médio de espera:** (9 + 7 + 12 + 11) / 4 = **9,75 ms**.
 
 **Tempo médio de retorno:** (14 + 10 + 20 + 17) / 4 = **15,25 ms**.
+
+Obs: o slide usa a expressão **“tempo médio de espera”** nessa linha, mas os valores apresentados correspondem ao **tempo médio de retorno**.
