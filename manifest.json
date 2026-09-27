@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "90ce86400a7eda4190403834cac6b43fba71548b",
-  "generatedAt": "2026-09-27T23:03:25.810Z",
+  "release": "b13776282f448213422baf55434129bbb7880d50",
+  "generatedAt": "2026-09-27T23:13:53.355Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -906,6 +906,10 @@
     {
       "path": "Sistemas embarcados 1/módulo 1/002 - Aula 3 – Escrita e leitura digital.md",
       "lastModified": "2026-09-27T20:03:04-03:00"
+    },
+    {
+      "path": "Sistemas embarcados 1/módulo 1/003 - Aula 4 – Protocolos de comunicação serial.md",
+      "lastModified": "2026-09-27T20:13:11-03:00"
     },
     {
       "path": "Sistemas operacionais/módulo 1/001 - Introdução.md",
@@ -1934,6 +1938,16 @@
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927194601.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927194602.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927194603.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200851.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200852.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200853.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200854.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200855.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200856.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200857.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200858.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200859.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927200900.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910152253.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153230.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153957.png",
