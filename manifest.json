@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "6789f48cf86dd04c144681c961d9cd820aecf892",
-  "generatedAt": "2026-09-27T21:04:30.507Z",
+  "release": "080f393bd56cc676c948c3dfcfe43a017b6ebdad",
+  "generatedAt": "2026-09-27T21:22:38.696Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -49,11 +49,11 @@
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/002 - Estrutura e função do processador - Arquiteturas, ciclo de instrução e pipeline.md",
-      "lastModified": "2026-09-27T17:43:59-03:00"
+      "lastModified": "2026-09-27T18:22:12-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/003 - Suporte do Sistema Operacional - Escalonamento.md",
-      "lastModified": "2026-09-27T17:37:42-03:00"
+      "lastModified": "2026-09-27T18:22:12-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",

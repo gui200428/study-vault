@@ -1,5 +1,3 @@
-# Estrutura e função do processador - Arquiteturas, ciclo de instrução e pipeline
-
 ## Arquiteturas CISC e RISC
 
 ### CISC (*Complex Instruction Set Computer*)
@@ -153,7 +151,7 @@ Essa separação permite que a BIU busque bytes de instrução enquanto a EU tra
 
 ## Arquitetura ARM
 
-ARM significa *Advanced RISC Machine*. A arquitetura é licenciada para outras empresas e é apresentada com foco em baixo consumo de energia, especialmente em dispositivos móveis e sistemas embarcados. A aula cita ARMv9 e divide a família em Cortex-A, Cortex-R e Cortex-M.
+ARM significa *Advanced RISC Machine*. A arquitetura é licenciada para outras empresas e é apresentada com foco em baixo consumo de energia, especialmente em dispositivos móveis e sistemas embarcados. O material apresenta o **ARMv9 como a última arquitetura lançada** e divide a família em Cortex-A, Cortex-R e Cortex-M.
 
 ### Cortex-A
 

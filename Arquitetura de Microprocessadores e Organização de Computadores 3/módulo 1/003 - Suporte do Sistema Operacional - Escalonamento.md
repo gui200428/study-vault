@@ -40,6 +40,8 @@ Quando o processo deixa a CPU, o contador de programa e os dados de contexto sã
 
 A política usada procura manter a interação com o usuário, dividir o processador de forma justa entre processos, threads e usuários, equilibrar a carga e evitar recursos ociosos. Os critérios de justiça e eficiência dependem do algoritmo escolhido.
 
+A chave para a multiprogramação é o **escalonamento**.
+
 A aula distingue quatro decisões:
 
 | Tipo | O que decide |
@@ -51,7 +53,7 @@ A aula distingue quatro decisões:
 
 ## Escalonamento de longo prazo
 
-Decide quais processos que aguardam na memória secundária serão **admitidos na memória principal** e colocados na fila de prontos. Assim, controla o **grau de multiprogramação**: a quantidade de processos ativos no sistema.
+Decide quais processos que aguardam na memória secundária  **(fila de entrada (em espera))**  serão **admitidos na memória principal** e colocados na **fila de prontos.** Assim, controla o **grau de multiprogramação**: a quantidade de processos ativos no sistema.
 
 A seleção acontece antes da disputa direta pela CPU. Pode considerar tipo de processo (interativo ou *batch*), prioridade, tempo estimado de execução e política de uso dos recursos. Admitir processos demais sobrecarrega o sistema, especialmente se não são urgentes; controlar a entrada ajuda a equilibrar desempenho, uso de recursos e resposta às tarefas interativas.
 
@@ -96,11 +98,13 @@ Em **Round Robin**, cada processo recebe até um *quantum* de CPU. Se ainda não
 Dados do exercício:
 
 | Processo | Chegada | Tempo de execução |
-| --- | ---: | ---: |
-| P1 | 0 ms | 5 ms |
-| P2 | 1 ms | 3 ms |
-| P3 | 2 ms | 8 ms |
-| P4 | 3 ms | 6 ms |
+| -------- | ------: | ----------------: |
+| P1       |    0 ms |              5 ms |
+| P2       |    1 ms |              3 ms |
+| P3       |    2 ms |              8 ms |
+| P4       |    3 ms |              6 ms |
+
+#### Diagrama de Gantt
 
 Sequência de execução apresentada:
 
