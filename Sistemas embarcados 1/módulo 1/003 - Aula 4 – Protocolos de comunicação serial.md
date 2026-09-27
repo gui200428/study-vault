@@ -2,7 +2,7 @@
 
 ## Comunicação digital: paralela e serial
 
-Na comunicação digital, um dispositivo **escreve** no barramento como transmissor (**TX**) e outro **lê** como receptor (**RX**). Na comunicação **paralela**, vários bits são transmitidos ao mesmo tempo por condutores diferentes. Na **serial**, os bits seguem em sequência por um condutor. A paralela é mais rápida, mas exige mais condutores; a serial usa menos condutores, com menor velocidade na comparação apresentada pela aula.
+Na comunicação digital, um dispositivo **escreve** no barramento como transmissor (**TX**) e outro **lê** como receptor (**RX**). Na comunicação **paralela**, vários bits são transmitidos ao mesmo tempo por condutores diferentes. Na **serial**, os bits são transmitidos em sequência. A paralela é mais rápida, mas exige mais condutores; a serial usa menos condutores, com menor velocidade na comparação apresentada pela aula.
 
 Para comunicações na ordem de **kB/s e MB/s**, o slide defende a implementação da comunicação serial.
 
@@ -24,11 +24,11 @@ A transmissão pode ser:
 - **Half-duplex:** nas duas direções, uma por vez.
 - **Full-duplex:** nas duas direções ao mesmo tempo, usando dois barramentos.
 
-TX de um dispositivo se liga ao RX do outro, e os dispositivos precisam da **mesma referência de GND** e de níveis de tensão lógica compatíveis. Se operarem com tensões diferentes, usam-se conversores de nível lógico (**transceivers**); o exemplo da aula liga um **ATmega328P de +5 V** a um **ESP8266 de +3,3 V** por um transceiver bidirecional.
+TX de um dispositivo se liga ao RX do outro. Os dois dispositivos devem compartilhar a **mesma referência de GND** e possuir o **mesmo nível lógico alto**. Se operarem com tensões diferentes, usam-se conversores de nível lógico (**transceivers**); o exemplo da aula liga um **ATmega328P de +5 V** a um **ESP8266 de +3,3 V** por um transceiver bidirecional.
 
 ### Comunicação assíncrona e quadro
 
-Na UART, TX e RX têm **clocks diferentes**: a comunicação é **assíncrona**. A taxa de transmissão precisa ser previamente definida nos dois lados; o slide dá os exemplos **9600 b/s** e **15200 b/s**. O TX envia sem saber se o RX está lendo, então informações podem se acumular.
+Na UART, TX e RX têm **clocks diferentes**: a comunicação é **assíncrona**. Para esse tipo de comunicação, deve-se usar uma **largura de banda (taxa de transmissão) pré-definida** no transmissor e no receptor; o slide dá os exemplos **9600 b/s** e **15200 b/s**. O TX envia sem saber se o RX está lendo, então informações podem se acumular.
 
 No exemplo de envio de **10010011**, o quadro tem **bit de início = 0**, **8 bits de dados** (tipicamente enviados do **LSB para o MSB**), **bit de paridade** para verificar a integridade e **bit de término = 1**. O gráfico mostra os bits de dados na ordem temporal **11001001**, começando pelo LSB.
 
