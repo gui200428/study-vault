@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "69bf46c83db0b6ed6210411ee971436f1e9efbbc",
-  "generatedAt": "2026-09-27T22:03:59.597Z",
+  "release": "ca4e3d9ef992245b9d410ed9f9ca608454659c7a",
+  "generatedAt": "2026-09-27T22:19:40.553Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -898,6 +898,10 @@
     {
       "path": "Sistemas de Controle/módulo 1/004 - Aproximação de sistemas de segunda ordem.md",
       "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas embarcados 1/módulo 1/001 - Aula 2 – GPIO.md",
+      "lastModified": "2026-09-27T19:19:00-03:00"
     },
     {
       "path": "Sistemas operacionais/módulo 1/001 - Introdução.md",
@@ -1911,6 +1915,14 @@
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917161747.png",
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917161757.png",
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917170311.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191536.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191537.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191538.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191539.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191540.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191541.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191542.png",
+    "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191543.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910152253.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153230.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153957.png",
