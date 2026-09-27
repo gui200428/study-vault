@@ -51,6 +51,8 @@ A direção do sinal é considerada em relação ao dispositivo de referência, 
 
 ### Leitura: estado da chave
 
+Obs: o slide identifica este trecho como “Acionar um LED a partir de um microcontrolador”, porém o circuito e a explicação apresentados são referentes à leitura do estado de uma chave.
+
 No circuito mostrado, a porta digital recebe o sinal do ponto entre um resistor ligado a +Vcc e uma chave ligada ao GND:
 
 - **+5 V na entrada:** chave recuada.
