@@ -13,9 +13,9 @@ Na placa-mãe ficam as conexões para o processador, a memória, o armazenamento
 
 ## Organização e arquitetura
 
-**Organização:** como os recursos de hardware são implementados fisicamente. Inclui a tecnologia das memórias, as interconexões, as interfaces e a construção dos dispositivos. Em geral, é pouco visível para quem programa.
+**Organização:** como os recursos de hardware são implementados fisicamente. Inclui a tecnologia das memórias, as interconexões, as interfaces e a construção dos dispositivos. Em geral, é pouco visível para quem programa; no material, aparece como **“Pouco importante ao programador”**.
 
-**Arquitetura:** características implementadas que o programador pode usar ou precisa considerar, como conjunto de instruções, registradores, modos de endereçamento, tamanho das memórias e barramentos e quantidade de bits usada para representar dados.
+**Arquitetura:** características implementadas que o programador pode usar ou precisa considerar, como conjunto de instruções, registradores, modos de endereçamento, tamanho das memórias e barramentos e quantidade de bits usada para representar dados. No material, a arquitetura é descrita como **“Muito importante ao programador”**.
 
 Exemplo: existir uma instrução de multiplicação é uma decisão de **arquitetura**. Realizá-la com um circuito multiplicador ou com várias adições em um somador é uma decisão de **organização**.
 
@@ -40,8 +40,8 @@ No esquema, a CPU contém ULA, registradores e unidade de controle. Ela se comun
 
 ### Tipos de memória
 
-- **Memória de programa (tipo ROM):** não volátil e apresentada na aula como memória de leitura para instruções e dados que precisam permanecer armazenados. Exemplos: PROM, EEPROM e Flash ROM.
-- **Memória de dados (tipo RAM):** permite leitura e escrita; é volátil e guarda dados temporários. Exemplos citados: DRAM, SRAM e cache.
+- **Memória de programa (interna, tipo ROM):** não volátil e apresentada na aula como memória de leitura para instruções e dados que precisam permanecer armazenados. Exemplos: PROM, EEPROM e Flash ROM.
+- **Memória de dados (interna, tipo RAM):** permite leitura e escrita; é volátil e guarda dados temporários. Exemplos citados: DRAM, SRAM e cache.
 - **Memória secundária (externa):** permite leitura e escrita e guarda grande volume de dados de forma não volátil. Exemplos: HDD, SSD, CD, microSD e pen drive.
 
 ### Barramentos
@@ -58,7 +58,7 @@ O barramento é dividido em três partes:
 
 ## CPU e microprocessador
 
-A CPU é a unidade que executa as instruções do programa e pode controlar processos ou ligar e desligar dispositivos. Seus três componentes principais são **ULA, conjunto de registradores e unidade de controle (UC)**. Quando a CPU é encapsulada em um chip, temos um microprocessador (µP).
+A CPU é a unidade que executa as instruções do programa e pode controlar processos ou ligar e desligar dispositivos. Seus três componentes principais são **ULA, conjunto de registradores e unidade de controle (UC)**. Quando a CPU é encapsulada em um chip, temos um microprocessador (µP), apresentado como um dispositivo de lógica programável.
 
 O µP trabalha com valores binários (0 e 1) e executa instruções representadas em linguagem de máquina. Cada modelo possui seu próprio conjunto de instruções. Nos exemplos de memória de programa da aula, essas instruções ficam armazenadas em ROM. A execução é apresentada como uma sequência de instruções, uma por vez.
 
@@ -87,7 +87,7 @@ São áreas pequenas e rápidas, normalmente internas à CPU, que guardam valore
 
 A aula mostra como exemplos o contador de programa (PC), o registrador de instrução (RI), o ponteiro de dados acumulador (DPTRA), o temporizador (TMR) e o ponteiro de pilha (SP).
 
-Um registrador armazena poucos bits, geralmente uma palavra, e tem acesso rápido dentro da CPU. A RAM guarda dados temporários em uma área de memória mais ampla, normalmente externa à CPU. Em alguns microcontroladores, os SFR podem ficar mapeados na RAM junto aos GPR.
+Um registrador armazena poucos bits, geralmente uma palavra, e tem acesso rápido dentro da CPU. A RAM guarda dados temporários em uma área de memória mais ampla, normalmente externa à CPU. Em alguns microcontroladores, os SFR e GPR podem ficar mapeados na RAM em vez de ficarem fisicamente dentro da CPU.
 
 ## Microprocessador e microcontrolador
 
@@ -103,10 +103,13 @@ Reúne em um único chip um microprocessador, memórias, barramentos, interfaces
 
 Entre os recursos internos apresentados estão:
 
-- memória de programa, geralmente ROM, e memória de dados, geralmente RAM;
-- seleção de entrada e saída e temporizadores;
+- memória de programa, geralmente ROM;
+- memória de dados, geralmente RAM;
+- seleção de entrada e saída;
+- temporizadores;
 - conversores A/D e D/A;
-- lógica de interrupções e comunicação serial.
+- lógica de interrupções;
+- comunicação serial.
 
 → O µP precisa se conectar a memórias e E/S para funcionar como sistema; no µC, esses recursos já estão integrados ao chip.
 
@@ -114,17 +117,19 @@ Entre os recursos internos apresentados estão:
 
 Um **PLD (*Programmable Logic Device*)** é um dispositivo digital programável para implementar funções lógicas específicas. FPGA e CPLD são exemplos. Ele possui blocos lógicos e interconexões configuráveis, podendo incluir memória.
 
-O PLD é usado para criar lógica de hardware personalizada, como controle de sinais e processamento paralelo. Não segue uma arquitetura fixa: sua configuração pode ser alterada para outras aplicações, o que ajuda na prototipagem. Essa lógica é descrita em linguagens de hardware, como VHDL ou Verilog.
+O PLD é usado para criar lógica de hardware personalizada, como controle de sinais e processamento paralelo. Não segue uma arquitetura fixa: sua configuração pode ser alterada para outras aplicações, o que ajuda na prototipagem e em aplicações que exigem mudanças frequentes na lógica. Essa lógica é descrita em linguagens de hardware, como VHDL ou Verilog.
 
 O **µP**, por sua vez, tem uma arquitetura definida, como x86 ou ARM, com ULA, registradores e unidade de controle. Ele executa sequencialmente instruções de software para operações aritméticas, controle de fluxo e gerenciamento de memória. Pode ser programado em Assembly, C ou C++. Sua flexibilidade está em mudar o programa executado dentro da arquitetura do processador.
+
+Obs: nesse trecho, o material cita como exemplos o **Intel Core i7** e microcontroladores como o **STM32**.
 
 ![[Pasted image 20260927163914.png]]
 
 ## VHDL e Assembly
 
-**VHDL (*VHSIC Hardware Description Language*)** descreve e permite simular o comportamento e a estrutura de circuitos digitais em PLDs: portas lógicas, flip-flops, registradores e suas conexões. Trabalha em um nível de abstração mais alto para o projeto de hardware e exige compreender como o circuito é construído e funciona.
+**VHDL (*VHSIC Hardware Description Language*)** descreve e permite simular o comportamento e a estrutura de circuitos digitais em PLDs: portas lógicas, flip-flops, registradores e suas conexões. Trabalha em um nível de abstração mais alto para o projeto de hardware e exige compreender como o circuito é construído e funciona. Sua sintaxe é mais complexa e exige compreender conceitos de design digital.
 
-**Assembly** é uma linguagem de programação de baixo nível, próxima ao código de máquina e específica de uma arquitetura, como x86 ou ARM. Suas instruções definem uma sequência de operações para o processador, incluindo acesso a registradores e memória. A sintaxe é simples, mas é necessário conhecer a arquitetura e o efeito de cada instrução.
+**Assembly** é uma linguagem de programação de baixo nível, próxima ao código de máquina e específica de uma arquitetura, como x86 ou ARM. Suas instruções definem uma sequência de operações para o processador, incluindo acesso a registradores e memória. É usada para programar diretamente o microprocessador e possui baixo nível de abstração. Cada instrução corresponde diretamente a uma operação realizada pelo microprocessador. Isso permite manipular diretamente registradores e memória. A sintaxe é simples, mas difícil de dominar: é necessário conhecer a arquitetura e entender como cada instrução manipula o hardware.
 
 No exemplo de circuito da aula, um decodificador 3 × 8 recebe três entradas (A, B e C) e possui oito saídas (D0 a D7). As combinações das entradas determinam qual saída é ativada.
 
