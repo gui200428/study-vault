@@ -1,5 +1,3 @@
-# A ilusão da nuvem e a realidade dos cabos
-
 ## Largura de banda e latência
 
 **Capacidade/largura de banda** indica quanto dado pode ser transportado; **latência** é o tempo até o dado chegar. Uma não garante a outra.

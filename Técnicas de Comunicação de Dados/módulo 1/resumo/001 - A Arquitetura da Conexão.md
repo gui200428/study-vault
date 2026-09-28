@@ -1,5 +1,3 @@
-# A Arquitetura da Conexão
-
 ## Rede de computadores
 
 Uma rede de computadores é um sistema interconectado projetado com um único **propósito bidimensional**:

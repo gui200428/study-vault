@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "93f5c2760d553b515b4e11ed1d76b9945379824b",
-  "generatedAt": "2026-09-28T01:21:55.568Z",
+  "release": "1923d94108929d42c17ae0bbf5f257eb615fba2b",
+  "generatedAt": "2026-09-28T01:22:42.624Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -953,7 +953,7 @@
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/001 - A Arquitetura da Conexão.md",
-      "lastModified": "2026-09-27T22:21:22-03:00"
+      "lastModified": "2026-09-27T22:21:41-03:00"
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/002 - Tecnologia e Comunicação de Dados - A Anatomia da Conexão.md",
@@ -961,7 +961,7 @@
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/003 - A ilusão da nuvem e a realidade dos cabos.md",
-      "lastModified": "2026-09-27T22:21:22-03:00"
+      "lastModified": "2026-09-27T22:21:41-03:00"
     },
     {
       "path": "Teoria da computação/módulo 1/001 - Introdução.md",
