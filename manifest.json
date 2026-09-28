@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "1923d94108929d42c17ae0bbf5f257eb615fba2b",
-  "generatedAt": "2026-09-28T01:22:42.624Z",
+  "release": "4bb5f69d1fb26750fca5a86ad8cf7ad9bc4fb5ce",
+  "generatedAt": "2026-09-28T02:41:59.920Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -962,6 +962,18 @@
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/003 - A ilusão da nuvem e a realidade dos cabos.md",
       "lastModified": "2026-09-27T22:21:41-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/004 - A Física da Transmissão Digital.md",
+      "lastModified": "2026-09-27T23:41:32-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/005 - A Coreografia Invisível.md",
+      "lastModified": "2026-09-27T23:41:32-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/006 - Decibel (dB).md",
+      "lastModified": "2026-09-27T23:41:32-03:00"
     },
     {
       "path": "Teoria da computação/módulo 1/001 - Introdução.md",
@@ -2016,6 +2028,17 @@
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927213503.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927213504.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927213505.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927222614.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927222615.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927222616.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927222617.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927222618.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223623.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223624.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223625.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223626.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223627.png",
+    "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927225247.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923002903.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923003015.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260925115240.png",
