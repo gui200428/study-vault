@@ -1,5 +1,3 @@
-# Aula 4 – Protocolos de comunicação serial
-
 ## Comunicação digital: paralela e serial
 
 Na comunicação digital, um dispositivo **escreve** no barramento como transmissor (**TX**) e outro **lê** como receptor (**RX**). Na comunicação **paralela**, vários bits são transmitidos ao mesmo tempo por condutores diferentes. Na **serial**, os bits são transmitidos em sequência. A paralela é mais rápida, mas exige mais condutores; a serial usa menos condutores, com menor velocidade na comparação apresentada pela aula.
@@ -101,4 +99,3 @@ O último slide propõe estas comparações:
 - **I2C:** half-duplex, porém mais rápido que UART e, segundo o slide, com maior integridade na entrega/recepção dos dados.
 - **SPI:** full-duplex e mais rápido que I2C, ao custo de usar mais barramentos.
 
-Obs: o slide exibe símbolos de **X** e **✓**, mas não indica a quais afirmações eles se aplicam. Por isso, estas frases foram mantidas como **suposições propostas no material**.
