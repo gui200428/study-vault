@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "4bb5f69d1fb26750fca5a86ad8cf7ad9bc4fb5ce",
-  "generatedAt": "2026-09-28T02:41:59.920Z",
+  "release": "be040c6645a685a82e3f057fb02787090a0537f3",
+  "generatedAt": "2026-09-30T13:03:31.128Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -901,7 +901,7 @@
     },
     {
       "path": "Sistemas embarcados 1/módulo 1/001 - Aula 2 – GPIO.md",
-      "lastModified": "2026-09-27T20:03:04-03:00"
+      "lastModified": "2026-09-30T10:02:50-03:00"
     },
     {
       "path": "Sistemas embarcados 1/módulo 1/002 - Aula 3 – Escrita e leitura digital.md",
@@ -969,7 +969,7 @@
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/005 - A Coreografia Invisível.md",
-      "lastModified": "2026-09-27T23:41:32-03:00"
+      "lastModified": "2026-09-30T10:02:50-03:00"
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/006 - Decibel (dB).md",

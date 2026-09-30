@@ -2,11 +2,11 @@ A **camada física** transporta sinais por um meio que o slide chama de **caóti
 
 ## Níveis de serviço do enlace
 
-| Serviço | Garantia apresentada | Exemplo do material |
-| --- | --- | --- |
-| **Sem conexão, sem confirmação** | Baixa sobrecarga; não há confirmação de cada quadro. | Ethernet. |
-| **Sem conexão, com confirmação** | Confirma a recepção, com sobrecarga intermediária. | Wi-Fi. |
-| **Orientado a conexões** | Maior confiabilidade, com conexão estabelecida. | Satélite. |
+| Serviço                          | Garantia apresentada                                 | Exemplo do material |
+| -------------------------------- | ---------------------------------------------------- | ------------------- |
+| **Sem conexão, sem confirmação** | Baixa sobrecarga; não há confirmação de cada quadro. | Ethernet.           |
+| **Sem conexão, com confirmação** | Confirma a recepção, com sobrecarga intermediária.   | Wi-Fi.              |
+| **Orientado a conexões**         | Maior confiabilidade, com conexão estabelecida.      | Satélite.           |
 
 ## Enquadramento: onde o dado começa?
 

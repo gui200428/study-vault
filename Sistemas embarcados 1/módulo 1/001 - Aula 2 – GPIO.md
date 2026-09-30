@@ -49,8 +49,6 @@ A direção do sinal é considerada em relação ao dispositivo de referência, 
 
 ### Leitura: estado da chave
 
-Obs: o slide identifica este trecho como “Acionar um LED a partir de um microcontrolador”, porém o circuito e a explicação apresentados são referentes à leitura do estado de uma chave.
-
 No circuito mostrado, a porta digital recebe o sinal do ponto entre um resistor ligado a +Vcc e uma chave ligada ao GND:
 
 - **+5 V na entrada:** chave recuada.
@@ -75,9 +73,9 @@ Assim, o microcontrolador faz uma **escrita sobre o LED**. Quando escreve GND, a
 
 O ATmega328P possui três grupos de GPIO: **B, C e D**. Para cada grupo, a aula apresenta três tipos de registrador:
 
-- **DDRx (*Data Direction Register*):** define se a porta será de entrada ou saída; controla a porta *tri-state*.
-- **PORTx:** controla os níveis lógicos alto e baixo usados nas escritas.
-- **PINx:** recebe os níveis lógicos lidos nas entradas.
+- **DDRx (*Data Direction Register*):** Registrador de direção que define se a porta será de entrada ou saída; controla a porta *tri-state*.
+- **PORTx:** Registrador de dados que controla os níveis lógicos alto e baixo usados nas escritas.
+- **PINx:** Registrador de entrada que recebe os níveis lógicos lidos nas entradas.
 
 A tabela do material associa cada registrador aos seus bits, do bit 7 ao bit 0, e mostra dois endereços para cada um:
 
