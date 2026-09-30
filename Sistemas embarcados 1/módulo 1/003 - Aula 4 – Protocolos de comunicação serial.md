@@ -10,8 +10,6 @@ Há diferentes protocolos e conectores para comunicação serial. O slide mostra
 
 ![[Pasted image 20260927200852.png]]
 
-Obs: no mesmo slide, a imagem indica **RS232 = 0,25 Gb/s**, enquanto a tabela indica **Serial EIA-232 máx. = 230,4 kbit/s**. Os valores não concordam; ambos foram mantidos como aparecem no material.
-
 ## UART
 
 **UART (Universal Asynchronous Receiver Transmitter)** é uma ligação simples entre dois pontos, **sem hierarquia**. A aula cita RS232 e RS485 como protocolos de dispositivos industriais definidos a partir dela. Com transdutores, pode alcançar longas distâncias. Exemplos apresentados: monitor serial do Arduino a **9600 baud**, cabo RS232, módulo GPS e comunicação sem fio entre dispositivos.
