@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "be040c6645a685a82e3f057fb02787090a0537f3",
-  "generatedAt": "2026-09-30T13:03:31.128Z",
+  "release": "7d64bd96f25270ab8fd6e453d0c6d9573847c162",
+  "generatedAt": "2026-09-30T15:23:36.667Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -905,7 +905,7 @@
     },
     {
       "path": "Sistemas embarcados 1/módulo 1/002 - Aula 3 – Escrita e leitura digital.md",
-      "lastModified": "2026-09-27T20:03:04-03:00"
+      "lastModified": "2026-09-30T12:23:09-03:00"
     },
     {
       "path": "Sistemas embarcados 1/módulo 1/003 - Aula 4 – Protocolos de comunicação serial.md",
