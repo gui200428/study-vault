@@ -1,99 +1,307 @@
 ## Comunicação digital: paralela e serial
 
-Na comunicação digital, um dispositivo **escreve** no barramento como transmissor (**TX**) e outro **lê** como receptor (**RX**). Na comunicação **paralela**, vários bits são transmitidos ao mesmo tempo por condutores diferentes. Na **serial**, os bits são transmitidos em sequência. A paralela é mais rápida, mas exige mais condutores; a serial usa menos condutores, com menor velocidade na comparação apresentada pela aula.
+Na comunicação digital, os dispositivos podem assumir dois papéis:
+- **TX (Transmissor):** escreve os dados no barramento.
+- **RX (Receptor):** lê os dados presentes no barramento.
+A transmissão pode ocorrer de forma **paralela** ou **serial**.
 
-Para comunicações na ordem de **kB/s e MB/s**, o slide defende a implementação da comunicação serial.
+### Comunicação paralela
+Na comunicação paralela, **vários bits são transmitidos ao mesmo tempo**, utilizando condutores diferentes.
+
+**Características:**
+- transmite vários bits simultaneamente;
+- apresenta maior velocidade;
+- necessita de **mais condutores** para transportar os dados.
+
+### Comunicação serial
+Na comunicação serial, os bits são transmitidos **um após o outro**, em sequência.
+
+**Características:**
+- utiliza menos condutores;
+- os bits são enviados sequencialmente;
+- apresenta menor velocidade que a comunicação paralela.
+
+Para comunicações na ordem de **kB/s e MB/s**, é defendido a implementação da comunicação serial.
 
 ![[Pasted image 20260927200851.png]]
 
-Há diferentes protocolos e conectores para comunicação serial. O slide mostra HDMI 1.4V (**10,2 Gb/s**), USB 3.0 (**5 Gb/s**), Ethernet CAT 5e (**1 Gb/s**), RS232 (**0,25 Gb/s**) e SATA (**6 Gb/s**). Na tabela, os destaques para esta aula são **UART máx. 2,7648 Mbit/s (345,6 kB/s)**, **I2C 3,4 Mbit/s (425 kB/s)** e **SPI até 100 MHz, 100 Mbit/s (12,5 MB/s)**.
+### Protocolos e interfaces seriais
+Existem diferentes protocolos e interfaces que utilizam comunicação serial.
 
 ![[Pasted image 20260927200852.png]]
 
 ## UART
 
-**UART (Universal Asynchronous Receiver Transmitter)** é uma ligação simples entre dois pontos, **sem hierarquia**. A aula cita RS232 e RS485 como protocolos de dispositivos industriais definidos a partir dela. Com transdutores, pode alcançar longas distâncias. Exemplos apresentados: monitor serial do Arduino a **9600 baud**, cabo RS232, módulo GPS e comunicação sem fio entre dispositivos.
+A **UART (Universal Asynchronous Receiver Transmitter)** é uma forma simples de comunicação **serial entre dois dispositivos**, sem relação de hierarquia entre eles.
 
-A transmissão pode ser:
+**A comunicação utiliza os sinais:**
+- **TX (Transmit):** transmite os dados.
+- **RX (Receive):** recebe os dados.
 
-- **Simplex:** em uma direção.
-- **Half-duplex:** nas duas direções, uma por vez.
-- **Full-duplex:** nas duas direções ao mesmo tempo, usando dois barramentos.
 
-TX de um dispositivo se liga ao RX do outro. Os dois dispositivos devem compartilhar a **mesma referência de GND** e possuir o **mesmo nível lógico alto**. Se operarem com tensões diferentes, usam-se conversores de nível lógico (**transceivers**); o exemplo da aula liga um **ATmega328P de +5 V** a um **ESP8266 de +3,3 V** por um transceiver bidirecional.
+A ligação é cruzada:
+**Dispositivo A        Dispositivo B**
+
+    TX ─────────────► RX
+    RX ◄───────────── TX
+
+
+
+**Modos de comunicação:**
+
+- **Simplex:** dados enviados em apenas uma direção.
+- **Half-duplex:** dados enviados nas duas direções, mas **uma de cada vez**.
+- **Full-duplex:** dados enviados nas duas direções **ao mesmo tempo**, utilizando linhas separadas de TX e RX.
+
+#### Requisitos elétricos
+
+Para que dois dispositivos se comuniquem corretamente:
+- devem compartilhar a **mesma referência de GND**;
+- devem utilizar **níveis lógicos compatíveis**.
+
+Se os dispositivos trabalharem com tensões diferentes, deve ser utilizado um **conversor de nível lógico (transceiver)**.
+
+![[Pasted image 20260930160548.png]]
 
 ### Comunicação assíncrona e quadro
 
-Na UART, TX e RX têm **clocks diferentes**: a comunicação é **assíncrona**. Para esse tipo de comunicação, deve-se usar uma **largura de banda (taxa de transmissão) pré-definida** no transmissor e no receptor; o slide dá os exemplos **9600 b/s** e **15200 b/s**. O TX envia sem saber se o RX está lendo, então informações podem se acumular.
+A UART é uma comunicação **assíncrona**, ou seja, não existe uma linha de clock compartilhada entre TX e RX.
 
-No exemplo de envio de **10010011**, o quadro tem **bit de início = 0**, **8 bits de dados** (tipicamente enviados do **LSB para o MSB**), **bit de paridade** para verificar a integridade e **bit de término = 1**. O gráfico mostra os bits de dados na ordem temporal **11001001**, começando pelo LSB.
+Cada dispositivo possui seu próprio clock e, por isso, ambos devem ser configurados com a **mesma taxa de transmissão**.
+
+**Exemplos:**
+- **9600 b/s**
+- **15200 b/s**
+
+O transmissor envia os dados sem confirmar diretamente se o receptor está realizando a leitura. Caso o receptor não processe os dados a tempo, as informações recebidas podem se acumular.
+
+### Quadro UART
+Como não existe um clock compartilhado, cada transmissão possui bits que ajudam o receptor a identificar o início e o fim dos dados.
+
+Exemplo de envio de **10010011**:
+- **Bit de início (start bit):** `0`
+- **Bits de dados:** normalmente 8 bits.
+- Os dados são tipicamente enviados do **LSB para o MSB**.
+- **Bit de paridade:** utilizado para verificar a integridade dos dados.
+- **Bit de término (stop bit):** `1`
 
 ![[Pasted image 20260927200853.png]]
 
+Como o **LSB é transmitido primeiro**, a sequência enviada no barramento é: 
+
+$$\boxed{0\ |\ 11001001\ |\ 1\ |\ 1}$$
+**Onde:**
+- `0` → **bit de início**
+- `11001001` → **8 bits de dados**, enviados do LSB para o MSB
+- `1` → **bit de paridade**, conforme o exemplo do slide
+- `1` → **bit de término**
+
 ## I2C
 
-**I2C (Inter-Integrated Circuit)** foi desenvolvido em **1982**, segundo a aula, pela **Phillips**. É usado em curtas distâncias (**< 30 cm**) em sistemas embarcados como ATmega328P e ESP8266. É **síncrono** (clock comum) e **half-duplex**. Exemplos: conversores A/D e D/A, relógio de tempo real (**RTC**) e display LCD **20×4**.
+O **I2C (Inter-Integrated Circuit)** é um protocolo de comunicação **serial síncrona**, utilizado principalmente em sistemas embarcados e comunicações de curta distância.
 
-Usa dois barramentos compartilhados:
+**Características:**
+- utilizado em distâncias curtas, tipicamente **menores que 30 cm**;
+- comunicação **síncrona**, pois os dispositivos compartilham um clock;
+- comunicação **half-duplex**.
 
-- **SDA (Serial Data):** transporta endereço, dados e bits de reconhecimento.
-- **SCL (Serial Clock):** clock comum controlado pelo **mestre**.
+**Exemplos de dispositivos que utilizam I2C:**
+- conversores **A/D e D/A**;
+- relógios de tempo real (**RTC**);
+- displays LCD.
 
-Há uma hierarquia **mestre–escravos**: o mestre controla o clock e pode enviar ou receber dados dos escravos. Na pinagem mostrada, o **Arduino Uno** usa **A4 = SDA** e **A5 = SCL**; o **ESP8266** usa **D2 = SDA** e **D1 = SCL**.
+### Barramentos SDA e SCL
+O I2C utiliza apenas **duas linhas compartilhadas** entre os dispositivos:
+
+- **SDA (Serial Data):** transporta os dados, endereços e bits de reconhecimento.
+- **SCL (Serial Clock):** transporta o sinal de clock usado para sincronizar a comunicação. Clock comum controlado pelo **mestre.**
+
+Vários dispositivos podem utilizar **os mesmos barramentos SDA e SCL**.
+
 
 ![[Pasted image 20260927200854.png]]
 
-O material indica que todos os dispositivos devem estar sujeitos à **mesma alimentação**. Tipicamente, resistores **pull-up** ligam SDA e SCL à alimentação para manter o nível lógico alto consistente. No circuito da aula, um **ATmega328P mestre** compartilha SDA e SCL com três escravos: **RTC**, **LCD 16×2** e outro **ATmega328P**; os pull-ups estão ligados a **+5 V**.
+### Hierarquia mestre–escravos
+A comunicação apresentada possui uma hierarquia de **mestre e escravos**.
+- **Mestre:** inicia e controla a comunicação e o sinal de clock em SCL.
+- **Escravos:** respondem quando são selecionados pelo endereço correspondente.
+- O mestre pode **enviar ou receber dados** dos escravos.
+
+No exemplo: um **ATmega328P** atua como mestre e compartilha SDA e SCL com:
+- um RTC;
+- um display LCD;
+- outro ATmega328P.
+
 
 ![[Pasted image 20260927200855.png]]
 
-### Sinais e mensagem
+### Requisitos elétricos e pull-up
+As linhas **SDA e SCL** utilizam resistores **pull-up** ligados à alimentação.
+Esses resistores mantêm as linhas em nível lógico alto quando nenhum dispositivo está puxando o barramento para nível baixo.
 
-- **Início:** SDA cai enquanto SCL está em nível alto.
-- **Registro de bit:** o valor em SDA é registrado durante o pulso alto de SCL. Nesse pulso, **SDA não pode mudar de nível**.
-- **Término:** SDA sobe enquanto SCL está em nível alto.
+$$SDA,\ SCL \xrightarrow{\text{pull-up}} +5V$$
+
+Os dispositivos devem trabalhar com **níveis elétricos compatíveis**.
+
+### Funcionamento da comunicação
+**Inicio:**
+A comunicação começa quando:
+- **SCL está em nível alto**;
+- **SDA muda de 1 para 0**.
+
+**Transmissão de um bit:**
+Durante a transmissão:
+
+- o valor do bit está presente em **SDA**;
+- o receptor registra esse valor durante o pulso de **SCL**;
+- enquanto SCL estiver alto, **SDA deve permanecer estável**.
+**SDA transporta o dado e SCL determina quando esse dado deve ser lido.**
+
+
+**Término**
+A comunicação termina quando:
+- **SCL está em nível alto**;
+- **SDA muda de 0 para 1**.
+
 
 No exemplo, a mensagem é **01101110**. O gráfico a apresenta temporalmente do **LSB para o MSB** como **01110110**.
 
-![[Pasted image 20260927200856.png]]
+![[Pasted image 20260930200911.png]]
 
-O quadro da mensagem contém **Start**, janela de endereço de **7 ou 10 bits**, bit de **leitura/escrita**, **ACK/NACK**, janelas de dados de **8 bits** com **ACK/NACK** após cada uma e **Stop**. Os escravos verificam o endereço requisitado pelo mestre para decidir se farão a leitura dos dados; o bit de leitura/escrita indica o sentido da comunicação. **ACK** é o reconhecimento do dispositivo receptor sobre o recebimento.
+
+### Estrutura de uma mensagem I2C
+
+### Campos
+- **Start:** indica o início da comunicação.
+- **Endereço:** identifica qual dispositivo deve responder.
+    - pode possuir **7 ou 10 bits**.
+- **R/W (Read/Write):** define o sentido da comunicação.
+- **Dados:** enviados em grupos de **8 bits**.
+- **ACK/NACK:** informa se o dado foi reconhecido pelo receptor.
+- **Stop:** encerra a comunicação.
+
 
 ![[Pasted image 20260927200857.png]]
 
+### ACK e NACK
+
+Após determinadas partes da transmissão, o receptor responde:
+
+- **ACK (Acknowledge):** dado recebido/reconhecido.
+- **NACK (Not Acknowledge):** não houve reconhecimento.
+
+Assim, diferentemente da UART apresentada anteriormente, o I2C possui um mecanismo de **reconhecimento do recebimento**.
+
 ## SPI
 
-**SPI (Serial Peripheral Interface)** foi desenvolvido em **1985** pela **Motorola**. É usado em curtas distâncias (**< 30 cm**) em sistemas embarcados como ATmega328P e ESP8266. É **síncrono** e **full-duplex**. Exemplos da aula: sensor **RFID**, cartão **SD** e display LCD **240 px × 240 px**.
+O **SPI (Serial Peripheral Interface)** é um protocolo de comunicação **serial síncrona**, desenvolvido pela **Motorola em 1985**.
 
-Três barramentos são compartilhados:
+- utilizado em comunicações de curta distância, tipicamente **menores que 30 cm**;
+- bastante usado em **sistemas embarcados**;
+- comunicação **síncrona**, pois os dispositivos compartilham um clock;
+- comunicação **full-duplex**, permitindo transmitir e receber dados simultaneamente.
 
-- **MOSI (Master Out Slave In):** dados do mestre para o escravo.
-- **MISO (Master In Slave Out):** dados do escravo para o mestre.
-- **SCLK (Serial Clock):** clock comum.
+**Exemplos:**
+- sensores/leitores **RFID**;
+- cartões **SD**;
+- displays LCD.
 
-Cada escravo tem uma linha própria de seleção **SS (Slave Selection)**, também chamada **CS (Chip Selection)**. Na pinagem mostrada, o **Arduino Uno** usa **13 = SCLK**, **12 = MISO**, **11 = MOSI** e **10 = SS**; o **ESP8266** usa **D5 = SCLK**, **D6 = MISO**, **D7 = MOSI** e **D8 = SS**.
+### Barramentos do SPI
+
+O SPI utiliza três linhas principais compartilhadas:
+- **MOSI (Master Out Slave In):** leva dados do **mestre para o escravo**.
+- **MISO (Master In Slave Out):** leva dados do **escravo para o mestre**.
+- **SCLK (Serial Clock):** sinal de clock utilizado para sincronizar a comunicação.
+
+
+![[Pasted image 20260930210832.png]]
+
+A existência de uma linha para cada sentido permite que dados sejam enviados e recebidos **ao mesmo tempo**: **SPI = Full-duplex.**
+
 
 ![[Pasted image 20260927200858.png]]
 
-O material indica a **mesma alimentação** para todos os dispositivos e o uso típico de **pull-up** entre barramentos e alimentação para manter o nível alto consistente. O esquema mostra um **ATmega328P mestre** ligado a três escravos (**RFID**, **cartão SD** e outro **ATmega328P**): MOSI, MISO e SCLK são compartilhados; **SS1, SS2 e SS3** selecionam cada escravo.
+### Seleção dos escravos — SS / CS
+Além das três linhas principais, cada escravo possui uma linha de seleção:
+- **SS (Slave Select)**;
+- também chamada **CS (Chip Select)**.
+MOSI, MISO e SCLK podem ser compartilhados entre vários dispositivos, mas o mestre utiliza uma linha **SS própria para selecionar qual escravo deve participar da comunicação**
+
 
 ![[Pasted image 20260927200859.png]]
 
-Obs: o próprio slide chama esse circuito de **exemplo didático** e avisa que o **ATmega328P possui apenas um canal SS**, embora o desenho mostre SS1, SS2 e SS3.
+Normalmente, o escravo é selecionado colocando sua linha SS em nível baixo:
+$$\boxed{SS=0\Rightarrow\text{escravo selecionado}}$$
+Tipicamente, utiliza-se resistores pull-up entre o os barramentos de comunicação e a alimentação para manter o nível lógico alto consistente.
 
-### Sinais e envio simultâneo
 
-O **início** ocorre na borda de descida do **SS** do escravo escolhido. Os bits em **MOSI** e **MISO** são registrados com os pulsos de **SCLK**; a borda de subida do SS marca o **término**. Não há janelas de endereço nem de ACK: a seleção é direta pela linha SS.
+### Funcionamento da comunicação
 
-No exemplo, enquanto SS fica baixo durante **8 pulsos de SCLK**, o mestre envia **01101110** por MOSI e recebe **00100011** por MISO ao mesmo tempo. O gráfico dispõe os bits do **LSB para o MSB**: MOSI **01110110** e MISO **11000100**.
+#### Início
+
+A comunicação começa quando o mestre coloca o **SS do escravo escolhido em nível baixo**:
+
+$$SS:1\rightarrow0$$
+
+Isso seleciona o dispositivo que participará da transmissão.
+
+Enquanto **SS permanece baixo**:
+
+- o mestre envia dados pelo **MOSI**;
+- o escravo envia dados pelo **MISO**;
+- o **SCLK** sincroniza a leitura dos bits.
+
+Assim, para cada pulso de clock, pode ocorrer simultaneamente:
+Mestre ──MOSI──► Escravo
+Mestre ◄─MISO─── Escravo
+          ↑
+       mesmo SCLK
+
+**Full-duplex!**
+
+#### Término
+
+Ao terminar a comunicação, o mestre coloca SS novamente em nível alto:
+
+$$SS:0\rightarrow1$$
+
+A borda de subida de SS encerra a transmissão com aquele escravo.
+
+### Estrutura da transmissão
+Ao contrário do I2C apresentado anteriormente, o SPI **não precisa transmitir um endereço pelo barramento para selecionar o dispositivo**.
+
+A seleção é feita diretamente pelas linhas **SS/CS**.
+
+**O controle ocorre diretamente por:**
+
+$$\boxed{SS + SCLK}$$
+
+**Enquanto:**
+
+$$\boxed{MOSI + MISO}$$
+
+**transportam os dados.**
+
+
+
+### Exemplo:
+
+Durante **8 pulsos de SCLK**, com SS em nível baixo:
+
+- o mestre envia `01101110` por **MOSI**;
+- o escravo envia `00100011` por **MISO** simultaneamente.
 
 ![[Pasted image 20260927200900.png]]
+
 
 ## Suposições finais da aula
 
 O último slide propõe estas comparações:
 
 - **UART:** mais flexível nos modos (simplex, half-duplex e full-duplex), arquitetura mais simples e possibilidade de longas distâncias em comparação com I2C e SPI, geralmente restritos à placa de circuito impresso.
-- **I2C:** half-duplex, porém mais rápido que UART e, segundo o slide, com maior integridade na entrega/recepção dos dados.
+- **I2C:** half-duplex, porém mais rápido que UART e com maior integridade na entrega/recepção dos dados.
 - **SPI:** full-duplex e mais rápido que I2C, ao custo de usar mais barramentos.
+
+
+
 
