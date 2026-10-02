@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "d91f86c02db14cb1dff159cbcf61c7b05381fe46",
-  "generatedAt": "2026-10-02T12:00:10.924Z",
+  "release": "3f887adf2ac5666539ab6388e497b310835d76d9",
+  "generatedAt": "2026-10-02T13:45:33.688Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -57,7 +57,7 @@
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/004 - Suporte do Sistema Operacional - Gerenciamento de Memória.md",
-      "lastModified": "2026-09-27T18:39:57-03:00"
+      "lastModified": "2026-10-02T10:45:05-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/005 - Computadores RISC - Características Gerais.md",

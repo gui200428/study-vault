@@ -20,8 +20,7 @@ A memória ideal para o programador seria **grande, rápida e não volátil**. N
 
 ## Sem abstração de memória
 
-Gerenciar a memória sem abstração é trabalhar diretamente com endereços físicos da RAM, sem mecanismos que escondam essa complexidade do programador ou do SO. Isso traz três problemas apresentados na aula:
-
+Gerenciar a memória sem abstração é trabalhar diretamente com endereços físicos da RAM, sem mecanismos que escondam essa complexidade do programador ou do SO. Isso traz três problemas:
 - processos podem usar o mesmo endereço de memória;
 - se a memória toda ficar disponível aos processos de usuário, eles podem prejudicar o SO;
 - torna-se difícil executar vários programas simultaneamente, ficando um por vez.
