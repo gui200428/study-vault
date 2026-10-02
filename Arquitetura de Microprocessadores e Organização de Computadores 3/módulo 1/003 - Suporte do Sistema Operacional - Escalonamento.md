@@ -12,6 +12,14 @@ O esquema mostra a alternância entre processos: cada um mantém seu próprio po
 
 O estado indica a condição do processo em um momento de sua vida. O diagrama da aula apresenta cinco estados e as passagens entre eles:
 
+**Estados:**
+- **Novo:** processo criado.
+- **Pronto:** aguardando CPU.
+- **Executando:** usando a CPU.
+- **Bloqueado:** aguardando um evento.
+- **Saída:** processo finalizado.
+
+**Transições:**
 - **Novo → Pronto:** o processo é admitido no sistema.
 - **Pronto → Executando:** recebe a CPU pelo despacho.
 - **Executando → Pronto:** o tempo concedido se esgota.
@@ -23,16 +31,17 @@ O estado indica a condição do processo em um momento de sua vida. O diagrama d
 
 ### Bloco de controle de processo
 
-O sistema operacional mantém um **bloco de controle de processo** para guardar o estado e os dados necessários para continuar sua execução. Ele normalmente contém:
+O **PCB** guarda as informações necessárias para controlar e retomar um processo.
+**Normalmente contem:**
 
-- identificador exclusivo, estado atual e prioridade;
-- contador de programa, com o endereço da próxima instrução;
-- ponteiros que indicam a área ocupada na memória;
-- dados de contexto dos registradores;
-- requisições e dispositivos de entrada/saída (E/S), além dos arquivos associados;
-- dados de contabilização, como tempo de CPU, tempo de clock, limites e número de conta.
+- identificador, estado e prioridade;
+- **contador de programa (PC):** próxima instrução;
+- registradores;
+- informações de memória;
+- dados de E/S e arquivos;
+- informações de uso da CPU.
 
-Quando o processo deixa a CPU, o contador de programa e os dados de contexto são salvos. Quando volta a executar, são recuperados. Isso permite retomar a execução do ponto em que ela parou.
+Quando o processo perde a CPU,  o contador de programa e os dados de contexto são salvos na PCB. Quando volta a executar, são recuperados. Isso permite retomar a execução do ponto em que ela parou.
 
 ## O que é escalonamento
 
