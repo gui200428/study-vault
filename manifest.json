@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "3f887adf2ac5666539ab6388e497b310835d76d9",
-  "generatedAt": "2026-10-02T13:45:33.688Z",
+  "release": "f7cd3ca2e72c502264fb1e46f68c2beba26e6a26",
+  "generatedAt": "2026-10-08T21:09:31.804Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -61,7 +61,7 @@
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/005 - Computadores RISC - Características Gerais.md",
-      "lastModified": "2026-09-27T19:03:34-03:00"
+      "lastModified": "2026-10-08T18:09:07-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
@@ -922,6 +922,14 @@
     {
       "path": "Sistemas operacionais/módulo 1/003 - Threads em Java.md",
       "lastModified": "2026-09-11T18:28:28-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 2/001 - Gerenciamento de Memória na Prática.md",
+      "lastModified": "2026-10-08T18:09:07-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 2/At01.md",
+      "lastModified": "2026-10-08T18:09:07-03:00"
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/001 - Introdução.md",

@@ -1,6 +1,6 @@
 ## Características gerais
 
-A aula apresenta ideias que acompanharam a evolução da organização dos computadores:
+Ideias que acompanharam a evolução da organização dos computadores:
 
 - **Conceito de família:** introduzido pela IBM com o **System/360 (1964)** e seguido pela DEC com o **PDP-8**. Separa a arquitetura da implementação: computadores de uma família mostram a mesma arquitetura ao usuário, mas têm preços e desempenhos diferentes devido às implementações.
 - **Unidade de controle microprogramada:** sugerida por **Wilkes (1951)** e introduzida pela IBM na linha **S/360 (1964)**. A microprogramação facilita o projeto e a implementação da unidade de controle e dá suporte ao conceito de família.
