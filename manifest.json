@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "f7cd3ca2e72c502264fb1e46f68c2beba26e6a26",
-  "generatedAt": "2026-10-08T21:09:31.804Z",
+  "release": "57bbbcd6d20399a5b8c60989232c098c09f19f4b",
+  "generatedAt": "2026-10-18T20:46:56.810Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -898,6 +898,10 @@
     {
       "path": "Sistemas de Controle/módulo 1/004 - Aproximação de sistemas de segunda ordem.md",
       "lastModified": "2026-09-20T10:26:16-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 2/001 - Estabilidade.md",
+      "lastModified": "2026-10-18T20:46:27-03:00"
     },
     {
       "path": "Sistemas embarcados 1/módulo 1/001 - Aula 2 – GPIO.md",
@@ -1955,6 +1959,23 @@
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917161747.png",
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917161757.png",
     "Sistemas de Controle/módulo 1/Imgs/Pasted image 20260917170311.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018185341.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018185751.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018185805.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018190017.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018190246.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018190401.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018190436.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202451.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202509.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202522.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202542.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202600.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202616.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202626.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202636.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202646.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202658.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191536.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191537.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191538.png",
