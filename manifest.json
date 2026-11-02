@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "98ab86f5210c5bb1e199d5ac2d1999a482339125",
-  "generatedAt": "2026-11-02T20:20:27.065Z",
+  "release": "9f8b63b9c4266db45cf5b84de2544c5410b503d4",
+  "generatedAt": "2026-11-02T21:32:19.305Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -73,7 +73,7 @@
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/003 - Processamento paralelo - Cluster e acesso à memória.md",
-      "lastModified": "2026-11-02T17:19:59-03:00"
+      "lastModified": "2026-11-02T18:31:55-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",

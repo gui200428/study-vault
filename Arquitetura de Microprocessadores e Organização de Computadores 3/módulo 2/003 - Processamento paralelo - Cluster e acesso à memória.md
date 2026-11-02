@@ -131,6 +131,16 @@ Em um cluster típico, os computadores são conectados por uma rede de alta velo
 
 ---
 
+## Arquitetura UMA (Uniform Memory Access):
+**Definição:** Acesso uniforme à memória, ou seja, o tempo de acesso é sempre o mesmo, seja qual for o processador ou a região da memória.
+
+- **Todos os processadores têm acesso a todas as partes da memória principal usando leituras e escritas.**
+- **O tempo de acesso de um processador é o mesmo para todas as regiões da memória.**
+- **Os tempos de acesso de processadores diferentes também são os mesmos.**
+
+**Obs:** O SMP se encaixa aqui, já que os processadores compartilham a memória com tempo de acesso uniforme.
+
+
 ## Acesso não uniforme à memória (NUMA):
 
 As duas abordagens comerciais comuns para sistemas com vários processadores são **SMPs e clusters**. O NUMA é uma outra abordagem, que por alguns anos foi assunto de pesquisa e hoje já tem produtos comerciais.
@@ -145,15 +155,11 @@ As duas abordagens comerciais comuns para sistemas com vários processadores sã
 
 ### Termos:
 
-#### 1. UMA (Uniform Memory Access):
-- **Todos os processadores têm acesso a todas as partes da memória principal usando leituras e escritas.**
-- **O tempo de acesso de um processador é o mesmo para todas as regiões da memória, e os tempos de processadores diferentes também são os mesmos.**
-
-#### 2. NUMA (Non-Uniform Memory Access):
+#### 1. NUMA (Non-Uniform Memory Access):
 - **Todos os processadores têm acesso a todas as partes da memória principal usando leituras e escritas.** Essa parte é igual ao UMA.
 - **O tempo de acesso de um processador muda dependendo da região da memória acessada.** Isso vale para todos os processadores, mas as regiões mais lentas e mais rápidas são diferentes para cada um.
 
-#### 3. CC-NUMA (NUMA com coerência de cache):
+#### 2. CC-NUMA (NUMA com coerência de cache):
 - **Sistema NUMA no qual a coerência de cache é mantida entre as caches dos vários processadores.**
 
 **Obs:** Um sistema NUMA **sem** coerência de cache é mais ou menos equivalente a um cluster. Já os sistemas CC-NUMA, que são os produtos comerciais que receberam mais atenção recentemente, são bastante diferentes de SMPs e clusters. Na literatura comercial, esses sistemas geralmente aparecem com o nome CC-NUMA, mas nem sempre.
