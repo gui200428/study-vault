@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "57bbbcd6d20399a5b8c60989232c098c09f19f4b",
-  "generatedAt": "2026-10-18T20:46:56.810Z",
+  "release": "7eb841efd76bc0dfdf47914a932521dc52c68a1e",
+  "generatedAt": "2026-11-02T13:07:02.807Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -62,6 +62,14 @@
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/005 - Computadores RISC - Características Gerais.md",
       "lastModified": "2026-10-08T18:09:07-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/001 - Paralelismo em nível de instrução.md",
+      "lastModified": "2026-11-02T10:06:17-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/002 - Processamento paralelo - Organização e multiprocessadores.md",
+      "lastModified": "2026-11-02T10:06:17-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
@@ -434,6 +442,10 @@
     {
       "path": "Eng de Software/modulo 1/006 - Modelo de Desenvolvimento Baseado em Componente.md",
       "lastModified": "2026-09-23T17:04:56-03:00"
+    },
+    {
+      "path": "Eng de Software/modulo 2/001 - Modelo RAD e Modelos Ágeis.md",
+      "lastModified": "2026-11-02T10:06:17-03:00"
     },
     {
       "path": "Estatística/módulo 1/Formulários.md",
@@ -916,6 +928,14 @@
       "lastModified": "2026-09-30T22:45:22-03:00"
     },
     {
+      "path": "Sistemas embarcados 1/módulo 2/001 - Aula 5 – Simulações no TinkerCAD (Parte 1).md",
+      "lastModified": "2026-11-02T10:06:17-03:00"
+    },
+    {
+      "path": "Sistemas embarcados 1/módulo 2/002 - Aula 6 – Simulações no TinkerCAD (Parte 2).md",
+      "lastModified": "2026-11-02T10:06:17-03:00"
+    },
+    {
       "path": "Sistemas operacionais/módulo 1/001 - Introdução.md",
       "lastModified": "2026-09-20T10:26:16-03:00"
     },
@@ -1066,6 +1086,13 @@
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927182514.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927182515.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 1/Imgs/Pasted image 20260927184718.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024204318.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024205142.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024205426.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024210412.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024211537.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024212248.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024220931.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928160336.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162119.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162537.png",
@@ -1521,6 +1548,11 @@
     "Eletrônica 2/módulo 2/Imgs/Pasted image 20260605165249.png",
     "Eletrônica 2/módulo 2/Imgs/Pasted image 20260605173825.png",
     "Eletrônica 2/módulo 2/Imgs/Pasted image 20260605173834.png",
+    "Eng de Software/modulo 2/Imgs/Pasted image 20261024213105.png",
+    "Eng de Software/modulo 2/Imgs/Pasted image 20261024213412.png",
+    "Eng de Software/modulo 2/Imgs/Pasted image 20261024214950.png",
+    "Eng de Software/modulo 2/Imgs/Pasted image 20261024215238.png",
+    "Eng de Software/modulo 2/Imgs/Pasted image 20261024215611.png",
     "Estatística/módulo 2/Imgs/Pasted image 20250409111310.png",
     "Estatística/módulo 2/Imgs/Pasted image 20250409111431.png",
     "Estatística/módulo 2/Imgs/Pasted image 20250409111539.png",
@@ -2004,6 +2036,11 @@
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260930160548.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260930200911.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260930210832.png",
+    "Sistemas embarcados 1/módulo 2/Imgs/Pasted image 20261024211304.png",
+    "Sistemas embarcados 1/módulo 2/Imgs/Pasted image 20261024212151.png",
+    "Sistemas embarcados 1/módulo 2/Imgs/Pasted image 20261024213417.png",
+    "Sistemas embarcados 1/módulo 2/Imgs/Pasted image 20261024214608.png",
+    "Sistemas embarcados 1/módulo 2/Imgs/Pasted image 20261024215231.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910152253.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153230.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260910153957.png",
