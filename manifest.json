@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "7eb841efd76bc0dfdf47914a932521dc52c68a1e",
-  "generatedAt": "2026-11-02T13:07:02.807Z",
+  "release": "98ab86f5210c5bb1e199d5ac2d1999a482339125",
+  "generatedAt": "2026-11-02T20:20:27.065Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -70,6 +70,10 @@
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/002 - Processamento paralelo - Organização e multiprocessadores.md",
       "lastModified": "2026-11-02T10:06:17-03:00"
+    },
+    {
+      "path": "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/003 - Processamento paralelo - Cluster e acesso à memória.md",
+      "lastModified": "2026-11-02T17:19:59-03:00"
     },
     {
       "path": "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/001 - Histórico dos computadores.md",
@@ -1093,6 +1097,10 @@
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024211537.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024212248.png",
     "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261024220931.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261102155214.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261102155938.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261102160347.png",
+    "Arquitetura de Microprocessadores e Organização de Computadores 3/módulo 2/Imgs/Pasted image 20261102161822.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928160336.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162119.png",
     "Arquitetura de Microprocessadores e Organização de Computadores/módulo 1/Imgs/Pasted image 20250928162537.png",
