@@ -23,7 +23,7 @@
 
 3. **Cluster sem compartilhamento (variação):** os discos comuns são divididos em volumes exclusivos para cada nó. Em caso de falha, outro nó assume os volumes do nó que falhou.
 
-4. **Cluster com memória compartilhada:** menos comum, envolve compartilhamento direto de memória entre os nós.
+4. **Cluster com memória compartilhada:** menos comum, envolve compartilhamento direto de memória entre os nós. Requer coerência de cache para manter os dados consistentes.
 
 ### Modelos funcionais:
 
@@ -34,7 +34,7 @@
 
 ![[Pasted image 20261102155938.png]]
 
-→ Compartilhar memória é mais complexo e limita a escalabilidade; compartilhar disco escala melhor e tem implementação mais simples.
+→ Compartilhar memória é mais complexo e limita a escalabilidade; compartilhar disco escala melhor e tem implementação mais simples. A coerência dos dados também muda: no disco compartilhado é gerenciada pelo sistema de arquivos, na memória compartilhada requer coerência de cache.
 
 
 ## Métodos de clustering - benefícios e limitações:
@@ -174,15 +174,18 @@ As duas abordagens comerciais comuns para sistemas com vários processadores sã
 
 ### Coerência de cache:
 
-- **Cada nó mantém um diretório que rastreia onde estão os dados e o estado das caches.**
 - **Protocolos de coerência garantem que modificações em uma cache sejam refletidas nos demais nós.**
+
+### Diretórios de coerência:
+**Definição:** Estruturas que cada nó mantém para registrar onde os blocos de dados estão armazenados e qual é o seu estado nas diferentes caches.
+
 - **Exemplo: a leitura de memória remota envolve múltiplas etapas entre diretórios e barramentos, mas é invisível ao processador.** O processador não vê essas etapas; para ele, é como se estivesse lendo a memória normalmente.
 
 ### Vantagens:
 - Alta escalabilidade com desempenho eficiente.
 - Redução de gargalos locais de barramento.
 - Aproveitamento de localidade temporal e espacial do software.
-- Migração de páginas melhora o desempenho.
+- Migração de páginas melhora o desempenho, ao explorar a localidade de acesso.
 
 ### Desvantagens:
 - **Não é totalmente transparente como o SMP: exige adaptações no sistema operacional e nas aplicações.**
