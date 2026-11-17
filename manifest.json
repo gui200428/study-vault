@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "b9bc54f6d7b2d376b379d706505bfe5b0c15042c",
-  "generatedAt": "2026-11-02T23:38:15.963Z",
+  "release": "c642008fe648489e51779f5b5e933b400d398f11",
+  "generatedAt": "2026-11-17T09:44:40.368Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -920,6 +920,14 @@
       "lastModified": "2026-10-18T20:46:27-03:00"
     },
     {
+      "path": "Sistemas de Controle/módulo 2/002 - Método de Routh - casos especiais.md",
+      "lastModified": "2026-11-15T01:02:36-03:00"
+    },
+    {
+      "path": "Sistemas de Controle/módulo 2/003 - Erros em regime permanente.md",
+      "lastModified": "2026-11-15T01:02:36-03:00"
+    },
+    {
       "path": "Sistemas embarcados 1/módulo 1/001 - Aula 2 – GPIO.md",
       "lastModified": "2026-09-30T10:02:50-03:00"
     },
@@ -1010,6 +1018,10 @@
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/resumo/006 - Decibel (dB).md",
       "lastModified": "2026-09-27T23:41:32-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/módulo 2/001 - Endereçamento IPV4.md",
+      "lastModified": "2026-11-15T01:02:36-03:00"
     },
     {
       "path": "Teoria da computação/módulo 1/001 - Introdução.md",
@@ -1810,6 +1822,8 @@
     "Metodologia/modulo 1/Imgs/Pasted image 20260920222911.png",
     "Metodologia/modulo 1/Imgs/Pasted image 20260920223311.png",
     "Metodologia/modulo 1/Imgs/Pasted image 20260920233246.png",
+    "Metodologia/Projeto de Pesquisa - Axis (backup antes da revisão).docx",
+    "Metodologia/Projeto de Pesquisa - Axis.docx",
     "Modelos dinamicos 2/módulo 1/Imgs/Pasted image 20260407145210.png",
     "Modelos dinamicos 2/módulo 1/Imgs/Pasted image 20260407145802.png",
     "Modelos dinamicos 2/módulo 1/Imgs/Pasted image 20260407145838.png",
@@ -2016,6 +2030,13 @@
     "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202636.png",
     "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202646.png",
     "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261018202658.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108153412.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108154027.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108155133.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108160249.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108201537.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108202214.png",
+    "Sistemas de Controle/módulo 2/Imgs/Pasted image 20261108203046.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191536.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191537.png",
     "Sistemas embarcados 1/módulo 1/Imgs/Pasted image 20260927191538.png",
@@ -2116,6 +2137,13 @@
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223626.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927223627.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260927225247.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114155308.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114155932.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114160429.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114162828.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114164817.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114165716.png",
+    "Técnicas de Comunicação de Dados/módulo 2/Imgs/Pasted image 20261114171717.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923002903.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260923003015.png",
     "Teoria da computação/módulo 1/Imgs/Pasted image 20260925115240.png",
