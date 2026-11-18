@@ -123,7 +123,7 @@ Classes de endereço são o modelo antigo de divisão do IPv4, em que a máscara
 
 **Para descobrir a classe, olhe só o primeiro número do IP e veja em qual faixa ele cai.**
 
-Exemplos:  
+**Exemplos**:  
 10.0.0.5 → começa com 10, que está entre 1 e 126 → classe A → máscara 255.0.0.0  
 172.16.4.20 → começa com 172, que está entre 128 e 191 → classe B → máscara 255.255.0.0  
 192.168.10.25 → começa com 192, que está entre 192 e 223 → classe C → máscara 255.255.255.0

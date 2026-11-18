@@ -337,19 +337,57 @@ for frames in [3, 4]:
 
 Adicionar um frame piora o resultado nessa sequência: as faltas passam de 9 para 10. A capacidade maior altera a sequência de substituições e as páginas disponíveis nos acessos seguintes. Portanto, **mais frames não garantem menos faltas no FIFO**; a comparação precisa considerar os resultados da execução.
 
-## Algoritmo Ótimo (OPT)
+## Algoritmo Ótimo (OPT):
 
-O **Ótimo (OPT)** substitui a página cujo próximo acesso acontecerá **mais distante no futuro**. Uma página que não será mais usada é candidata à remoção antes das que ainda serão necessárias.
+**Definição:** Substitui a página cujo **próximo acesso vai acontecer mais distante no futuro**.
 
-Considere a memória `[1, 2, 3]` e os próximos acessos `2, 4, 1, 5, 3`:
+- **O FIFO olha para o passado (quem entrou primeiro), o LRU também (quem foi usado há mais tempo). O OPT olha para o futuro.** Ele pergunta: "qual dessas páginas vai demorar mais para ser usada de novo?"
+- **Página que nunca mais vai ser usada é a melhor candidata a sair.** Tirar ela não causa nenhuma falta futura.
+- **Mantém na memória as páginas que vão ser necessárias mais cedo.** Por isso ele normalmente apresenta o menor número de page faults.
 
-- A página 2 será usada imediatamente.
-- A página 1 será usada depois.
-- A página 3 será usada mais tarde.
+### Exemplo:
 
-Entre essas três páginas, a página 3 tem o próximo uso mais distante. Na sequência indicada, o acesso à página 2 é um HIT; quando a página 4 precisar entrar, a página 3 será removida.
+```text
+Memória atual: [1, 2, 3]
+Próximos acessos: 2, 4, 1, 5, 3
 
-Conhecer os acessos futuros permite escolher a substituição que minimiza as faltas para a sequência e capacidade consideradas. Por isso, o OPT serve como **referência teórica e de comparação**. Um sistema operacional real não consegue aplicá-lo perfeitamente quando a sequência futura é desconhecida.
+página 2 → usada imediatamente
+página 1 → usada depois
+página 3 → usada mais tarde
+```
+
+→ A página 3 tem o próximo uso mais distante, então é ela que sai quando a página 4 precisar entrar.
+
+### Passo a passo (sequência de 13 acessos, 3 frames):
+
+Sequência: `7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2`
+
+| Acesso | Página | Memória | Resultado | Por que saiu essa página |
+| --- | --- | --- | --- | --- |
+| 1 | 7 | `[7]` | PAGE FAULT | frame livre |
+| 2 | 0 | `[7, 0]` | PAGE FAULT | frame livre |
+| 3 | 1 | `[7, 0, 1]` | PAGE FAULT | frame livre |
+| 4 | 2 | `[0, 1, 2]` | PAGE FAULT | 7 e 1 nunca mais aparecem; sai a 7 |
+| 5 | 0 | `[0, 1, 2]` | HIT | |
+| 6 | 3 | `[0, 2, 3]` | PAGE FAULT | 1 nunca mais aparece |
+| 7 | 0 | `[0, 2, 3]` | HIT | |
+| 8 | 4 | `[2, 3, 4]` | PAGE FAULT | 0 é a que demora mais para voltar |
+| 9 | 2 | `[2, 3, 4]` | HIT | |
+| 10 | 3 | `[2, 3, 4]` | HIT | |
+| 11 | 0 | `[2, 3, 0]` | PAGE FAULT | 4 nunca mais aparece |
+| 12 | 3 | `[2, 3, 0]` | HIT | |
+| 13 | 2 | `[2, 3, 0]` | HIT | |
+
+Resultado: **7 page faults e 6 hits**. Na mesma sequência, o FIFO teve 10 faltas e o LRU 9.
+
+**Obs:** No acesso 4, a 7 e a 1 empatam (nenhuma das duas volta). A implementação tira a primeira que encontra na memória, a 7.
+
+### O problema: o SO não conhece o futuro:
+
+- **Para escolher perfeitamente, o sistema precisaria saber quais páginas vão ser acessadas depois.** Um SO real não sabe disso com certeza.
+- **Por esse motivo, o OPT não pode ser implementado de forma perfeita por um sistema operacional real** para uma sequência futura desconhecida.
+
+→ O OPT serve como **referência teórica e para comparação**: os resultados do FIFO e do LRU são comparados com o dele.
 
 ### Implementação
 
@@ -422,5 +460,18 @@ for nome, algoritmo in [
 | Ótimo | 7 | 6 |
 
 Para os mesmos 13 acessos, o OPT produz o menor número de faltas, utilizando o conhecimento da sequência futura.
+
+## Resumo:
+
+- A memória física tem capacidade limitada.
+- A paginação divide a memória em unidades de tamanho fixo.
+- **HIT:** a página solicitada já está na memória.
+- **PAGE FAULT:** a página solicitada não está na memória.
+- Se a memória estiver cheia, um algoritmo decide qual página será substituída.
+- **FIFO** → considera a ordem de entrada.
+- **LRU** → considera o histórico recente de uso.
+- **OPT** → considera os acessos futuros; serve principalmente como referência teórica.
+
+→ O desempenho depende tanto do algoritmo quanto do padrão de acesso às páginas.
 
 

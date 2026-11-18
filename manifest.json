@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "release": "c642008fe648489e51779f5b5e933b400d398f11",
-  "generatedAt": "2026-11-17T09:44:40.368Z",
+  "release": "d00b02aa516540629fde2444d400ec743a8c765e",
+  "generatedAt": "2026-11-18T02:51:50.833Z",
   "files": [
     {
       "path": "Análise e Proj de Sistemas 2/módulo 1/001 - Diagrama de use case.md",
@@ -961,11 +961,43 @@
     },
     {
       "path": "Sistemas operacionais/módulo 2/001 - Gerenciamento de Memória na Prática.md",
-      "lastModified": "2026-10-08T18:09:07-03:00"
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 2/002 - Impasses (Deadlocks) em Java.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Sistemas operacionais/módulo 2/003 - Agendamento de Processos.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
     },
     {
       "path": "Sistemas operacionais/módulo 2/At01.md",
       "lastModified": "2026-10-08T18:09:07-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/001.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/002.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/003.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/004.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/005.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
+    },
+    {
+      "path": "Técnicas de Comunicação de Dados/Consulta/006.md",
+      "lastModified": "2026-11-17T23:51:25-03:00"
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 1/001 - Introdução.md",
@@ -1021,7 +1053,7 @@
     },
     {
       "path": "Técnicas de Comunicação de Dados/módulo 2/001 - Endereçamento IPV4.md",
-      "lastModified": "2026-11-15T01:02:36-03:00"
+      "lastModified": "2026-11-17T23:51:25-03:00"
     },
     {
       "path": "Teoria da computação/módulo 1/001 - Introdução.md",
@@ -2093,6 +2125,25 @@
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260911171458.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260911171634.png",
     "Sistemas operacionais/módulo 1/Imgs/Pasted image 20260911171833.png",
+    "Sistemas operacionais/módulo 2/Imgs/Pasted image 20261117234412.png",
+    "Sistemas operacionais/módulo 2/Imgs/Pasted image 20261117234731.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151407.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151444.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151517.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151553.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151720.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151819.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117151925.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152010.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152128.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152155.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152214.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152246.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152442.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152521.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152545.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117152654.png",
+    "Técnicas de Comunicação de Dados/Consulta/Imgs/Pasted image 20261117172630.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260914150033.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260914154228.png",
     "Técnicas de Comunicação de Dados/módulo 1/Imgs/Pasted image 20260914154732.png",
